@@ -117,8 +117,13 @@ public partial class App : Application
 
         if (!DevMode)
         {
-            var error = StartupService.Apply(config.StartWithWindows, config.RunElevated, allowPrompt: false);
-            if (error != null) Log.Info(error);
+            // schtasks calls take a moment; keep them off the UI thread.
+            bool startWithWindows = config.StartWithWindows, runElevated = config.RunElevated;
+            Task.Run(() =>
+            {
+                var error = StartupService.Apply(startWithWindows, runElevated, allowPrompt: false);
+                if (error != null) Log.Info(error);
+            });
             if (Installer.IsInstalledCopy) Installer.RegisterUninstallEntry();
         }
 

@@ -15,6 +15,18 @@ Publishing runs `scripts\install.ps1`, which tells the running copy to close (`-
 `%LOCALAPPDATA%\Programs\WheelOfAwesome\WheelOfAwesome.exe`, and starts it again. Windows start-up points at that
 installed exe. Use `-p:SkipInstall=true` to publish without installing.
 
+## Never start the installed app as a child of this shell
+
+The Claude desktop app is a packaged (MSIX) app. Programs launched from its shell have their `%APPDATA%` and HKCU
+writes silently redirected into `%LOCALAPPDATA%\Packages\Claude_*\LocalCache` / a private hive, and reads from this
+shell see that redirected view. An app started that way uses different settings from the user's, and anything it
+registers (Run entries, uninstall info) is invisible to Windows. So:
+
+- Start the installed app with `Start-ScheduledTask WheelOfAwesome` (or `explorer.exe "<exe>"`), never `Start-Process`.
+- `--exit` is fine to send from here (named events aren't redirected).
+- To see the user's *real* settings or registry, run the check via a temporary scheduled task that writes its output
+  to the scratchpad. Dev/test runs with `--config-dir` in the scratchpad are unaffected.
+
 ## Releasing a shareable build
 
 `scripts\release.ps1` builds the self-contained single exe into `dist\`; `-Publish` also creates the GitHub Release

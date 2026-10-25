@@ -37,5 +37,11 @@ if (-not $copied) {
     throw "WheelOfAwesome: couldn't replace $target. It may be running as administrator; exit it from the tray menu and publish again."
 }
 
-Start-Process $target
+# Start it through Windows rather than as our child: when this script runs from inside a packaged app (like the
+# Claude desktop app), children inherit that app's sandbox and their AppData/registry writes get redirected.
+if (Get-ScheduledTask -TaskName "WheelOfAwesome" -ErrorAction SilentlyContinue) {
+    Start-ScheduledTask -TaskName "WheelOfAwesome"
+} else {
+    Start-Process explorer.exe -ArgumentList "`"$target`""
+}
 Write-Host "WheelOfAwesome: installed and started $target"
