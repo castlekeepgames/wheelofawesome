@@ -15,6 +15,7 @@ public partial class App : Application
 {
     private Mutex? _instanceMutex;
     private EventWaitHandle? _showSettingsSignal;
+    private EventWaitHandle? _exitSignal;
     private TrayIcon? _tray;
     private SettingsWindow? _settings;
 
@@ -39,6 +40,14 @@ public partial class App : Application
         if (args.Value("--wait-for-pid") is { } pidText && int.TryParse(pidText, out var pid))
         {
             try { Process.GetProcessById(pid).WaitForExit(10000); } catch { }
+        }
+
+        // Asks the running copy (same config folder) to save and quit; used by the install script before replacing the exe.
+        if (args.Has("--exit"))
+        {
+            if (EventWaitHandle.TryOpenExisting(InstanceName() + "_exit", out var exit)) { exit.Set(); exit.Dispose(); }
+            Shutdown();
+            return;
         }
 
         // One-off developer modes that render or test and then exit.
@@ -147,11 +156,16 @@ public partial class App : Application
         base.OnExit(e);
     }
 
+    /// <summary>Scoped to the config folder so a dev/test instance can run beside the real one.</summary>
+    private static string InstanceName()
+    {
+        var scope = Convert.ToHexString(System.Security.Cryptography.SHA1.HashData(System.Text.Encoding.UTF8.GetBytes(Paths.Root.ToLowerInvariant())))[..12];
+        return $"WheelOfAwesome_{scope}";
+    }
+
     private bool AcquireSingleInstance()
     {
-        // Scoped to the config folder so a dev/test instance can run beside the real one.
-        var scope = Convert.ToHexString(System.Security.Cryptography.SHA1.HashData(System.Text.Encoding.UTF8.GetBytes(Paths.Root.ToLowerInvariant())))[..12];
-        var name = $"WheelOfAwesome_{scope}";
+        var name = InstanceName();
 
         // A restarting instance may still be shutting down; give it a moment.
         for (int attempt = 0; attempt < 30; attempt++)
@@ -172,6 +186,18 @@ public partial class App : Application
                 })
                 { IsBackground = true };
                 thread.Start();
+
+                _exitSignal = new EventWaitHandle(false, EventResetMode.AutoReset, name + "_exit");
+                var exitSignal = _exitSignal;
+                new Thread(() =>
+                {
+                    try
+                    {
+                        if (exitSignal.WaitOne()) Dispatcher.BeginInvoke(ExitApp);
+                    }
+                    catch (ObjectDisposedException) { }
+                })
+                { IsBackground = true }.Start();
                 return true;
             }
             _instanceMutex.Dispose();
@@ -199,6 +225,8 @@ public partial class App : Application
         _instanceMutex = null;
         _showSettingsSignal?.Dispose();
         _showSettingsSignal = null;
+        _exitSignal?.Dispose();
+        _exitSignal = null;
     }
 
     private sealed class Args

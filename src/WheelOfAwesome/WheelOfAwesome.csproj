@@ -31,6 +31,11 @@
     <Using Remove="System.Drawing" />
   </ItemGroup>
 
+  <!-- Every Release publish installs the new build for this user and restarts it. Opt out with -p:SkipInstall=true. -->
+  <Target Name="InstallAfterPublish" AfterTargets="Publish" Condition="'$(Configuration)' == 'Release' and '$(SkipInstall)' != 'true'">
+    <Exec Command="powershell.exe -NoProfile -ExecutionPolicy Bypass -File &quot;$(MSBuildProjectDirectory)\..\..\scripts\install.ps1&quot; -Source &quot;$(PublishDir)$(AssemblyName).exe&quot;" />
+  </Target>
+
   <ItemGroup>
     <Resource Include="Assets\Fonts\lucide.ttf" />
     <Resource Include="Assets\lucide-icons.txt" />

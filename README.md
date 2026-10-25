@@ -51,6 +51,8 @@ dotnet build
 dotnet publish -c Release -o ..\..\publish
 ```
 
+A Release publish also installs the build for your user and restarts it (via `scripts\install.ps1`): the running copy is asked to close, `%LOCALAPPDATA%\Programs\WheelOfAwesome\WheelOfAwesome.exe` is replaced, and the new one starts. Add `-p:SkipInstall=true` to only publish.
+
 All developer modes use `--config-dir <folder>` so they never touch your real settings:
 
 | Flag | What it does |
