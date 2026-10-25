@@ -37,7 +37,7 @@ public partial class SettingsWindow : Window
         Preview.Items = _config.Items;
         Preview.SliceClicked += i => ItemsList.SelectedIndex = i;
 
-        ConfigPathText.Text = $"Saved in {Paths.ConfigFile}";
+        ConfigPathText.Text = $"Saved in {Paths.ConfigFile}\nInstalled at {Paths.ExePath}";
         VersionText.Text = $"WheelOfAwesome {typeof(App).Assembly.GetName().Version?.ToString(3)}";
         UpdateElevationStatus();
         UpdatePauseButton();
@@ -359,6 +359,16 @@ public partial class SettingsWindow : Window
 
     private void OpenFolder_Click(object sender, RoutedEventArgs e) =>
         Process.Start(new ProcessStartInfo(Paths.Root) { UseShellExecute = true });
+
+    private void Uninstall_Click(object sender, RoutedEventArgs e)
+    {
+        // A separate process does the uninstall so it can close this one and then delete the exe.
+        ConfigService.Flush();
+        var psi = new ProcessStartInfo(Paths.ExePath) { UseShellExecute = false };
+        foreach (var a in new[] { "--uninstall", "--config-dir", Paths.Root, "--install-dir", Installer.InstallDir }) psi.ArgumentList.Add(a);
+        if (App.Current.DevMode) psi.ArgumentList.Add("--dev");
+        Process.Start(psi);
+    }
 
     private void Pause_Click(object sender, RoutedEventArgs e)
     {

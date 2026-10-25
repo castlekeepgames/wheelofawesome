@@ -368,7 +368,8 @@
                                 <TextBlock x:Name="ConfigPathText" Style="{StaticResource Hint}" Margin="0,0,0,10" />
                                 <WrapPanel>
                                     <Button Content="Open settings folder" Click="OpenFolder_Click" Margin="0,0,8,0" />
-                                    <Button Content="Pause the wheel" x:Name="PauseButton" Click="Pause_Click" />
+                                    <Button Content="Pause the wheel" x:Name="PauseButton" Click="Pause_Click" Margin="0,0,8,0" />
+                                    <Button Content="Uninstall…" Click="Uninstall_Click" />
                                 </WrapPanel>
                             </StackPanel>
                         </Border>

@@ -15,6 +15,13 @@ Publishing runs `scripts\install.ps1`, which tells the running copy to close (`-
 `%LOCALAPPDATA%\Programs\WheelOfAwesome\WheelOfAwesome.exe`, and starts it again. Windows start-up points at that
 installed exe. Use `-p:SkipInstall=true` to publish without installing.
 
+## Releasing a shareable build
+
+`scripts\release.ps1` builds the self-contained single exe into `dist\`; `-Publish` also creates the GitHub Release
+`v<Version>` from the .csproj `<Version>` (bump it first). The exe installs itself to
+`%LOCALAPPDATA%\Programs\WheelOfAwesome` on first run (see `Services/Installer.cs`). Debug builds and `--dev` runs never
+self-install unless given `--install-dir`.
+
 ## Testing
 
 Use `--config-dir <scratch folder>` with every dev/test run so the user's real settings in `%APPDATA%\WheelOfAwesome`

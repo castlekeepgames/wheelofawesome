@@ -10,7 +10,24 @@ publish\WheelOfAwesome.exe
 
 It runs in the system tray. Click the tray icon to open settings, or right-click it to pause or exit. On first run it opens the settings window with a starter wheel and registers itself to start with Windows (you can turn that off under **General**). If you move the exe, start it once from its new location and the start-up entry follows.
 
-It needs the .NET 10 Desktop Runtime, which comes with the .NET 10 SDK. To build a copy that runs on a PC without .NET, add `--self-contained true -p:EnableCompressionInSingleFile=true` to the publish command (about 70 MB).
+That local build needs the .NET 10 Desktop Runtime (included with the .NET 10 SDK).
+
+## Sharing it
+
+```
+powershell -ExecutionPolicy Bypass -File scripts\release.ps1            # build dist\WheelOfAwesome-<version>-win-x64.exe
+powershell -ExecutionPolicy Bypass -File scripts\release.ps1 -Publish   # ...and create a GitHub Release for it
+```
+
+The shareable exe is self-contained (about 73 MB, with .NET bundled inside), so the other PC doesn't need anything else installed. When someone runs it from anywhere, like their Downloads folder:
+
+- it copies itself to `%LOCALAPPDATA%\Programs\WheelOfAwesome` (no admin needed) and restarts from there
+- it registers to start with Windows
+- it adds itself to **Settings → Apps → Installed apps**, with a working Uninstall button
+
+Running a newer download later replaces the installed copy and keeps their shortcuts. To publish a new version, bump `<Version>` in the .csproj first.
+
+The exe isn't code-signed, so Windows SmartScreen shows "Windows protected your PC" the first time. Click **More info → Run anyway** to get past it.
 
 ## Using the wheel
 
@@ -61,6 +78,9 @@ All developer modes use `--config-dir <folder>` so they never touch your real se
 | `--selftest <report.txt>` | Tests the trigger logic, config, icon library, installed-app list, shell icons, Chrome lookup and favicon fetching. |
 | `--render-ui <folder>` | Renders the wheel, every settings page and both pickers to PNGs without showing them on screen. |
 | `--live-test-log <file>` | Logs each fired slice and passed-through tap, for scripted end-to-end tests that inject real input. |
+| `--install-dir <folder>` | Installs to this folder instead of `%LOCALAPPDATA%\Programs`, for testing the self-install and uninstall. |
+
+The app also accepts `--exit` (asks the running copy to close) and `--uninstall [--quiet]`.
 
 ### Layout
 

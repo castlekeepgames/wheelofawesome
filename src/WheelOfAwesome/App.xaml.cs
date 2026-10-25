@@ -50,9 +50,31 @@ public partial class App : Application
             return;
         }
 
+        if (args.Value("--install-dir") is { } installDir) Installer.InstallDir = installDir;
+
+        // Settings → Apps → Uninstall (or the button in General) lands here.
+        if (args.Has("--uninstall"))
+        {
+            Installer.Uninstall(InstanceName(), quiet: args.Has("--quiet"), dev: DevMode);
+            Shutdown();
+            return;
+        }
+
         // One-off developer modes that render or test and then exit.
         if (args.Value("--render-ui") is { } renderDir) { DevTools.RenderUi(renderDir); Shutdown(); return; }
         if (args.Value("--selftest") is { } reportFile) { DevTools.SelfTest(reportFile); return; }
+
+        // A shared/downloaded copy installs itself and hands over to the installed one.
+        // Debug and --dev runs stay put (unless a test points them at a scratch --install-dir).
+        bool selfInstall = !DevMode || args.Has("--install-dir");
+#if DEBUG
+        selfInstall = args.Has("--install-dir");
+#endif
+        if (selfInstall && Installer.RelocateIfNeeded(e.Args, InstanceName()))
+        {
+            Shutdown();
+            return;
+        }
 
         if (!AcquireSingleInstance())
         {
@@ -91,6 +113,7 @@ public partial class App : Application
         {
             var error = StartupService.Apply(config.StartWithWindows, config.RunElevated, allowPrompt: false);
             if (error != null) Log.Info(error);
+            if (Installer.IsInstalledCopy) Installer.RegisterUninstallEntry();
         }
 
         if (!config.WelcomeShown)
@@ -157,7 +180,7 @@ public partial class App : Application
     }
 
     /// <summary>Scoped to the config folder so a dev/test instance can run beside the real one.</summary>
-    private static string InstanceName()
+    internal static string InstanceName()
     {
         var scope = Convert.ToHexString(System.Security.Cryptography.SHA1.HashData(System.Text.Encoding.UTF8.GetBytes(Paths.Root.ToLowerInvariant())))[..12];
         return $"WheelOfAwesome_{scope}";
