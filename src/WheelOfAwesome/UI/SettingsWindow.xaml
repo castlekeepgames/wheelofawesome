@@ -1,0 +1,387 @@
+<Window x:Class="WheelOfAwesome.UI.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:ui="clr-namespace:WheelOfAwesome.UI"
+        xmlns:wheel="clr-namespace:WheelOfAwesome.Wheel"
+        xmlns:models="clr-namespace:WheelOfAwesome.Models"
+        Title="WheelOfAwesome"
+        Icon="/Assets/app.ico"
+        Width="1140" Height="760" MinWidth="980" MinHeight="640"
+        WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <FontFamily x:Key="IconFont">pack://application:,,,/Assets/Fonts/#lucide</FontFamily>
+
+        <Style x:Key="Card" TargetType="Border">
+            <Setter Property="Background" Value="{DynamicResource CardBackgroundFillColorDefaultBrush}" />
+            <Setter Property="BorderBrush" Value="{DynamicResource CardStrokeColorDefaultBrush}" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="CornerRadius" Value="8" />
+            <Setter Property="Padding" Value="18,16" />
+            <Setter Property="Margin" Value="0,0,0,12" />
+        </Style>
+        <Style x:Key="SectionTitle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="15" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="Margin" Value="0,0,0,8" />
+        </Style>
+        <Style x:Key="FieldLabel" TargetType="TextBlock">
+            <Setter Property="Margin" Value="0,10,0,6" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+        </Style>
+        <Style x:Key="Hint" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="{DynamicResource TextFillColorSecondaryBrush}" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Margin" Value="0,4,0,0" />
+        </Style>
+        <Style x:Key="IconButton" TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
+            <Setter Property="FontFamily" Value="{StaticResource IconFont}" />
+            <Setter Property="FontSize" Value="15" />
+            <Setter Property="Padding" Value="7" />
+            <Setter Property="MinWidth" Value="0" />
+            <Setter Property="MinHeight" Value="0" />
+        </Style>
+        <Style x:Key="Segment" TargetType="RadioButton" BasedOn="{StaticResource {x:Type ToggleButton}}">
+            <Setter Property="Margin" Value="0,0,6,6" />
+            <Setter Property="Padding" Value="14,6" />
+        </Style>
+
+        <DataTemplate x:Key="Swatch">
+            <Button Click="Swatch_Click" Tag="{Binding}" Width="30" Height="30" Margin="0,0,6,6" Padding="0" MinWidth="0" MinHeight="0" ToolTip="{Binding}">
+                <Border Width="20" Height="20" CornerRadius="10" Background="{Binding Converter={StaticResource HexBrush}}" BorderBrush="#40FFFFFF" BorderThickness="1" />
+            </Button>
+        </DataTemplate>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="350" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Left: live preview -->
+        <Border Grid.Column="0" Background="{DynamicResource LayerFillColorDefaultBrush}" BorderBrush="{DynamicResource CardStrokeColorDefaultBrush}" BorderThickness="0,0,1,0">
+            <DockPanel Margin="24">
+                <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
+                    <Image Source="/Assets/app.ico" Width="32" Height="32" />
+                    <TextBlock Text="WheelOfAwesome" FontSize="20" FontWeight="SemiBold" VerticalAlignment="Center" Margin="10,0,0,0" />
+                </StackPanel>
+                <StackPanel DockPanel.Dock="Bottom">
+                    <TextBlock x:Name="HoldHint" Style="{StaticResource Hint}" TextAlignment="Center" FontSize="13" />
+                    <TextBlock x:Name="SavedText" Style="{StaticResource Hint}" TextAlignment="Center" Margin="0,10,0,0" Text="Changes save automatically." />
+                </StackPanel>
+                <StackPanel VerticalAlignment="Center">
+                    <Viewbox Stretch="Uniform" MaxWidth="300" MaxHeight="300">
+                        <wheel:WheelView x:Name="Preview" Interactive="True" />
+                    </Viewbox>
+                    <TextBlock Style="{StaticResource Hint}" TextAlignment="Center" Margin="0,12,0,0" Text="Live preview. Click a slice to edit it." />
+                </StackPanel>
+            </DockPanel>
+        </Border>
+
+        <TabControl Grid.Column="1" Margin="16,12,16,16" x:Name="Tabs">
+            <!-- ============ Shortcuts ============ -->
+            <TabItem Header="Shortcuts">
+                <Grid Margin="0,14,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="330" />
+                        <ColumnDefinition Width="16" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <DockPanel Grid.Column="0">
+                        <Grid DockPanel.Dock="Top" Margin="0,0,0,10">
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                                <TextBlock Text="Shortcuts" Style="{StaticResource SectionTitle}" Margin="0" />
+                                <TextBlock x:Name="CountText" Style="{StaticResource Hint}" Margin="8,0,0,0" VerticalAlignment="Center" />
+                            </StackPanel>
+                            <Button x:Name="AddButton" HorizontalAlignment="Right" Click="Add_Click" Style="{DynamicResource AccentButtonStyle}">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock FontFamily="{StaticResource IconFont}" Text="&#xE13D;" VerticalAlignment="Center" Margin="0,1,6,0" />
+                                    <TextBlock Text="Add" />
+                                </StackPanel>
+                                <Button.ContextMenu>
+                                    <ContextMenu>
+                                        <MenuItem Header="Link (opens in Chrome)" Click="AddLink_Click" />
+                                        <MenuItem Header="App, file or folder" Click="AddApp_Click" />
+                                        <MenuItem Header="Key macro" Click="AddMacro_Click" />
+                                    </ContextMenu>
+                                </Button.ContextMenu>
+                            </Button>
+                        </Grid>
+                        <TextBlock DockPanel.Dock="Bottom" Style="{StaticResource Hint}" Margin="2,10,0,0"
+                                   Text="Drag to reorder. You can also drop apps, shortcuts, files or links from your browser here." />
+                        <ListBox x:Name="ItemsList" ItemsSource="{Binding Items}" AllowDrop="True"
+                                 SelectionChanged="ItemsList_SelectionChanged"
+                                 PreviewMouseLeftButtonDown="ItemsList_PreviewMouseLeftButtonDown"
+                                 PreviewMouseMove="ItemsList_PreviewMouseMove"
+                                 DragOver="ItemsList_DragOver" Drop="ItemsList_Drop"
+                                 ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                            <ListBox.ItemContainerStyle>
+                                <Style TargetType="ListBoxItem" BasedOn="{StaticResource {x:Type ListBoxItem}}">
+                                    <Setter Property="Padding" Value="6,6" />
+                                    <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                                </Style>
+                            </ListBox.ItemContainerStyle>
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid Background="Transparent" Cursor="SizeAll">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock FontFamily="{StaticResource IconFont}" Text="&#xE0EB;" Opacity="0.45" VerticalAlignment="Center" FontSize="14" />
+                                        <Border Grid.Column="1" Width="36" Height="36" CornerRadius="8" Background="#FF1B1D24" Margin="6,0,10,0">
+                                            <Image Source="{Binding IconImage}" Width="24" Height="24" RenderOptions.BitmapScalingMode="HighQuality" />
+                                        </Border>
+                                        <StackPanel Grid.Column="2" VerticalAlignment="Center">
+                                            <TextBlock Text="{Binding Label}" FontWeight="SemiBold" TextTrimming="CharacterEllipsis" />
+                                            <TextBlock Text="{Binding Subtitle}" FontSize="12" Foreground="{DynamicResource TextFillColorSecondaryBrush}" TextTrimming="CharacterEllipsis" />
+                                        </StackPanel>
+                                        <Button Grid.Column="3" Style="{StaticResource IconButton}" Content="&#xE18E;" ToolTip="Remove" Click="Delete_Click" Tag="{Binding}" Margin="6,0,0,0" Cursor="Arrow" />
+                                    </Grid>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </DockPanel>
+
+                    <!-- Details -->
+                    <TextBlock Grid.Column="2" Style="{StaticResource Hint}" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Center"
+                               Text="Select a shortcut to edit it, or add a new one."
+                               Visibility="{Binding SelectedItem, ElementName=ItemsList, Converter={StaticResource NullVisible}, ConverterParameter=invert}" />
+                    <ScrollViewer Grid.Column="2" VerticalScrollBarVisibility="Auto" DataContext="{Binding SelectedItem, ElementName=ItemsList}"
+                                  Visibility="{Binding Converter={StaticResource NullVisible}}">
+                        <StackPanel Margin="0,0,8,0">
+                            <!-- Name + type -->
+                            <Border Style="{StaticResource Card}">
+                                <StackPanel>
+                                    <TextBlock Text="Name" Style="{StaticResource FieldLabel}" Margin="0,0,0,6" />
+                                    <TextBox x:Name="LabelBox" Text="{Binding Label, UpdateSourceTrigger=PropertyChanged}" FontSize="15" />
+                                    <TextBlock Text="Type" Style="{StaticResource FieldLabel}" />
+                                    <StackPanel Orientation="Horizontal">
+                                        <RadioButton Style="{StaticResource Segment}" GroupName="Kind" Content="Link" IsChecked="{Binding Kind, Converter={StaticResource EnumEquals}, ConverterParameter=Link}" />
+                                        <RadioButton Style="{StaticResource Segment}" GroupName="Kind" Content="App / file" IsChecked="{Binding Kind, Converter={StaticResource EnumEquals}, ConverterParameter=App}" />
+                                        <RadioButton Style="{StaticResource Segment}" GroupName="Kind" Content="Key macro" IsChecked="{Binding Kind, Converter={StaticResource EnumEquals}, ConverterParameter=Macro}" />
+                                    </StackPanel>
+                                </StackPanel>
+                            </Border>
+
+                            <!-- Link -->
+                            <Border Style="{StaticResource Card}" Visibility="{Binding Kind, Converter={StaticResource EnumVisible}, ConverterParameter=Link}">
+                                <StackPanel>
+                                    <TextBlock Text="Web address" Style="{StaticResource SectionTitle}" />
+                                    <TextBox x:Name="UrlBox" Text="{Binding Url, UpdateSourceTrigger=LostFocus}" LostFocus="UrlBox_LostFocus" />
+                                    <TextBlock Style="{StaticResource Hint}" Text="Opens as a new tab in your current Chrome window. The site's icon is fetched automatically." />
+                                </StackPanel>
+                            </Border>
+
+                            <!-- App -->
+                            <Border Style="{StaticResource Card}" Visibility="{Binding Kind, Converter={StaticResource EnumVisible}, ConverterParameter=App}">
+                                <StackPanel>
+                                    <TextBlock Text="What to open" Style="{StaticResource SectionTitle}" />
+                                    <TextBlock x:Name="AppTargetText" TextWrapping="Wrap" Text="{Binding Subtitle}" Margin="0,0,0,10" />
+                                    <WrapPanel>
+                                        <Button Content="Choose installed app…" Click="ChooseApp_Click" Margin="0,0,8,8" Style="{DynamicResource AccentButtonStyle}" />
+                                        <Button Content="Browse for a file…" Click="BrowseFile_Click" Margin="0,0,8,8" />
+                                        <Button Content="Choose a folder…" Click="BrowseFolder_Click" Margin="0,0,8,8" />
+                                    </WrapPanel>
+                                    <CheckBox Content="If it's already open, switch to it instead of opening another copy" IsChecked="{Binding FocusIfRunning}" Margin="0,6,0,0" />
+                                    <TextBlock Style="{StaticResource Hint}" Text="Choosing again when it's already in front cycles through its windows. Applies to apps (not documents or folders)." />
+                                </StackPanel>
+                            </Border>
+
+                            <!-- Macro -->
+                            <Border Style="{StaticResource Card}" Visibility="{Binding Kind, Converter={StaticResource EnumVisible}, ConverterParameter=Macro}">
+                                <StackPanel>
+                                    <TextBlock Text="Steps" Style="{StaticResource SectionTitle}" />
+                                    <TextBlock Style="{StaticResource Hint}" Margin="0,0,0,10"
+                                               Text="Runs top to bottom in whatever app was in front when you opened the wheel. Click a key box, then press the combo." />
+                                    <ItemsControl ItemsSource="{Binding Steps}">
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate>
+                                                <Grid Margin="0,0,0,8">
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="120" />
+                                                        <ColumnDefinition Width="*" />
+                                                        <ColumnDefinition Width="Auto" />
+                                                    </Grid.ColumnDefinitions>
+                                                    <ComboBox SelectedValue="{Binding Kind}" SelectedValuePath="Tag" Margin="0,0,8,0" VerticalAlignment="Center">
+                                                        <ComboBoxItem Content="Press keys" Tag="{x:Static models:StepKind.Keys}" />
+                                                        <ComboBoxItem Content="Wait" Tag="{x:Static models:StepKind.Wait}" />
+                                                        <ComboBoxItem Content="Type text" Tag="{x:Static models:StepKind.Text}" />
+                                                    </ComboBox>
+                                                    <Grid Grid.Column="1" VerticalAlignment="Center">
+                                                        <ui:HotkeyBox Vk="{Binding Key}" Mods="{Binding Modifiers}" HorizontalAlignment="Stretch"
+                                                                      Visibility="{Binding Kind, Converter={StaticResource EnumVisible}, ConverterParameter=Keys}" />
+                                                        <StackPanel Orientation="Horizontal" Visibility="{Binding Kind, Converter={StaticResource EnumVisible}, ConverterParameter=Wait}">
+                                                            <TextBox Text="{Binding Ms, UpdateSourceTrigger=PropertyChanged}" Width="100" />
+                                                            <TextBlock Text="milliseconds" VerticalAlignment="Center" Margin="8,0,0,0" />
+                                                        </StackPanel>
+                                                        <TextBox Text="{Binding Text, UpdateSourceTrigger=PropertyChanged}" AcceptsReturn="True" TextWrapping="Wrap" MaxHeight="120"
+                                                                 VerticalScrollBarVisibility="Auto"
+                                                                 Visibility="{Binding Kind, Converter={StaticResource EnumVisible}, ConverterParameter=Text}" />
+                                                    </Grid>
+                                                    <StackPanel Grid.Column="2" Orientation="Horizontal" Margin="6,0,0,0" VerticalAlignment="Center">
+                                                        <Button Style="{StaticResource IconButton}" Content="&#xE070;" ToolTip="Move up" Click="StepUp_Click" Tag="{Binding}" Margin="0,0,4,0" />
+                                                        <Button Style="{StaticResource IconButton}" Content="&#xE06D;" ToolTip="Move down" Click="StepDown_Click" Tag="{Binding}" Margin="0,0,4,0" />
+                                                        <Button Style="{StaticResource IconButton}" Content="&#xE18E;" ToolTip="Remove step" Click="StepDelete_Click" Tag="{Binding}" />
+                                                    </StackPanel>
+                                                </Grid>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+                                    <WrapPanel Margin="0,4,0,0">
+                                        <Button Content="+ Keys" Click="AddStep_Click" Tag="Keys" Margin="0,0,8,0" />
+                                        <Button Content="+ Wait" Click="AddStep_Click" Tag="Wait" Margin="0,0,8,0" />
+                                        <Button Content="+ Type text" Click="AddStep_Click" Tag="Text" />
+                                    </WrapPanel>
+                                </StackPanel>
+                            </Border>
+
+                            <!-- Icon -->
+                            <Border Style="{StaticResource Card}">
+                                <StackPanel>
+                                    <TextBlock Text="Icon" Style="{StaticResource SectionTitle}" />
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <Border Width="72" Height="72" CornerRadius="14" Background="#FF1B1D24" VerticalAlignment="Top">
+                                            <Image Source="{Binding IconImage}" Width="44" Height="44" RenderOptions.BitmapScalingMode="HighQuality" />
+                                        </Border>
+                                        <StackPanel Grid.Column="1" Margin="16,0,0,0">
+                                            <WrapPanel>
+                                                <RadioButton Style="{StaticResource Segment}" GroupName="IconMode" Content="Automatic" IsChecked="{Binding Icon.Mode, Converter={StaticResource EnumEquals}, ConverterParameter=Auto}" />
+                                                <RadioButton Style="{StaticResource Segment}" GroupName="IconMode" Content="From library" IsChecked="{Binding Icon.Mode, Converter={StaticResource EnumEquals}, ConverterParameter=Library}" />
+                                                <RadioButton Style="{StaticResource Segment}" GroupName="IconMode" Content="My image" IsChecked="{Binding Icon.Mode, Converter={StaticResource EnumEquals}, ConverterParameter=Custom}" />
+                                            </WrapPanel>
+                                            <StackPanel Margin="0,10,0,0" Visibility="{Binding Icon.Mode, Converter={StaticResource EnumVisible}, ConverterParameter=Auto}">
+                                                <TextBlock Style="{StaticResource Hint}" Margin="0,0,0,8" Text="Links use the site's icon, apps use their own icon, and macros get a keyboard." />
+                                                <Button Content="Fetch the icon again" Click="RefreshIcon_Click" HorizontalAlignment="Left" />
+                                            </StackPanel>
+                                            <StackPanel Margin="0,10,0,0" Visibility="{Binding Icon.Mode, Converter={StaticResource EnumVisible}, ConverterParameter=Library}">
+                                                <Button Content="Choose an icon…" Click="PickGlyph_Click" HorizontalAlignment="Left" Style="{DynamicResource AccentButtonStyle}" Margin="0,0,0,10" />
+                                                <TextBlock Text="Colour" Style="{StaticResource FieldLabel}" Margin="0,0,0,6" />
+                                                <ItemsControl x:Name="GlyphColors" ItemTemplate="{StaticResource Swatch}" Tag="glyph">
+                                                    <ItemsControl.ItemsPanel>
+                                                        <ItemsPanelTemplate><WrapPanel /></ItemsPanelTemplate>
+                                                    </ItemsControl.ItemsPanel>
+                                                </ItemsControl>
+                                            </StackPanel>
+                                            <StackPanel Margin="0,10,0,0" Visibility="{Binding Icon.Mode, Converter={StaticResource EnumVisible}, ConverterParameter=Custom}">
+                                                <Button Content="Choose an image…" Click="PickImage_Click" HorizontalAlignment="Left" Style="{DynamicResource AccentButtonStyle}" />
+                                                <TextBlock Style="{StaticResource Hint}" Text="PNG, JPG, ICO, BMP, GIF or SVG. A copy is kept with your settings." />
+                                            </StackPanel>
+                                        </StackPanel>
+                                    </Grid>
+                                </StackPanel>
+                            </Border>
+
+                            <Button Content="Try this shortcut now" Click="Test_Click" HorizontalAlignment="Left" Margin="0,0,0,12" />
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </TabItem>
+
+            <!-- ============ Trigger & wheel ============ -->
+            <TabItem Header="Trigger &amp; wheel">
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <StackPanel Margin="0,14,8,0" MaxWidth="760" HorizontalAlignment="Left">
+                        <Border Style="{StaticResource Card}">
+                            <StackPanel>
+                                <TextBlock Text="Open the wheel with" Style="{StaticResource SectionTitle}" />
+                                <ui:HotkeyBox x:Name="TriggerBox" AllowMouse="True" HorizontalAlignment="Left" MinWidth="320"
+                                              Vk="{Binding Trigger.Key}" Mods="{Binding Trigger.Modifiers}" Mouse="{Binding Trigger.MouseButton}" />
+                                <TextBlock Style="{StaticResource Hint}" Text="Click the box, then press a mouse button (middle, side or right), a key, or a combo like Ctrl + Space." />
+                                <TextBlock Text="Quick picks" Style="{StaticResource FieldLabel}" />
+                                <WrapPanel>
+                                    <Button Content="Middle button" Click="TriggerPreset_Click" Tag="Middle" Margin="0,0,8,8" />
+                                    <Button Content="Back side button" Click="TriggerPreset_Click" Tag="X1" Margin="0,0,8,8" />
+                                    <Button Content="Forward side button" Click="TriggerPreset_Click" Tag="X2" Margin="0,0,8,8" />
+                                    <Button Content="CapsLock" Click="TriggerPreset_Click" Tag="CapsLock" Margin="0,0,8,8" />
+                                    <Button Content="Ctrl + Space" Click="TriggerPreset_Click" Tag="CtrlSpace" Margin="0,0,8,8" />
+                                </WrapPanel>
+                                <TextBlock x:Name="TriggerWarning" Style="{StaticResource Hint}" Foreground="{DynamicResource SystemFillColorCautionBrush}" Visibility="Collapsed" />
+
+                                <TextBlock Text="Hold time" Style="{StaticResource FieldLabel}" Margin="0,16,0,6" />
+                                <StackPanel Orientation="Horizontal">
+                                    <Slider Minimum="60" Maximum="600" Width="320" TickFrequency="10" IsSnapToTickEnabled="True" Value="{Binding HoldThresholdMs}" VerticalAlignment="Center" />
+                                    <TextBlock Text="{Binding HoldThresholdMs, StringFormat={}{0} ms}" VerticalAlignment="Center" Margin="12,0,0,0" Width="60" />
+                                </StackPanel>
+                                <TextBlock Style="{StaticResource Hint}" Text="Hold at least this long to open the wheel. A quicker tap still does what the button or key normally does (like a middle-click)." />
+                            </StackPanel>
+                        </Border>
+
+                        <Border Style="{StaticResource Card}">
+                            <StackPanel>
+                                <TextBlock Text="Picking a slice" Style="{StaticResource SectionTitle}" />
+                                <TextBlock Style="{StaticResource Hint}" Margin="0">
+                                    Move the mouse toward a slice (you don't have to reach it), then release the trigger or left-click.
+                                    Release in the centre, right-click or press Esc to cancel.
+                                </TextBlock>
+                            </StackPanel>
+                        </Border>
+
+                        <Border Style="{StaticResource Card}">
+                            <StackPanel>
+                                <TextBlock Text="Look" Style="{StaticResource SectionTitle}" />
+                                <TextBlock Text="Size" Style="{StaticResource FieldLabel}" Margin="0,0,0,6" />
+                                <StackPanel Orientation="Horizontal">
+                                    <Slider Minimum="110" Maximum="300" Width="320" TickFrequency="5" IsSnapToTickEnabled="True" Value="{Binding Appearance.Radius}" VerticalAlignment="Center" />
+                                    <TextBlock Text="{Binding Appearance.Radius, StringFormat={}{0} px radius}" VerticalAlignment="Center" Margin="12,0,0,0" />
+                                </StackPanel>
+                                <TextBlock Text="Highlight colour" Style="{StaticResource FieldLabel}" />
+                                <StackPanel Orientation="Horizontal">
+                                    <ItemsControl x:Name="AccentColors" ItemTemplate="{StaticResource Swatch}" Tag="accent">
+                                        <ItemsControl.ItemsPanel>
+                                            <ItemsPanelTemplate><WrapPanel /></ItemsPanelTemplate>
+                                        </ItemsControl.ItemsPanel>
+                                    </ItemsControl>
+                                    <TextBox Text="{Binding Appearance.Accent, UpdateSourceTrigger=LostFocus}" Width="100" VerticalAlignment="Top" Margin="6,0,0,0" ToolTip="Any hex colour, e.g. #4F8CFF" />
+                                </StackPanel>
+                                <CheckBox Content="Show names on the slices (the centre always shows the highlighted one)" IsChecked="{Binding Appearance.ShowSliceLabels}" Margin="0,10,0,0" />
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+
+            <!-- ============ General ============ -->
+            <TabItem Header="General">
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <StackPanel Margin="0,14,8,0" MaxWidth="760" HorizontalAlignment="Left">
+                        <Border Style="{StaticResource Card}">
+                            <StackPanel>
+                                <TextBlock Text="Startup" Style="{StaticResource SectionTitle}" />
+                                <CheckBox x:Name="StartupCheck" Content="Start WheelOfAwesome when I sign in to Windows" IsChecked="{Binding StartWithWindows}" Click="Startup_Click" />
+                                <CheckBox x:Name="ElevatedCheck" Content="Run as administrator" IsChecked="{Binding RunElevated}" Click="Elevated_Click" Margin="0,12,0,0" />
+                                <TextBlock Style="{StaticResource Hint}" Margin="28,2,0,0"
+                                           Text="Windows keeps normal apps from seeing or sending input to apps running as administrator (like Task Manager). Turn this on if the wheel needs to work over those. Windows asks for permission once; after that it starts with admin rights at sign-in without asking." />
+                                <TextBlock x:Name="ElevationStatus" Style="{StaticResource Hint}" Margin="28,6,0,0" />
+                            </StackPanel>
+                        </Border>
+                        <Border Style="{StaticResource Card}">
+                            <StackPanel>
+                                <TextBlock Text="Your settings" Style="{StaticResource SectionTitle}" />
+                                <TextBlock x:Name="ConfigPathText" Style="{StaticResource Hint}" Margin="0,0,0,10" />
+                                <WrapPanel>
+                                    <Button Content="Open settings folder" Click="OpenFolder_Click" Margin="0,0,8,0" />
+                                    <Button Content="Pause the wheel" x:Name="PauseButton" Click="Pause_Click" />
+                                </WrapPanel>
+                            </StackPanel>
+                        </Border>
+                        <Border Style="{StaticResource Card}">
+                            <StackPanel>
+                                <TextBlock Text="About" Style="{StaticResource SectionTitle}" />
+                                <TextBlock x:Name="VersionText" Style="{StaticResource Hint}" Margin="0" />
+                                <TextBlock Style="{StaticResource Hint}" Text="Library icons are from Lucide (lucide.dev), ISC licence." />
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

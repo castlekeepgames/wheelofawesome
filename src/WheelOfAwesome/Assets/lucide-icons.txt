@@ -1,0 +1,2191 @@
+activity	E038	pulse,action,motion,movement,exercise,fitness,healthcare,heart rate monitor,vital signs,vitals,emergency room,er,intensive care,hospital,defibrillator,earthquake,seismic,magnitude,richter scale,aftershock,tremor,shockwave,audio,waveform,synthesizer,synthesiser,music
+airplay	E039	stream,cast,mirroring,screen,monitor,macos,osx
+alarm-clock	E03A	morning
+album	E03B	
+align-horizontal-distribute-center	E03C	items,flex,justify,space,evenly,around
+align-horizontal-distribute-end	E03D	right,items,flex,justify
+align-horizontal-distribute-start	E03E	left,items,flex,justify
+anchor	E03F	ship
+aperture	E040	camera,photo,pictures,shutter,exposure
+archive	E041	index,backup,box,storage,records
+arrow-down	E042	backwards,reverse,direction,south
+arrow-down-left	E043	direction,south-west,diagonal
+arrow-down-narrow-wide	E044	filter,sort,ascending,descending,increasing,decreasing,rising,falling
+arrow-down-right	E045	direction,south-east,diagonal
+arrow-down-up	E046	bidirectional,two-way,2-way,swap,switch,network,traffic,flow,mobile data,internet,sort,reorder,move
+arrow-down-wide-narrow	E047	filter,sort,ascending,descending,increasing,decreasing,rising,falling
+arrow-left	E048	previous,back,direction,west,<-
+arrow-right	E049	forward,next,direction,east,->
+arrow-up	E04A	forward,direction,north
+arrow-up-left	E04B	direction,north-west,diagonal
+arrow-up-narrow-wide	E04C	filter,sort,ascending,descending,increasing,decreasing,rising,falling
+arrow-up-right	E04D	direction,north-east,diagonal
+at-sign	E04E	mention,at,email,message,@
+award	E04F	achievement,badge,rosette,prize,winner
+axe	E050	hatchet,weapon,chop,sharp,equipment,fireman,firefighter,brigade,lumberjack,woodcutter,logger,forestry
+ban	E051	cancel,no,stop,forbidden,prohibited,error,incorrect,mistake,wrong,failure,circle,slash,null,void
+banknote	E052	currency,money,payment
+battery	E053	power,electricity,energy,accumulator,charge
+battery-charging	E054	power,electricity,energy,accumulator,charge
+battery-full	E055	power,electricity,energy,accumulator,charge
+battery-low	E056	power,electricity,energy,accumulator,charge
+battery-medium	E057	power,electricity,energy,accumulator,charge
+beaker	E058	cup,lab,chemistry,experiment,test
+bell	E059	alarm,notification,sound,reminder
+bell-off	E05A	alarm,notification,silent,reminder
+bitcoin	E05B	cryptocurrency,digital,blockchain,finance,coin,market,decentralized,investment,crypto,currency,money,payment
+bluetooth	E05C	wireless
+bold	E05D	text,strong,format
+book	E05E	reading,paperback,booklet,magazine,leaflet,pamphlet,tome,library,writing,written,writer,author,story,script,fiction,novel,information,knowledge,education,high school,university,college,academy,student,study,learning,homework,research,documentation
+book-open	E05F	reading,pages,booklet,magazine,leaflet,pamphlet,library,writing,written,writer,author,story,script,screenplay,fiction,novel,information,knowledge,education,high school,university,college,academy,student,study,learning,homework,research,documentation,revealed,blank,plain
+bookmark	E060	save,favorite,mark,label,attachment,file,stick,pin,read,clip,marker,tag
+box	E061	cube,package,container,storage,geometry,3d,isometric
+briefcase	E062	work,bag,baggage,folder
+calendar	E063	date,month,year,event,birthday,birthdate
+camera	E064	photography,lens,focus,capture,shot,visual,image,device,equipment,photo,webcam,video
+camera-off	E065	photo,webcam,video
+cast	E066	stream,streaming,screen,display,wireless,broadcast,transmit,media,receiver,remote display,screen sharing,media streaming
+chart-column-decreasing	E067	statistics,analytics,diagram,graph,trending down
+chart-no-axes-column	E068	statistics,analytics,diagram,graph
+chart-no-axes-column-decreasing	E069	statistics,analytics,diagram,graph,trending down
+chart-no-axes-column-increasing	E06A	statistics,analytics,diagram,graph,trending up
+chart-pie	E06B	statistics,analytics,diagram,presentation
+check	E06C	done,todo,tick,complete,task
+chevron-down	E06D	backwards,reverse,slow,dropdown
+chevron-left	E06E	back,previous,less than,fewer,menu,<
+chevron-right	E06F	forward,next,more than,greater,menu,code,coding,command line,terminal,prompt,shell,>
+chevron-up	E070	caret,keyboard,mac,control,ctrl,superscript,exponential,power,ahead,fast,^,dropdown
+chevrons-down	E071	backwards,reverse,slower
+chevrons-left	E072	turn,corner
+chevrons-right	E073	turn,corner
+chevrons-up	E074	forward,ahead,faster,speed,boost
+chromium	E075	
+circle	E076	off,zero,record,shape
+circle-alert	E077	warning,alert,danger,exclamation mark
+circle-arrow-down	E078	backwards,reverse,direction,south,sign,button
+circle-arrow-left	E079	previous,back,direction,west,sign,turn,button,<-
+circle-arrow-right	E07A	next,forward,direction,east,sign,turn,button,->
+circle-arrow-up	E07B	forward,direction,north,sign,button
+circle-check-big	E07C	done,todo,tick,complete,task
+circle-divide	E07D	calculate,math,Ã·,/
+circle-minus	E07E	subtract,remove,decrease,reduce,calculate,line,operator,code,coding,minimum,downgrade,-
+circle-pause	E07F	music,audio,stop
+circle-play	E080	music,start,run
+circle-plus	E081	add,new,increase,increment,positive,calculate,crosshair,aim,target,scope,sight,reticule,maximum,upgrade,extra,operator,join,concatenate,code,coding,+
+circle-question-mark	E082	question mark
+circle-stop	E083	media,music
+circle-x	E084	cancel,close,cross,delete,remove,times,clear,error,incorrect,wrong,mistake,failure,linter,multiply,multiplication
+clipboard	E085	copy,paste
+clipboard-list	E086	copy,paste,tasks
+clock	E087	time,watch,alarm
+cloud	E088	weather
+cloud-download	E089	import
+cloud-drizzle	E08A	weather,shower
+cloud-hail	E08B	weather,rainfall
+cloud-lightning	E08C	weather,bolt
+cloud-off	E08D	disconnect
+cloud-rain	E08E	weather,rainfall
+cloud-rain-wind	E08F	weather,rainfall
+cloud-snow	E090	weather,blizzard
+cloud-upload	E091	file
+clover	E092	leaf,luck,plant
+code	E093	source,programming,html,xml
+codepen	E094	
+codesandbox	E095	
+coffee	E096	drink,cup,mug,tea,cafe,hot,beverage
+coins	E097	money,cash,finance,gamble
+columns-2	E098	lines,list,queue,preview,panel,parallel,series,split,vertical,horizontal,half,center,middle,even,sidebar,drawer,gutter,fold,reflow,typography,pagination,pages
+columns-3	E099	lines,list,queue,preview,parallel,series,split,vertical,horizontal,thirds,triple,center,middle,alignment,even,sidebars,drawers,gutters,fold,reflow,typography,pagination,pages
+command	E09A	keyboard,key,mac,cmd,button
+compass	E09B	direction,north,east,south,west,browser
+contact	E09C	user,person,family,friend,acquaintance,listing,networking
+contrast	E09D	display,accessibility
+copy	E09E	clone,duplicate,multiple
+copyleft	E09F	licence
+copyright	E0A0	licence,license
+corner-down-left	E0A1	arrow,return
+corner-down-right	E0A2	arrow,indent,tab
+corner-left-down	E0A3	arrow
+corner-left-up	E0A4	arrow
+corner-right-down	E0A5	arrow
+corner-right-up	E0A6	arrow
+corner-up-left	E0A7	arrow
+corner-up-right	E0A8	arrow
+cpu	E0A9	processor,cores,technology,computer,chip,circuit,memory,ram,specs,gigahertz,ghz
+credit-card	E0AA	bank,purchase,payment,cc
+crop	E0AB	photo,image
+crosshair	E0AC	aim,target
+database	E0AD	storage,memory,container,tin,pot,bytes,servers
+delete	E0AE	backspace,remove
+disc	E0AF	album,music,songs,format,cd,dvd,vinyl,sleeve,cover,platinum,compilation,ep,recording,playback,spin,rotate,rpm,dj
+divide	E0B0	calculate,math,division,operator,code,Ã·,/
+dollar-sign	E0B1	currency,money,payment
+download	E0B2	import,export,save
+dribbble	E0B3	
+droplet	E0B4	water,weather,liquid,fluid,wet,moisture,damp,bead,globule
+droplets	E0B5	water,weather,liquid,fluid,wet,moisture,damp,bead,globule
+ellipsis	E0B6	et cetera,etc,loader,loading,progress,pending,throbber,menu,options,operator,code,coding,spread,rest,more,further,extra,overflow,dots,â€¦,...
+ellipsis-vertical	E0B7	menu,options,spread,more,further,extra,overflow,dots,â€¦,...
+euro	E0B8	currency,money,payment
+external-link	E0B9	outbound,open,share
+eye	E0BA	view,watch,see,show,expose,reveal,display,visible,visibility,vision,preview,read
+eye-off	E0BB	view,watch,see,hide,conceal,mask,hidden,visibility,vision
+facebook	E0BC	
+fast-forward	E0BD	music
+feather	E0BE	quill,plume,writing,author,literature,poetry,manuscript,bird,plumage,lightweight,soft
+figma	E0BF	
+file	E0C0	document
+file-check	E0C1	done,document,todo,tick,complete,task
+file-check-corner	E0C2	done,document,todo,tick,complete,task
+file-code	E0C3	script,document,gist,html,xml,property list,plist
+file-digit	E0C4	number,document
+file-input	E0C5	document
+file-minus	E0C6	delete,remove,erase,document
+file-minus-corner	E0C7	document
+file-output	E0C8	document
+file-plus	E0C9	add,create,new,document
+file-plus-corner	E0CA	add,create,new,document
+file-search	E0CB	lost,document,find,browser,lens
+file-text	E0CC	data,txt,pdf,document
+file-x	E0CD	lost,delete,remove,document
+file-x-corner	E0CE	lost,delete,remove,document
+files	E0CF	multiple,copy,documents
+film	E0D0	movie,video,reel,camera,cinema,entertainment
+flag	E0D1	report,marker,notification,warning,milestone,goal,notice,signal,attention,banner
+flame	E0D2	heat,burn,light,glow,ignite,passion,ember,fire,lit,burning,spark,embers,smoke,firefighter,fireman,department,brigade,station,emergency
+flashlight	E0D3	torch,light,beam,emergency,safety,tool,bright
+flashlight-off	E0D4	torch,light,beam,emergency,safety,tool,bright
+flask-conical	E0D5	beaker,erlenmeyer,lab,chemistry,experiment,test
+flask-round	E0D6	beaker,lab,chemistry,experiment,test
+folder	E0D7	directory
+folder-minus	E0D8	directory,remove,delete
+folder-plus	E0D9	directory,add,create,new
+framer	E0DA	
+frown	E0DB	
+funnel	E0DC	filter,hopper
+funnel-plus	E0DD	filter,hopper,add,create,new
+gamepad	E0DE	console
+gamepad-2	E0DF	console
+gavel	E0E0	justice,law,court,judgment,legal,hands,penalty,decision,authority,hammer,mallet
+gift	E0E1	present,box,birthday,party
+git-branch	E0E2	code,version control,vcs,repository
+git-commit-horizontal	E0E3	code,version control,waypoint,stop,station
+git-merge	E0E4	code,version control
+git-pull-request	E0E5	code,version control,open
+github	E0E6	
+gitlab	E0E7	
+globe	E0E8	world,browser,language,translate
+grid-3x3	E0E9	table,rows,columns
+grip-horizontal	E0EA	grab,dots,handle,move,drag
+grip-vertical	E0EB	grab,dots,handle,move,drag
+hammer	E0EC	mallet,nails,diy,toolbox,build,construction
+hard-drive	E0ED	computer,server,memory,data,ssd,disk,hard disk,storage,hardware,backup,media
+hard-hat	E0EE	helmet,construction,safety
+hash	E0EF	hashtag,number,pound
+haze	E0F0	mist,fog
+headphones	E0F1	music,audio,sound
+heart	E0F2	like,love,emotion,suit,playing,cards
+hexagon	E0F3	shape,node.js,logo
+highlighter	E0F4	mark,text
+house	E0F5	home,living,building,residence,architecture
+image	E0F6	picture,photo
+inbox	E0F7	email
+indian-rupee	E0F8	currency,money,payment
+info	E0F9	about,advice,clue,details,help,hint,indicator,information,knowledge,notice,status,support,tooltip
+instagram	E0FA	
+italic	E0FB	oblique,text,format
+japanese-yen	E0FC	currency,money,payment
+key	E0FD	password,login,authentication,secure,unlock,keychain,key ring,fob
+languages	E0FE	translate
+layout-grid	E0FF	app,home,start
+library	E100	books,reading,written,authors,stories,fiction,novels,information,knowledge,education,high school,university,college,academy,learning,study,research,collection,vinyl,records,albums,music,package
+life-buoy	E101	preserver,life belt,lifesaver,help,rescue,ship,ring,raft,inflatable,wheel,donut
+link	E102	chain,url
+link-2	E103	chain,url
+link-2-off	E104	unchain,chain
+linkedin	E105	
+list	E106	options
+list-indent-decrease	E107	text,tab
+list-indent-increase	E108	text,tab
+loader	E109	loading,wait,busy,progress,spinner,spinning,throbber
+loader-circle	E10A	loading,wait,busy,progress,spinner,spinning,throbber,circle
+lock	E10B	security,password,secure,admin
+lock-open	E10C	security
+log-in	E10D	sign in,arrow,enter,auth
+log-out	E10E	sign out,arrow,exit,auth
+mail	E10F	email,message,letter,unread
+map	E110	location,navigation,travel
+map-pin	E111	location,waypoint,marker,drop
+maximize	E112	fullscreen,expand,dashed
+maximize-2	E113	fullscreen,arrows,expand
+meh	E114	
+menu	E115	bars,navigation,hamburger,options
+message-circle	E116	comment,chat,conversation,dialog,feedback,speech bubble
+message-square	E117	comment,chat,conversation,dialog,feedback,speech bubble
+mic	E118	record,sound,listen,radio,podcast,microphone
+mic-off	E119	record,sound,mute,microphone
+minimize	E11A	exit fullscreen,close,shrink
+minimize-2	E11B	exit fullscreen,arrows,close,shrink
+minus	E11C	subtract,remove,decrease,decrement,reduce,negative,calculate,line,divider,separator,horizontal rule,hr,html,markup,markdown,---,toolbar,operator,code,coding,minimum,downgrade
+monitor	E11D	tv,computer,desktop,screen,display,external display,screen sharing,virtual machine,vm
+moon	E11E	dark,night
+mouse-pointer	E11F	click,select
+mouse-pointer-click	E120	click,select
+move	E121	arrows
+music	E122	
+navigation	E123	location,travel
+navigation-2	E124	location,travel
+network	E125	tree
+octagon	E126	stop,shape
+octagon-alert	E127	warning,alert,danger,exclamation mark
+octagon-x	E128	delete,stop,alert,warning,times,clear,math
+package	E129	box,container,storage,sealed,delivery,undelivered,unopened,packed,archive,zip,module
+panel-left	E12A	primary,drawer
+panels-left-bottom	E12B	drawers,sidebar,primary
+panels-top-left	E12C	menu bar,sidebar,primary,drawers,window,webpage,projects,overview
+paperclip	E12D	attachment,file
+pause	E12E	music,stop
+pen	E12F	pencil,change,create,draw,writer,writing,biro,ink,marker,felt tip,stationery,artist
+pen-line	E130	pencil,change,create,draw,writer,writing,biro,ink,marker,felt tip,stationery,artist
+pen-tool	E131	vector,drawing,path
+percent	E132	percentage,modulo,modulus,remainder,%,sale,discount,offer,marketing
+phone	E133	call
+phone-call	E134	ring
+phone-forwarded	E135	call
+phone-incoming	E136	call
+phone-missed	E137	call
+phone-off	E138	call,mute
+phone-outgoing	E139	call
+piggy-bank	E13A	money,savings
+pipette	E13B	eye dropper,color picker,lab,chemistry
+play	E13C	music,audio,video,start,run
+plus	E13D	add,new,increase,increment,positive,calculate,toolbar,crosshair,aim,target,scope,sight,reticule,maximum,upgrade,extra,+
+pocket	E13E	
+pound-sterling	E13F	currency,money,payment
+power	E140	on,off,device,switch,toggle,binary,boolean,reboot,restart,button,keyboard,troubleshoot
+printer	E141	fax,office,device
+radio	E142	signal,broadcast,connectivity,live,frequency
+redo	E143	undo,rerun,history
+refresh-ccw	E144	arrows,rotate,reload,rerun,synchronise,synchronize,circular,cycle
+refresh-cw	E145	rotate,reload,rerun,synchronise,synchronize,arrows,circular,cycle
+repeat	E146	loop,arrows
+rewind	E147	music
+rotate-ccw	E148	arrow,left,counter-clockwise,restart,reload,rerun,refresh,backup,undo,replay,redo,retry,rewind,reverse
+rotate-cw	E149	arrow,right,clockwise,refresh,reload,rerun,redo
+rss	E14A	feed,subscribe,news,updates,notifications,content,blog,articles,broadcast,syndication,reader,channels,posts,publishing,digest,alert,following,inbox,newsletter,weblog,podcast
+ruler	E14B	measurements,centimeters,cm,millimeters,mm,metre,foot,feet,inches,units,size,length,width,height,dimensions,depth,breadth,extent,stationery
+russian-ruble	E14C	currency,money,payment
+save	E14D	floppy disk
+scissors	E14E	cut,snip,chop,stationery,crafts
+screen-share	E14F	host,desktop,monitor
+screen-share-off	E150	desktop,disconnect,monitor
+search	E151	find,scan,magnifier,magnifying glass,lens,locate,explore,discover,enlarge,zoom
+send	E152	email,message,mail,paper airplane,paper aeroplane,submit
+server	E153	cloud,storage
+settings	E154	cog,edit,gear,preferences
+share	E155	network,connections
+share-2	E156	network,connections
+sheet	E157	spreadsheets,table,excel
+shield	E158	cybersecurity,secure,safety,protection,guardian,armored,armoured,defense,defence,defender,block,threat,prevention,antivirus,vigilance,vigilant,detection,scan,find,strength,strong,tough,invincible,invincibility,invulnerable,undamaged,audit,admin,verification,crest,bravery,knight,foot soldier,infantry,trooper,pawn,battle,war,military,army,cadet,scout
+shield-ban	E159	unshielded,cybersecurity,insecure,unsecured,safety,unsafe,protection,unprotected,guardian,unguarded,unarmored,unarmoured,defenseless,defenceless,undefended,defender,blocked,stopped,intercepted,interception,saved,thwarted,threat,prevention,unprevented,antivirus,vigilance,vigilant,detection,detected,scanned,found,exploit,vulnerability,vulnerable,weakness,infection,infected,compromised,data leak,audited,admin,verification,unverified,uncertified,cancel,error,crest,bravery,attacked,damaged,injured,hit,expired,eliminated,disabled,inactive,/
+shield-off	E15A	unshielded,cybersecurity,insecure,unsecured,safety,unsafe,protection,unprotected,guardian,unguarded,unarmored,unarmoured,defenseless,defenceless,undefended,defender,interception,threat,prevention,unprevented,antivirus,detection,undetected,exploit,vulnerability,vulnerable,weakness,infected,infection,compromised,data leak,unaudited,admin,verification,unverified,inactive,cancelled,error,crest,bravery,damaged,injured,hit,expired,eliminated
+shopping-bag	E15B	ecommerce,cart,purchase,store
+shopping-cart	E15C	trolley,cart,basket,e-commerce,store,purchase,products,items,ingredients
+shovel	E15D	dig,spade,treasure
+shuffle	E15E	music,random,reorder
+skip-back	E15F	arrow,previous,music
+skip-forward	E160	arrow,skip,next,music
+slack	E161	
+sliders-vertical	E162	settings,controls
+smartphone	E163	phone,cellphone,device,mobile,screen,display,touchscreen,portable,responsive
+smile	E164	
+snowflake	E165	cold,weather,freeze,snow,winter
+speaker	E166	sound,audio,music,tweeter,subwoofer,bass,production,producer,dj
+square	E167	stop,playback,music,audio,video,rectangle,aspect ratio,1:1,shape
+square-asterisk	E168	password,secret,access,key,multiply,multiplication,glob pattern,wildcard,*
+square-chart-gantt	E169	projects,manage,overview,roadmap,plan,intentions,timeline,deadline,date,event,range,period,productivity,work,agile,code,coding,toolbar,button
+square-check-big	E16A	done,todo,tick,complete,task
+square-code	E16B	gist,source,programming,html,xml,coding
+square-dashed-kanban	E16C	projects,manage,overview,board,tickets,issues,roadmap,plan,intentions,productivity,work,agile,draft,template,boilerplate,code,coding
+square-divide	E16D	calculate,math,Ã·,/
+square-dot	E16E	git,diff,modified,.
+square-equal	E16F	calculate,=
+square-kanban	E170	projects,manage,overview,board,tickets,issues,roadmap,plan,intentions,productivity,work,agile,code,coding,toolbar,button
+square-minus	E171	subtract,remove,decrease,reduce,calculator,button,keyboard,line,divider,separator,horizontal rule,hr,html,markup,markdown,---,toolbar,operator,code,coding,minimum,downgrade
+square-pen	E172	pencil,edit,change,create,draw,sketch,draft,writer,writing,biro,ink,marker,felt tip,stationery,artist
+square-plus	E173	add,new,increase,increment,positive,calculate,calculator,button,keyboard,toolbar,maximum,upgrade,extra,operator,join,concatenate,code,coding,+
+square-slash	E174	git,diff,ignored,divide,division,shortcut,or,/
+square-x	E175	cancel,close,delete,remove,times,clear,math,multiply,multiplication
+star	E176	bookmark,favorite,like,review,rating
+strikethrough	E177	cross out,delete,remove,format
+sun	E178	brightness,weather,light,summer
+sunrise	E179	weather,time,morning,day
+sunset	E17A	weather,time,evening,night
+swiss-franc	E17B	currency,money,payment
+switch-camera	E17C	photo,selfie,front,back
+table	E17D	spreadsheet,grid
+tablet	E17E	device,mobile,screen,display,touchscreen,portable,responsive
+tag	E17F	label,badge,ticket,mark
+target	E180	logo,bullseye,deadline,projects,overview,work,productivity
+terminal	E181	code,command line,prompt,shell
+text-align-center	E182	text,alignment,center
+text-align-end	E183	text,alignment,right
+text-align-justify	E184	text,alignment,justified,menu,list
+text-align-start	E185	text,alignment,left,list
+thermometer	E186	temperature,celsius,fahrenheit,weather
+thermometer-snowflake	E187	temperature,celsius,fahrenheit,weather,cold,freeze,freezing
+thermometer-sun	E188	temperature,celsius,fahrenheit,weather,warm,hot
+thumbs-down	E189	dislike,bad,emotion
+thumbs-up	E18A	like,good,emotion
+toggle-left	E18B	on,off,switch,boolean
+toggle-right	E18C	on,off,switch,boolean
+trash	E18D	empty,deletion,cleanup,junk,clear,garbage,delete,remove,bin,waste,recycle,discard,binoculars,rubbish
+trash-2	E18E	
+trello	E18F	
+trending-down	E190	statistics
+trending-up	E191	statistics
+triangle	E192	equilateral,delta,shape,pyramid,hierarchy
+triangle-alert	E193	warning,alert,danger,exclamation mark,linter
+truck	E194	delivery,van,shipping,haulage,lorry
+tv	E195	television,stream,display,widescreen,high-definition,hd,1080p,4k,8k,smart,digital,video,entertainment,showtime,channels,terrestrial,satellite,cable,broadcast,live,frequency,tune,scan,aerial,receiver,transmission,signal,connection,connectivity
+twitch	E196	
+twitter	E197	
+type	E198	text,font,typography
+umbrella	E199	rain,weather
+underline	E19A	text,format
+undo	E19B	redo,rerun,history
+unlink	E19C	url,unchain
+unlink-2	E19D	url,unchain
+upload	E19E	file
+user	E19F	person,account,contact
+user-check	E1A0	followed,subscribed,done,todo,tick,complete,task
+user-minus	E1A1	delete,remove,unfollow,unsubscribe
+user-plus	E1A2	new,add,create,follow,subscribe
+user-x	E1A3	delete,remove,unfollow,unsubscribe,unavailable
+users	E1A4	group,people
+video	E1A5	camera,movie,film,recording,motion picture,camcorder,reel
+video-off	E1A6	camera,movie,film
+view	E1A7	eye,look
+voicemail	E1A8	phone,cassette,tape,reel,recording,audio
+volume	E1A9	music,sound,mute,speaker
+volume-1	E1AA	music,sound,speaker
+volume-2	E1AB	music,sound,speaker
+volume-x	E1AC	music,sound,mute,speaker
+watch	E1AD	clock,time
+wifi	E1AE	connection,signal,wireless
+wifi-off	E1AF	disabled
+wind	E1B0	weather,air,blow
+wrench	E1B1	account,settings,spanner,diy,toolbox,build,construction
+x	E1B2	cancel,close,cross,delete,ex,remove,times,clear,math,multiply,multiplication
+youtube	E1B3	
+zap	E1B4	flash,camera,lightning,electricity,energy,power,quick
+zap-off	E1B5	flash,camera,lightning,electricity,energy,power
+zoom-in	E1B6	magnifying glass,plus
+zoom-out	E1B7	magnifying glass,plus
+bluetooth-connected	E1B8	paired
+bluetooth-off	E1B9	lost
+bluetooth-searching	E1BA	pairing
+bot	E1BB	robot,ai,chat,assistant
+calculator	E1BC	count,calculating machine
+equal	E1BD	calculate,math,operator,assignment,code,=
+equal-not	E1BE	calculate,off,math,operator,code,â‰ 
+gauge	E1BF	dashboard,dial,meter,speed,pressure,measure,level
+image-off	E1C0	picture,photo
+layout-dashboard	E1C1	masonry,brick
+lightbulb	E1C2	idea,bright,lights
+mouse-pointer-2	E1C3	click,select
+move-diagonal	E1C4	double,arrow
+move-diagonal-2	E1C5	double,arrow
+move-horizontal	E1C6	double,arrow
+move-vertical	E1C7	double,arrow
+separator-horizontal	E1C8	move,split
+separator-vertical	E1C9	move,split
+shirt	E1CA	t-shirt,shopping,store,clothing,clothes
+square-dashed	E1CB	selection,square,rectangular,marquee,tool,dashed,box
+building	E1CC	organisation,organization
+laptop	E1CD	computer,screen,remote
+lasso	E1CE	select,cursor
+lasso-select	E1CF	select,cursor
+list-checks	E1D0	todo,done,check,tick,complete,tasks,items,pending
+list-ordered	E1D1	number,order,queue
+bike	E1D2	bicycle,transport,trip
+brush	E1D3	clean,sweep,refactor,remove,draw,paint,color,artist
+bus	E1D4	bus,vehicle,transport,trip
+car	E1D5	vehicle,drive,trip,journey
+crown	E1D6	diadem,tiara,circlet,corona,king,ruler,winner,favourite
+hand	E1D7	wave,move,mouse,grab
+laptop-minimal	E1D8	computer,screen,remote
+layout-list	E1D9	todo,tasks,items,pending,image,photo
+locate	E1DA	map,gps,location,cross
+locate-fixed	E1DB	map,gps,location,cross
+monitor-off	E1DC	tv,computer,screen,display,desktop,external display,screen sharing,offline,disabled,disconnected,power
+palette	E1DD	colors,colours,theme,scheme,paint,watercolor,watercolour,artist
+plane	E1DE	plane,trip,airplane
+qr-code	E1DF	barcode,scan,link,url,information,digital
+timer	E1E0	time,timer,stopwatch
+arrow-big-down	E1E1	backwards,reverse,direction,south
+arrow-big-left	E1E2	previous,back,direction,west,indicate turn
+arrow-big-right	E1E3	next,forward,direction,east,indicate turn
+arrow-big-up	E1E4	shift,keyboard,button,mac,capitalize,capitalise,forward,direction,north
+cross	E1E5	healthcare,first aid
+hand-grab	E1E6	hand
+infinity	E1E7	unlimited,forever,loop,math
+pointer	E1E8	mouse
+server-crash	E1E9	cloud,storage,problem,error
+server-off	E1EA	cloud,storage
+sprout	E1EB	eco,green,growth,leaf,nature,plant,seed,spring,sustainability
+alarm-clock-check	E1EC	done,todo,tick,complete,task
+alarm-clock-minus	E1ED	remove
+alarm-clock-plus	E1EE	add
+asterisk	E1EF	symbol,mark,pointer,pencil,sign,alert,notification,indicator,symbolic,reference,times,multiply,multiplication,operator,code,glob pattern,wildcard,*
+bell-minus	E1F0	alarm,notification,silent,reminder,delete,remove,erase
+bell-plus	E1F1	notification,silent,reminder,add,create,new
+binary	E1F2	code,digits,computer,zero,one,boolean
+earth	E1F3	world,browser,language,translate,globe
+git-branch-plus	E1F4	code,version control,vcs,repository,add,create,+
+history	E1F5	
+image-minus	E1F6	remove,delete
+image-plus	E1F7	add,create,picture
+option	E1F8	keyboard,key,mac,alt,button
+pencil	E1F9	rubber,edit,create,draw,sketch,draft,writer,writing,stationery,artist
+podcast	E1FA	
+radio-receiver	E1FB	device,music,connect
+regex	E1FC	search,text,code
+repeat-1	E1FD	replay
+shield-alert	E1FE	unshielded,cybersecurity,insecure,unsecured,safety,unsafe,protection,unprotected,guardian,unguarded,unarmored,unarmoured,defenseless,defenceless,undefended,defender,blocked,stopped,intercepted,interception,saved,thwarted,threat,prevention,unprevented,antivirus,vigilance,vigilant,detection,detected,scanned,found,exploit,vulnerability,vulnerable,weakness,infection,infected,compromised,data leak,audited,admin,verification,unverified,uncertified,warning,emergency,attention,urgent,alarm,crest,bravery,strength,tough,attacked,damaged,injured,hit,expired,disabled,inactive,error,exclamation mark,!
+shield-check	E1FF	cybersecurity,secured,safety,protection,protected,guardian,guarded,armored,armoured,defense,defence,defended,blocked,threat,prevention,prevented,antivirus,vigilance,vigilant,active,activated,enabled,detection,scanned,found,strength,strong,tough,invincible,invincibility,invulnerable,undamaged,audited,admin,verification,verified,certification,certified,tested,passed,qualified,cleared,cleaned,disinfected,uninfected,task,completed,todo,done,ticked,checked,crest,bravery
+shield-x	E200	unshielded,cybersecurity,insecure,unsecured,safety,unsafe,protection,unprotected,guardian,unguarded,unarmored,unarmoured,defenseless,defenceless,undefended,defender,blocked,stopped,intercepted,interception,saved,thwarted,threat,prevention,prevented,antivirus,vigilance,vigilant,detection,detected,scanned,found,exploit,vulnerability,vulnerable,weakness,infection,infected,compromised,data leak,audited,admin,verification,unverified,inactive,cancel,error,wrong,false,crest,bravery,attacked,damaged,injured,hit,dead,deceased,expired,eliminated,exterminated
+sigma	E201	sum,calculate,formula,math,enumeration,enumerate
+square-mouse-pointer	E202	inspector,element,mouse,click,pointer,box,browser,selector,target,dom,node
+tv-minimal	E203	flat screen,television,stream,display,widescreen,high-definition,hd,1080p,4k,8k,smart,digital,video,home cinema,entertainment,showtime,channels,catchup
+wallet	E204	money,finance,pocket
+webcam	E205	camera,security
+code-xml	E206	source,programming,html,xml
+layout-template	E207	window,webpage,block,section
+lightbulb-off	E208	lights
+power-off	E209	on,off,device,switch
+square-terminal	E20A	code,command line,prompt,shell
+star-half	E20B	bookmark,favorite,like,review,rating
+bug	E20C	issue,error,defect,testing,troubleshoot,problem,report,debug,code,insect,beetle
+glasses	E20D	glasses,spectacles
+ghost	E20E	spirit,haunt,specter,apparition,wraith,shade,phantom,entity,shadow,silhouette,pac-man,spooky,halloween,haunted,invisible,hidden,empty,dead,obsolete,outdated
+ticket	E20F	entry,pass,voucher,event,concert,show,perforated,dashed
+monitor-speaker	E210	tv,computer,screen,display,desktop,external display,connect,cast,audio,sound,volume,presentation
+chevrons-up-down	E211	expand,unfold,vertical
+scale	E212	balance,legal,license,right,rule,law,justice,weight,measure,compare,judge,fair,ethics,decision
+circle-slash-2	E213	diameter,zero,Ã¸,nothing,null,void,ban,math,divide,division,half,split,/,average,avg,mean,median,normal
+cloud-fog	E214	weather,mist
+cloud-moon	E215	weather,night
+cloud-sun	E216	weather,partly
+cloudy	E217	weather,clouds
+tornado	E218	weather,wind,storm,hurricane
+clipboard-check	E219	copied,pasted,done,todo,tick,complete,task
+expand	E21A	scale,fullscreen,maximize,minimize,contract
+octagon-pause	E21B	music,audio,stop
+panel-left-close	E21C	primary,drawer,hide,chevron,<
+panel-left-open	E21D	primary,drawer,show,reveal,chevron,right,>
+person-standing	E21E	people,human,accessibility,stick figure
+rectangle-ellipsis	E21F	login,password,authenticate,2fa,field,fill,ellipsis,et cetera,etc,loader,loading,progress,pending,throbber,menu,options,operator,code,spread,rest,more,further,extra,overflow,dots,â€¦,...
+shrink	E220	scale,fullscreen
+skull	E221	death,danger,bone
+clipboard-x	E222	copy,paste,discard,remove
+vibrate	E223	smartphone,notification,rumble,haptic feedback,screen
+bell-ring	E224	alarm,notification,sound,reminder
+clipboard-copy	E225	copy,paste
+circle-check	E226	done,todo,tick,complete,task
+tent	E227	tipi,teepee,wigwam,lodge,camping,campsite,holiday,retreat,nomadic,native american,indian,wilderness,outdoors
+chevrons-down-up	E228	collapse,fold,vertical
+forward	E229	send,share,email
+reply	E22A	email
+reply-all	E22B	email
+hand-metal	E22C	rock
+square-function	E22D	programming,code,automation,math
+smartphone-charging	E22E	phone,cellphone,device,power,screen
+import	E22F	save
+currency	E230	finance,money
+mountain	E231	climb,hike,rock
+mountain-snow	E232	alpine,climb,snow
+rocking-chair	E233	chair,furniture,seat,comfort,relax
+graduation-cap	E234	school,university,learn,study,mortarboard,education,ceremony,academic,hat,diploma,bachelor's,master's,doctorate
+megaphone	E235	advertisement,announcement,attention,alert,loudspeaker,megaphone,notification
+timer-reset	E236	time,timer,stopwatch
+flag-triangle-left	E237	report,timeline,marker,pin
+flag-triangle-right	E238	report,timeline,marker,pin
+quote	E239	quotation
+landmark	E23A	bank,building,capitol,finance,money,museum,art gallery,hall,institute,pediment,portico,doric,columns,pillars,classical,architecture,government,institution,monument,site,history,historic,library,temple,ancient,structure
+alarm-clock-off	E23B	morning,turn-off
+bookmark-minus	E23C	delete,remove
+bookmark-plus	E23D	add
+list-minus	E23E	playlist,remove,song,subtract,delete,unqueue
+list-plus	E23F	playlist,add,song,track,new
+list-x	E240	playlist,subtract,remove,delete,unqueue
+badge-check	E241	verified,check
+gem	E242	diamond,crystal,ruby,jewellery,price,special,present,gift,ring,wedding,proposal,marriage,rubygems
+chevron-first	E243	previous,music
+chevron-last	E244	skip,next,music
+settings-2	E245	cog,edit,gear,preferences,slider
+wand	E246	magic,selection
+folder-open	E247	directory
+text-wrap	E248	words,lines,break,paragraph
+timer-off	E249	time,timer,stopwatch
+arrow-left-right	E24A	bidirectional,two-way,2-way,swap,switch,transaction,reorder,move,<-,->
+clock-1	E24B	time,watch,alarm
+clock-10	E24C	time,watch,alarm
+clock-11	E24D	time,watch,alarm
+clock-12	E24E	time,watch,alarm,noon,midnight
+clock-2	E24F	time,watch,alarm
+clock-3	E250	time,watch,alarm
+clock-4	E251	time,watch,alarm
+clock-5	E252	time,watch,alarm
+clock-6	E253	time,watch,alarm
+clock-7	E254	time,watch,alarm
+clock-8	E255	time,watch,alarm
+clock-9	E256	time,watch,alarm
+scan	E257	qr-code,barcode,checkout,augmented reality,ar,target,surveillance,camera,lens,focus,frame,select,box,boundary,bounds,area,square,dashed
+scan-line	E258	checkout,till,cart,transaction,purchase,buy,product,packaging,retail,consumer,qr-code,dashed
+pin	E259	save,map,lock,fix
+carrot	E25A	orange,healthy,nature,fresh,root,produce,organic,nutrition,vegetable,food,eat
+drumstick	E25B	food,chicken,meat
+subscript	E25C	text
+egg	E25D	bird,chicken,nest,hatch,shell,incubate,soft boiled,hard,breakfast,brunch,morning,easter
+superscript	E25E	text,exponent
+signal	E25F	connection,wireless,gsm,phone,2g,3g,4g,5g
+signal-high	E260	connection,wireless,gsm,phone,2g,3g,4g,5g
+signal-low	E261	connection,wireless,gsm,phone,2g,3g,4g,5g
+signal-medium	E262	connection,wireless,gsm,phone,2g,3g,4g,5g
+signal-zero	E263	connection,wireless,gsm,phone,2g,3g,4g,5g,lost
+text-cursor	E264	select,caret,type,typing,write,writing,edit,insert,input,textarea
+text-cursor-input	E265	select
+package-check	E266	confirm,verified,done,todo,tick,complete,task,delivered
+package-minus	E267	delete,remove
+package-plus	E268	new,add,create
+package-search	E269	find,product process,lens
+package-x	E26A	delete,remove
+cookie	E26B	biscuit,snack,dessert,food,sweet,bakery,consent,privacy,legal,tracking,browser,website
+align-center-horizontal	E26C	items,flex,justify
+align-center-vertical	E26D	items,flex,justify
+align-end-horizontal	E26E	items,bottom,flex,justify
+align-end-vertical	E26F	items,right,flex,justify
+align-start-horizontal	E270	top,items,flex,justify
+align-start-vertical	E271	left,items,flex,justify
+align-horizontal-justify-center	E272	center,items,flex,justify
+align-horizontal-justify-end	E273	right,items,flex,justify
+align-horizontal-justify-start	E274	left,items,flex,justify
+align-horizontal-space-around	E275	center,items,flex,justify,distribute,between
+align-horizontal-space-between	E276	around,items,bottom,flex,justify
+align-vertical-justify-center	E277	center,items,flex,justify,distribute,between
+align-vertical-justify-end	E278	bottom,items,flex,justify,distribute,between
+align-vertical-justify-start	E279	top,items,flex,justify,distribute,between
+align-vertical-space-around	E27A	center,items,flex,justify,distribute,between
+align-vertical-space-between	E27B	center,items,flex,justify,distribute,between
+stretch-horizontal	E27C	items,flex,justify,distribute
+stretch-vertical	E27D	items,flex,justify,distribute
+align-vertical-distribute-center	E27E	items,flex,justify,space,evenly,around
+align-vertical-distribute-end	E27F	bottom,items,flex,justify
+align-vertical-distribute-start	E280	top,items,flex,justify
+tree-palm	E281	vacation,leisure,island
+locate-off	E282	map,gps,location,cross
+waves	E283	
+keyboard	E284	layout,spell,settings,mouse
+baseline	E285	text,format,color
+rocket	E286	release,boost,launch,space,version
+dice-1	E287	dice,random,tabletop,1,board,game
+dice-2	E288	dice,random,tabletop,2,board,game
+dice-3	E289	dice,random,tabletop,3,board,game
+dice-4	E28A	dice,random,tabletop,4,board,game
+dice-5	E28B	dice,random,tabletop,5,board,game
+dice-6	E28C	dice,random,tabletop,6,board,game
+git-fork	E28D	code,version control
+mouse	E28E	device,scroll,click
+eraser	E28F	pencil,drawing,undo,delete,clear,trash,remove
+building-2	E290	
+frame	E291	logo,design,tool
+flag-off	E292	unflag,unmark,report,marker,notification,warning,milestone,goal,notice,signal,attention,banner
+chevrons-left-right	E293	expand,horizontal,unfold
+chevrons-right-left	E294	collapse,fold,horizontal
+heart-off	E295	unlike,dislike,hate,emotion
+hourglass	E296	timer,time,sandglass
+accessibility	E297	disability,disabled,dda,wheelchair
+milestone	E298	signpost,direction,right,east,forward,version control,waypoint
+sun-dim	E299	brightness,dim,low,brightness low
+sliders-horizontal	E29A	settings,filters,controls
+clapperboard	E29B	movie,film,video,camera,cinema,cut,action,television,tv,show,entertainment
+puzzle	E29C	component,module,part,piece
+vibrate-off	E29D	smartphone,notification,rumble,haptic feedback,notifications,screen
+focus	E29E	camera,lens,photo,dashed
+factory	E29F	building,business,energy,industry,manufacture,sector
+redo-2	E2A0	undo,rerun,history
+undo-2	E2A1	redo,rerun,history,back,return,reverse,revert,direction,u-turn
+chart-bar	E2A2	statistics,analytics,diagram,graph
+chart-column	E2A3	statistics,analytics,diagram,graph
+chart-column-increasing	E2A4	statistics,analytics,diagram,graph,trending up
+chart-line	E2A5	statistics,analytics,diagram,graph
+map-pin-off	E2A6	location,waypoint,marker,remove
+navigation-2-off	E2A7	location,travel
+navigation-off	E2A8	location,travel
+tram-front	E2A9	railway,metro,subway,underground,track,line,tourism
+venetian-mask	E2AA	mask,masquerade,impersonate,secret,incognito
+bath	E2AB	amenities,services,bathroom,shower
+chef-hat	E2AC	cooking,food,kitchen,restaurant
+component	E2AD	design,element,group,module,part,symbol
+croissant	E2AE	bakery,cooking,food,pastry
+fuel	E2AF	filling-station,gas,petrol,tank
+star-off	E2B0	dislike,unlike,remove,unrate
+sun-medium	E2B1	brightness,medium
+sun-moon	E2B2	dark,light,moon,sun,brightness,theme,auto theme,system theme,appearance
+sword	E2B3	battle,challenge,combat,duel,fantasy,game,knight,melee,medieval,offense,rpg,sharp,weapon,war,warrior
+swords	E2B4	battle,challenge,combat,conflict,crossed,duel,faction,fantasy,game,melee,medieval,opponent,rivalry,rpg,versus,weapon,war,warrior
+magnet	E2B5	horseshoe,lock,science,snap
+pin-off	E2B6	unpin,map,unlock,unfix,unsave,remove
+calendar-check	E2B7	date,day,month,year,event,confirm,subscribe,schedule,done,todo,tick,complete,task
+calendar-check-2	E2B8	date,day,month,year,event,confirm,subscribe,schedule,done,todo,tick,complete,task
+calendar-days	E2B9	date,month,year,event
+calendar-minus	E2BA	date,day,month,year,event,delete,remove
+calendar-off	E2BB	date,day,month,year,event,delete,remove
+calendar-plus	E2BC	date,day,month,year,event,add,subscribe,create,new
+calendar-range	E2BD	date,day,month,year,event,range,period
+calendar-x	E2BE	date,day,month,year,event,remove,busy
+calendar-x-2	E2BF	date,day,month,year,event,remove
+armchair	E2C0	sofa,furniture,leisure,lounge,loveseat,couch
+bed	E2C1	sleep,hotel,furniture
+bed-double	E2C2	sleep,hotel,furniture
+bed-single	E2C3	sleep,hotel,furniture
+sofa	E2C4	armchair,furniture,leisure,lounge,loveseat,couch
+dices	E2C5	dice,random,tabletop,board,game
+cigarette	E2C6	smoking
+cigarette-off	E2C7	smoking,no-smoking
+backpack	E2C8	bag,hiking,travel,camping,school,childhood
+baggage-claim	E2C9	baggage,luggage,travel,cart,trolley,suitcase
+luggage	E2CA	baggage,luggage,travel,suitcase
+fingerprint-pattern	E2CB	2fa,authentication,biometric,identity,security
+package-open	E2CC	box,container,storage,unpack,unarchive,unzip,opened,delivered
+archive-restore	E2CD	unarchive,index,backup,box,storage,records
+baby	E2CE	child,childproof,children
+beer	E2CF	alcohol,bar,beverage,brewery,drink
+boxes	E2D0	cubes,packages,parts,group,units,collection,cluster,geometry
+cup-soda	E2D1	beverage,cup,drink,soda,straw,water
+diamond	E2D2	square,rectangle,oblique,rhombus,shape,suit,playing,cards
+flower	E2D3	sustainability,nature,plant,spring
+flower-2	E2D4	sustainability,nature,plant
+glass-water	E2D5	beverage,drink,glass,water
+heart-crack	E2D6	heartbreak,sadness,emotion
+heart-handshake	E2D7	agreement,charity,help,deal,terms,emotion,together,handshake
+lamp	E2D8	lighting,household,home,furniture
+lamp-ceiling	E2D9	lighting,household,home,furniture
+lamp-desk	E2DA	lighting,household,office,desk,home,furniture
+lamp-floor	E2DB	lighting,household,floor,home,furniture
+lamp-wall-down	E2DC	lighting,household,wall,home,furniture
+lamp-wall-up	E2DD	lighting,household,wall,home,furniture
+leaf	E2DE	sustainability,nature,energy,plant,autumn
+list-end	E2DF	queue,bottom,end,playlist
+list-music	E2E0	playlist,queue,music,audio,playback
+list-start	E2E1	queue,top,start,next,playlist
+list-video	E2E2	playlist,video,playback
+martini	E2E3	cocktail,alcohol,beverage,bar,drink,glass,spirit,party,celebration,mixer
+microscope	E2E4	medical,education,science,imaging,research
+move-3d	E2E5	arrows,axis,gizmo,coordinates,transform,translate
+paint-bucket	E2E6	fill,paint,bucket,color,colour
+paintbrush	E2E7	brush,paintbrush,design,color,colour,decoration,diy
+paintbrush-vertical	E2E8	brush,paintbrush,design,color,colour,decoration,diy
+recycle	E2E9	sustainability,salvage,arrows
+rotate-3d	E2EA	gizmo,transform,orientation,orbit,axis
+scale-3d	E2EB	gizmo,transform,size,axis
+scaling	E2EC	scale,resize,design
+scroll	E2ED	paper,log,scripture,document,notes,parchment,list,long,script,story,code,coding
+shrub	E2EE	forest,undergrowth,park,nature
+siren	E2EF	police,ambulance,emergency,security,alert,alarm,light
+slice	E2F0	cutter,scalpel,knife
+stethoscope	E2F1	phonendoscope,medical,heart,lungs,sound
+syringe	E2F2	medicine,medical,needle,pump,plunger,nozzle,blood
+tree-deciduous	E2F3	tree,forest,park,nature
+tree-pine	E2F4	tree,pine,forest,park,nature
+trees	E2F5	tree,forest,park,nature
+utensils	E2F6	fork,knife,cutlery,flatware,tableware,silverware,food,restaurant,meal,breakfast,dinner,supper
+utensils-crossed	E2F7	fork,knife,cutlery,flatware,tableware,silverware,food,restaurant,meal,breakfast,dinner,supper
+wine	E2F8	alcohol,beverage,bar,drink,glass,sommelier,vineyard,winery
+table-2	E2F9	spreadsheet,grid
+cloud-moon-rain	E2FA	weather,partly,night,rainfall
+cloud-sun-rain	E2FB	weather,partly,rainfall
+angry	E2FC	
+annoyed	E2FD	
+axis-3d	E2FE	gizmo,coordinates
+bomb	E2FF	fatal,error,crash,blockbuster,mine,explosion,explode,explosive
+laugh	E300	
+smile-plus	E301	
+sticker	E302	reaction,emotion,smile,happy,feedback
+sticky-note	E303	post-it,comment,annotation,reaction,memo,reminder,todo,task,idea,brainstorm,document,page,paper,sheet,stationary,office
+calendar-clock	E304	date,day,month,year,event,clock,hour
+calendar-heart	E305	date,month,year,event,heart,favourite,subscribe,valentines day
+calendar-search	E306	date,day,month,year,events,search,lens
+clipboard-pen	E307	paste,signature
+clipboard-pen-line	E308	paste
+clipboard-type	E309	paste,format,text
+cloud-cog	E30A	computing,ai,cluster,network
+cog	E30B	computing,settings,cog,edit,gear,preferences,controls,configuration,fixed,build,construction,parts
+diff	E30C	patch,difference,compare,plus,minus,plus-minus,math
+file-archive	E30D	zip,package,archive
+file-axis-3d	E30E	model,3d,axis,coordinates
+file-badge	E30F	award,achievement,badge,rosette,prize,winner
+file-box	E310	document,page,sheet,cube,box,3d,model,asset,object,geometry,mesh,ar,augmented reality,cad,design,blueprint,draft,package,scene
+file-chart-column	E311	statistics,analytics,diagram,graph,presentation
+file-chart-column-increasing	E312	statistics,analytics,diagram,graph,presentation,trending up
+file-chart-line	E313	statistics,analytics,diagram,graph,presentation
+file-chart-pie	E314	statistics,analytics,diagram,graph,presentation
+file-clock	E315	history,log,clock
+file-cog	E316	executable,settings,cog,edit,gear
+file-diff	E317	diff,patch
+file-down	E318	download,import,export
+file-exclamation-point	E319	hidden,warning,alert,danger,protected,exclamation mark
+file-headphone	E31A	music,audio,sound,headphones
+file-heart	E31B	heart,favourite,bookmark,quick link
+file-image	E31C	image,graphics,photo,picture
+file-key	E31D	key,private,public,security
+file-lock	E31E	lock,password,security
+file-pen	E31F	signature
+file-pen-line	E320	edit
+file-play	E321	movie,video,film
+file-question-mark	E322	readme,help,question
+file-scan	E323	scan,code,qr-code
+file-search-corner	E324	lost,document,find,browser,lens
+file-signal	E325	audio,music,volume
+file-spreadsheet	E326	spreadsheet,sheet,table
+file-symlink	E327	symlink,symbolic,link
+file-terminal	E328	terminal,bash,script,executable
+file-type	E329	font,text,typography,type
+file-up	E32A	upload,import,export
+file-video-camera	E32B	movie,video,film
+file-volume	E32C	audio,music,volume
+folder-archive	E32D	archive,zip,package
+folder-check	E32E	done,directory,todo,tick,complete,task
+folder-clock	E32F	history,directory,clock
+folder-closed	E330	directory,closed
+folder-cog	E331	directory,settings,control,preferences,cog,edit,gear
+folder-down	E332	directory,download,import,export
+folder-heart	E333	directory,heart,favourite,bookmark,quick link
+folder-input	E334	directory,import,export
+folder-key	E335	directory,key,private,security,protected
+folder-lock	E336	directory,lock,private,security,protected
+folder-output	E337	directory,import,export
+folder-pen	E338	directory,rename
+folder-search	E339	directory,search,find,lost,browser,lens
+folder-search-2	E33A	directory,search,find,lost,browser,lens
+folder-symlink	E33B	directory,symlink,symbolic,link
+folder-tree	E33C	directory,tree,browser
+folder-up	E33D	directory,upload,import,export
+folder-x	E33E	directory,remove,delete
+folders	E33F	multiple,copy,directories
+package-2	E340	box,container,storage,sealed,packed,unopened,undelivered,archive,zip
+server-cog	E341	cloud,storage,computing,cog,gear
+user-cog	E342	settings,edit,cog,gear
+party-popper	E343	emoji,congratulations,celebration,party,tada,ðŸŽ‰,ðŸŽŠ,excitement,exciting,excites,confetti
+cake	E344	birthday,birthdate,celebration,party,surprise,gateaux,dessert,fondant,icing sugar,sweet,baking
+circle-dot	E345	pending,dot,progress,issue,code,coding,version control,choices,multiple choice,choose,album,music,songs,format,cd,dvd,vinyl,sleeve,cover,platinum,compilation,ep,recording,playback,spin,rotate,rpm,dj
+circle-ellipsis	E346	ellipsis,et cetera,etc,loader,loading,progress,pending,throbber,menu,options,operator,code,spread,rest,more,further,extra,overflow,dots,â€¦,...
+toy-brick	E347	lego,block,addon,plugin,integration
+newspaper	E348	news,feed,home,magazine,article,headline
+mic-vocal	E349	lyrics,voice,listen,sound,music,radio,podcast,karaoke,singing,microphone
+music-2	E34A	
+music-3	E34B	
+music-4	E34C	
+air-vent	E34D	air conditioner,ac,central air,cooling,climate-control
+apple	E34E	fruit,food,healthy,snack,nutrition,fresh,produce,grocery,organic,harvest,vitamin,red,green,juicy,sweet,tart,bite,orchard,plant,core,raw,diet
+banana	E34F	fruit,food
+cherry	E350	fruit,food
+egg-fried	E351	food,breakfast
+grape	E352	fruit,wine,food
+ice-cream-cone	E353	gelato,food
+pizza	E354	pie,quiche,food
+joystick	E355	game,console,control stick
+usb	E356	universal,serial,bus,controller,connector,interface
+wand-sparkles	E357	magic,wizard,magician
+bone	E358	health,skeleton,skull,death,pets,dog
+git-compare	E359	code,version control,diff
+git-pull-request-closed	E35A	code,version control,rejected,closed,cancelled,x
+git-pull-request-draft	E35B	code,version control,open,draft,dashed
+tags	E35C	labels,badges,tickets,marks,copy,multiple
+flip-horizontal	E35D	
+flip-horizontal-2	E35E	
+flip-vertical	E35F	
+flip-vertical-2	E360	
+mail-check	E361	email,message,letter,subscribe,delivered,success,read,done,todo,tick,complete,task
+mail-minus	E362	email,message,letter,remove,delete
+mail-open	E363	email,message,letter,read
+mail-plus	E364	email,message,letter,add,create,new,compose
+mail-question-mark	E365	email,message,letter,delivery,undelivered
+mail-search	E366	email,message,letter,search,lens
+mail-warning	E367	email,message,letter,delivery error,exclamation mark
+mail-x	E368	email,message,letter,remove,delete
+mails	E369	emails,messages,letters,multiple,mailing list,newsletter,copy
+braces	E36A	json,code,token,curly brackets,data,{,}
+file-braces	E36B	code,json,curly braces,curly brackets
+file-braces-corner	E36C	code,json,curly braces,curly brackets
+file-type-corner	E36D	font,text,typography,type
+heart-pulse	E36E	heartbeat,pulse,health,medical,blood pressure,cardiac,systole,diastole
+medal	E36F	prize,sports,winner,trophy,award,achievement
+megaphone-off	E370	advertisement,announcement,attention,alert,loudspeaker,megaphone,notification,disable,silent
+scan-face	E371	face,biometric,identification,authentication,2fa,access,login,dashed
+sun-snow	E372	weather,air conditioning,temperature,hot,cold,seasons
+trophy	E373	prize,sports,winner,achievement,award,champion,celebration,victory,competition,tournament,leaderboard,ranking,success,reward,cup,first,gold
+webhook	E374	push api,interface,callback
+citrus	E375	lemon,orange,grapefruit,fruit
+rectangle-horizontal	E376	rectangle,aspect ratio,16:9,horizontal,shape
+rectangle-vertical	E377	rectangle,aspect ratio,9:16,vertical,shape
+concierge-bell	E378	reception,bell,porter
+fan	E379	air,cooler,ventilation,ventilator,blower
+microwave	E37A	oven,cooker,toaster oven,bake
+refrigerator	E37B	fridge,freezer,cooler,icebox,chiller,cold storage
+shower-head	E37C	shower,bath,bathroom,amenities,services
+arrow-up-down	E37D	bidirectional,two-way,2-way,swap,switch,network,mobile data,internet,sort,reorder,move
+sailboat	E37E	ship,boat,harbor,harbour,dock
+plug	E37F	electricity,energy,electronics,socket,outlet,power,voltage,current,charger
+plug-2	E380	electricity,energy,socket,outlet
+book-open-check	E381	read,pages,booklet,magazine,leaflet,pamphlet,library,written,authored,published,informed,knowledgeable,educated,schooled,homework,examined,tested,marked,passed,graduated,studied,learned,lesson,researched,documented,revealed,blank,plain language,true,truth,verified,corrected,task,todo,done,completed,finished,ticked
+ear	E382	hearing,noise,audio,accessibility
+ear-off	E383	hearing,hard of hearing,hearing loss,deafness,noise,silence,audio,accessibility
+heading	E384	h1,html,markup,markdown
+heading-1	E385	h1,html,markup,markdown
+heading-2	E386	h2,html,markup,markdown
+heading-3	E387	h3,html,markup,markdown
+heading-4	E388	h4,html,markup,markdown
+heading-5	E389	h5,html,markup,markdown
+heading-6	E38A	h6,html,markup,markdown
+spline	E38B	path,pen,tool,shape,curve,draw
+cat	E38C	animal,pet,kitten,feline
+dog	E38D	animal,pet,puppy,hound,canine
+check-check	E38E	done,received,double,todo,tick,complete,task
+bean	E38F	legume,soy,food,seed
+bean-off	E390	soy free,legume,soy,food,seed,allergy,intolerance,diet
+candy	E391	sugar,food,sweet
+candy-off	E392	sugar free,food,sweet,allergy,intolerance,diet
+dna	E393	gene,gmo,helix,heredity,chromosome,nucleic acid
+dna-off	E394	gene,gmo free,helix,heredity,chromosome,nucleic acid
+egg-off	E395	egg free,vegan,hatched,bad egg
+flask-conical-off	E396	beaker,erlenmeyer,non toxic,lab,chemistry,experiment,test
+hop	E397	beer,brewery,drink
+hop-off	E398	beer,brewery,drink,hop free,allergy,intolerance,diet
+milk	E399	lactose,bottle,beverage,drink,water,diet
+milk-off	E39A	lactose free,bottle,beverage,drink,water,allergy,intolerance,diet
+nut	E39B	hazelnut,acorn,food,diet
+nut-off	E39C	hazelnut,acorn,food,allergy,intolerance,diet
+vegan	E39D	vegetarian,fruitarian,herbivorous,animal rights,diet
+wheat	E39E	corn,cereal,grain,gluten
+wheat-off	E39F	corn,cereal,grain,gluten free,allergy,intolerance,diet
+wine-off	E3A0	alcohol,beverage,drink,glass,alcohol free,abstinence,abstaining,teetotalism,allergy,intolerance
+dumbbell	E3A1	barbell,weight,workout,gym
+monitor-smartphone	E3A2	phone,cellphone,device,mobile,desktop,screen,display,external display,screen sharing,responsive,screens,sync,cast
+pilcrow	E3A3	paragraph,mark,paraph,blind,typography,type,text,prose,symbol
+captions	E3A4	closed captions,subtitles,subhead,transcription,transcribe,dialogue,accessibility
+beef	E3A5	food,dish,restaurant,course,meal,meat,bbq,steak
+fish	E3A6	dish,restaurant,course,meal,seafood,pet,sea,marine
+ice-cream-bowl	E3A7	gelato,food,dessert,dish,restaurant,course,meal
+salad	E3A8	food,vegetarian,dish,restaurant,course,meal,side,vegetables,health
+sandwich	E3A9	food,snack,dish,restaurant,lunch,meal
+soup	E3AA	food,dish,restaurant,course,meal,bowl,starter
+database-backup	E3AB	storage,memory,bytes,servers,backup,time machine,rotate,arrow,left
+battery-warning	E3AC	power,electricity,energy,accumulator,charge,exclamation mark
+vote	E3AD	vote,poll,ballot,political,social,check,tick
+picture-in-picture	E3AE	display,play,video,pop out,always on top,window,inset,multitask
+picture-in-picture-2	E3AF	display,play,video,pop out,always on top,window,inset,multitask
+fish-off	E3B0	food,dish,restaurant,course,meal,seafood,animal,pet,sea,marine,allergy,intolerance,diet
+grip	E3B1	grab,dots,handle,move,drag
+creative-commons	E3B2	licence,license
+remove-formatting	E3B3	text,font,typography,format,x,remove,delete,times,clear
+construction	E3B4	roadwork,maintenance,blockade,barricade
+funnel-x	E3B5	filter,hopper,remove,delete
+square-split-horizontal	E3B6	split,divide
+square-split-vertical	E3B7	split,divide
+hand-helping	E3B8	agreement,help,proposal,charity,begging,terms
+footprints	E3B9	steps,walking,foot,feet,trail,shoe
+ship	E3BA	boat,knots,nautical mile,maritime,sailing,yacht,cruise,ocean liner,tanker,vessel,navy,trip,releases
+stamp	E3BB	mark,print,clone,loyalty,library
+tower-control	E3BC	airport,travel,tower,transportation,lighthouse
+pill	E3BD	medicine,medication,drug,prescription,tablet,pharmacy
+tablets	E3BE	medicine,medication,drug,prescription,pills,pharmacy
+router	E3BF	computer,server,cloud
+blinds	E3C0	shades,screen,curtain,shutter,roller blind,window,lighting,household,home
+forklift	E3C1	machinery,industrial,warehouse,lifting,storage,equipment,heavy-duty,moving,vehicle,transport,logistics
+utility-pole	E3C2	electricity,energy,transmission line,telegraph pole,power lines,phone
+nfc	E3C3	contactless,payment,near-field communication
+smartphone-nfc	E3C4	contactless,payment,near-field communication,screen
+bird	E3C5	peace,freedom,wing,avian,tweet
+brain	E3C6	medical,mind,mental,intellect,cerebral,consciousness,genius,artificial intelligence,ai,think,thought,insight,intelligent,smart
+brain-circuit	E3C7	mind,intellect,artificial intelligence,ai,deep learning,machine learning,computing
+brain-cog	E3C8	mind,intellect,artificial intelligence,ai,deep learning,machine learning,computing
+circle-parking	E3C9	parking lot,car park
+circle-parking-off	E3CA	parking lot,car park,no parking
+square-parking	E3CB	parking lot,car park
+square-parking-off	E3CC	parking lot,car park,no parking
+plane-landing	E3CD	arrival,plane,trip,airplane,landing
+plane-takeoff	E3CE	departure,plane,trip,airplane,takeoff
+square-chevron-down	E3CF	back,menu,panel
+square-chevron-left	E3D0	back,previous,less than,fewer,menu,panel,button,keyboard,<
+square-chevron-right	E3D1	forward,next,more than,greater,menu,panel,code,coding,command line,terminal,prompt,shell,console,>
+square-chevron-up	E3D2	caret,keyboard,button,mac,control,ctrl,superscript,exponential,power,ahead,menu,panel,^
+receipt	E3D3	bill,voucher,slip,check,counterfoil,currency,dollar,usd,$
+mailbox	E3D4	emails,messages,letters,mailing list,newsletter
+door-closed	E3D5	entrance,entry,exit,ingress,egress,gate,gateway,emergency exit
+door-open	E3D6	entrance,entry,exit,ingress,egress,gate,gateway,emergency exit
+atom	E3D7	atomic,nuclear,physics,particle,element,molecule,electricity,energy,chemistry
+case-lower	E3D8	text,letters,characters,font,typography
+case-sensitive	E3D9	text,letters,characters,font,typography
+case-upper	E3DA	text,letters,characters,font,typography
+replace	E3DB	search,substitute,swap,change
+replace-all	E3DC	search,substitute,swap,change
+space	E3DD	text,selection,letters,characters,font,typography
+text-select	E6EA	
+whole-word	E3DF	text,selection,letters,characters,font,typography
+castle	E3E0	fortress,stronghold,palace,chateau,building
+church	E3E1	temple,building
+hotel	E3E2	building,hostel,motel,inn
+school	E3E3	building,education,childhood,university,learning,campus,scholar,student,lecture,degree,course,academia,study,knowledge,classroom,research,diploma,graduation,professor,tutorial,homework,assignment,exam
+store	E3E4	shop,supermarket,stand,boutique,building
+university	E3E5	building,education,childhood,school,college,academy,institute
+warehouse	E3E6	storage,storehouse,depot,depository,repository,stockroom,logistics,building
+orbit	E3E7	planet,space,physics,satellites,moons
+clipboard-paste	E3E8	copy,paste
+step-back	E3E9	arrow,previous,music,left,reverse
+step-forward	E3EA	arrow,next,music,right,continue
+rat	E3EB	mouse,mice,gerbil,rodent,pet,pest,plague,disease
+book-copy	E3EC	code,coding,version control,git,repository,clone,fork,duplicate,multiple,books,library,copies,copied,plagiarism,plagiarised,plagiarized,reading list,information,informed,knowledge,knowledgeable,knowledgable,education,high school,university,college,academy,student,study,learning,research,smart,intelligent,intellectual
+book-dashed	E3ED	code,coding,version control,git,repository,template,draft,script,screenplay,writing,writer,author,unwritten,unpublished,untold
+book-down	E3EE	code,coding,version control,git,repository,pull
+book-key	E3EF	code,coding,version control,git,repository,private,public,secret,unlocked,hidden,revealed,knowledge,learning
+book-lock	E3F0	code,coding,version control,git,repository,private,secret,hidden,knowledge
+book-marked	E3F1	
+book-minus	E3F2	code,coding,version control,git,repository,remove,delete,censor,cancel,forbid,prohibit,ban,uneducated,re-educate,unlearn,downgrade
+book-plus	E3F3	code,coding,version control,git,repository,remove,delete,read,write,author,publish,inform,graduate,re-educate,study,learn,research,knowledge,improve,upgrade,level up
+book-up	E3F4	code,coding,version control,git,repository,push
+book-x	E3F5	code,coding,version control,git,repository,remove,delete,reading,misinformation,disinformation,misinformed,charlatan,sophistry,false,lies,untruth,propaganda,censored,cancelled,forbidden,prohibited,banned,uneducated,re-education,unlearn
+disc-2	E3F6	album,music,vinyl,record,cd,dvd,format,dj,spin,rotate,rpm
+circle-arrow-out-down-left	E3F7	outwards,direction,south-west,diagonal
+circle-arrow-out-down-right	E3F8	outwards,direction,south-east,diagonal
+circle-arrow-out-up-left	E3F9	outwards,direction,north-west,diagonal,keyboard,button,escape
+circle-arrow-out-up-right	E3FA	outwards,direction,north-east,diagonal
+copy-check	E3FB	clone,duplicate,done,multiple
+copy-minus	E3FC	clone,duplicate,remove,delete,collapse,subtract,multiple,-
+copy-plus	E3FD	clone,duplicate,add,multiple,expand,+
+copy-slash	E3FE	clone,duplicate,cancel,ban,no,stop,forbidden,prohibited,error,multiple,divide,division,split,or,/
+copy-x	E3FF	cancel,close,delete,remove,clear,multiple,multiply,multiplication,times
+circle-equal	E400	calculate,shape,=
+circle-off	E401	diameter,zero,Ã˜,nothing,null,void,cancel,ban,no,stop,forbidden,prohibited,error,incorrect,mistake,wrong,failure
+circle-slash	E402	diameter,zero,Ã˜,nothing,null,void,cancel,ban,no,stop,forbidden,prohibited,error,incorrect,mistake,wrong,failure,divide,division,or,/
+circuit-board	E403	computing,electricity,electronics
+radio-tower	E404	signal,broadcast,connectivity,live,frequency
+test-tube	E405	tube,vial,phial,flask,ampoule,ampule,lab,chemistry,experiment,test
+test-tube-diagonal	E406	tube,vial,phial,flask,ampoule,ampule,lab,chemistry,experiment,test
+test-tubes	E407	tubes,vials,phials,flasks,ampoules,ampules,lab,chemistry,experiment,test
+list-tree	E408	tree,browser
+folder-git	E409	directory,root,project,git,repo
+folder-git-2	E40A	directory,root,project,git,repo
+message-square-dashed	E40B	comment,chat,conversation,dialog,feedback,speech bubble,draft
+message-square-plus	E40C	comment,chat,conversation,dialog,feedback,speech bubble,add
+messages-square	E40D	comment,chat,conversation,dialog,feedback,speech bubbles,copy,multiple,discussion,interview,debate
+shield-question-mark	E40E	unshielded,cybersecurity,insecure,unsecured,safety,unsafe,protection,unprotected,guardian,unguarded,unarmored,unarmoured,defenseless,defenceless,undefended,defender,threat,prevention,unprevented,antivirus,vigilance,vigilant,detection,undetected,scan,find,exploit,vulnerability,vulnerable,weakness,infection,compromised,data leak,audit,admin,verification,unverified,uncertified,uncertain,unknown,inactive,crest,question mark,?
+save-all	E40F	floppy disks,copy
+moon-star	E410	dark,night,star
+repeat-2	E411	arrows,retweet,repost,share,repeat,loop
+sparkles	E412	stars,effect,filter,night,magic
+arrow-down-0-1	E413	filter,sort,ascending,descending,increasing,decreasing,rising,falling,numerical
+arrow-down-1-0	E414	filter,sort,ascending,descending,increasing,decreasing,rising,falling,numerical
+arrow-down-a-z	E415	filter,sort,ascending,descending,increasing,decreasing,rising,falling,alphabetical
+arrow-down-z-a	E416	filter,sort,ascending,descending,increasing,decreasing,rising,falling,alphabetical,reverse
+arrow-right-left	E417	bidirectional,two-way,2-way,swap,switch,transaction,reorder,move,<-,->
+arrow-up-0-1	E418	filter,sort,ascending,descending,increasing,decreasing,rising,falling,numerical
+arrow-up-1-0	E419	filter,sort,ascending,descending,increasing,decreasing,rising,falling,numerical
+arrow-up-a-z	E41A	filter,sort,ascending,descending,increasing,decreasing,rising,falling,alphabetical
+arrow-up-wide-narrow	E41B	filter,sort,ascending,descending,increasing,decreasing,rising,falling
+arrow-up-z-a	E41C	filter,sort,ascending,descending,increasing,decreasing,rising,falling,alphabetical,reverse
+arrow-big-down-dash	E41D	backwards,reverse,slow,direction,south,download
+arrow-big-left-dash	E41E	previous,back,direction,west,turn,corner
+arrow-big-right-dash	E41F	next,forward,direction,east,turn,corner
+arrow-big-up-dash	E420	caps lock,capitals,keyboard,button,mac,forward,direction,north,faster,speed,boost
+monitor-down	E421	tv,computer,screen,display,desktop,external display,screen sharing,download,remote,cast
+monitor-up	E422	tv,computer,screen,display,desktop,external display,upload,connect,remote,screen sharing,cast
+iteration-ccw	E423	arrow,right
+iteration-cw	E424	arrow,left
+workflow	E425	action,continuous integration,ci,automation,devops,network,node,connection
+app-window	E426	application,menu bar,pane,executable
+square-arrow-down	E427	backwards,reverse,direction,south,sign,keyboard,button
+square-arrow-left	E428	previous,back,direction,west,sign,keyboard,button,<-
+square-arrow-right	E429	next,forward,direction,west,sign,keyboard,button,->
+square-arrow-up	E42A	forward,direction,north,sign,keyboard,button
+bell-dot	E42B	alarm,notification,sound,reminder,unread
+panel-bottom	E42C	drawer,dock
+panel-bottom-close	E42D	drawer,dock,hide,chevron,down
+panel-bottom-dashed	E42E	drawer,dock,show,reveal,padding,margin,guide,layout,bleed
+panel-bottom-open	E42F	drawer,dock,show,reveal,chevron,up
+panel-left-dashed	E430	sidebar,primary,drawer,show,reveal,padding,margin,guide,layout,bleed
+panel-right	E431	sidebar,secondary,drawer
+panel-right-close	E432	sidebar,secondary,drawer,hide,chevron,>
+panel-right-dashed	E433	sidebar,secondary,drawer,show,reveal,padding,margin,guide,layout,bleed
+panel-right-open	E434	sidebar,secondary,drawer,show,reveal,chevron,left,<
+panel-top	E435	drawer,browser,webpage
+panel-top-close	E436	menu bar,drawer,hide,chevron,up
+panel-top-dashed	E437	menu bar,drawer,show,reveal,padding,margin,guide,layout,bleed
+panel-top-open	E438	menu bar,drawer,show,reveal,chevron,down
+rows-2	E439	lines,list,queue,preview,panel,paragraphs,parallel,series,split,vertical,horizontal,half,center,middle,even,drawer
+ligature	E43A	text,font,typography,alternates,alternatives
+fold-horizontal	E43B	arrow,collapse,fold,vertical,dashed
+fold-vertical	E43C	arrow,collapse,fold,vertical,dashed
+unfold-horizontal	E43D	arrow,collapse,fold,vertical,dashed
+unfold-vertical	E43E	arrow,expand,vertical,dashed
+merge	E43F	combine,join,unite
+split	E440	break,disband,divide,separate,branch,disunite
+biohazard	E441	fallout,waste,biology,chemistry,chemical,element
+radiation	E442	radioactive,nuclear,fallout,waste,atomic,physics,particle,element,molecule
+brackets	E443	code,token,array,list,square,[,]
+parentheses	E444	code,token,parenthesis,parens,brackets,parameters,arguments,args,input,call,math,formula,function,(,)
+memory-stick	E445	ram,random access,technology,computer,chip,circuit,specs,capacity,gigabytes,gb
+pc-case	E446	computer,chassis
+satellite	E447	space station,orbit,transmitter
+satellite-dish	E448	antenna,receiver,dish aerial,saucer,communication,broadcast,signal
+touchpad	E449	trackpad,cursor
+touchpad-off	E44A	trackpad,cursor
+wallpaper	E44B	background,texture,image,art,design,visual,decor,pattern,screen,cover,lock screen
+combine	E44C	cubes,packages,parts,units,collection,cluster,combine,gather,merge
+arrow-down-to-dot	E44D	direction,south,waypoint,location,step,into
+arrow-up-from-dot	E44E	direction,north,step,out
+dot	E44F	interpunct,interpoint,middot,step,punctuation,period,full stop,end,finish,final,characters,font,typography,type,center,.
+redo-dot	E450	redo,history,step,over,forward
+undo-dot	E451	redo,history,step,back
+list-restart	E452	reset,refresh,reload,playlist,replay
+square-menu	E453	bars,navigation,hamburger,options,menu bar,panel
+arrow-down-from-line	E454	backwards,reverse,direction,south,download,expand,fold,vertical
+arrow-down-to-line	E455	behind,direction,south,download,save,git,version control,pull,collapse,fold,vertical
+arrow-left-from-line	E456	previous,back,direction,west,expand,fold,horizontal,<-|
+arrow-left-to-line	E457	previous,back,direction,west,collapse,fold,horizontal,|<-
+arrow-right-from-line	E458	next,forward,direction,east,export,expand,fold,horizontal,|->
+arrow-right-to-line	E459	next,forward,direction,east,tab,keyboard,mac,indent,collapse,fold,horizontal,->|
+arrow-up-from-line	E45A	forward,direction,north,upload,git,version control,push,expand,fold,vertical
+arrow-up-to-line	E45B	forward,direction,north,upload,collapse,fold,vertical
+plug-zap	E45C	electricity,energy,electronics,charge,charging,battery,connect
+unplug	E45D	electricity,energy,electronics,socket,outlet,disconnect
+file-code-corner	E45E	script,document,html,xml,property list,plist
+scroll-text	E45F	paper,log,scripture,document,notes,parchment,list,long,script,story,code,coding
+list-filter	E460	options
+circle-user	E461	person,account,contact
+circle-user-round	E462	person,account,contact
+contact-round	E463	user,person,family,friend,acquaintance,listing,networking
+group	E464	cubes,packages,parts,units,collection,cluster,gather,dashed
+square-user	E465	person,account,contact
+square-user-round	E466	person,account,contact
+ungroup	E467	cubes,packages,parts,units,collection,cluster,separate
+user-round	E468	person,account,contact
+user-round-check	E469	followed,subscribed,done,todo,tick,complete,task
+user-round-cog	E46A	settings,edit,cog,gear
+user-round-minus	E46B	delete,remove,unfollow,unsubscribe
+user-round-plus	E46C	new,add,create,follow,subscribe
+user-round-x	E46D	delete,remove,unfollow,unsubscribe,unavailable
+users-round	E46E	group,people
+leafy-green	E46F	salad,lettuce,vegetable,chard,cabbage,bok choy
+layout-panel-left	E470	app,home,start,grid
+layout-panel-top	E471	window,webpage,block,section,grid,template,structure
+pi	E472	constant,code,coding,programming,symbol,trigonometry,geometry,formula
+variable	E473	code,coding,programming,symbol,calculate,algebra,x,parentheses,parenthesis,brackets,parameter,(,)
+badge	E474	check,verified,unverified
+badge-alert	E475	check,verified,unverified,security,safety,issue
+badge-dollar-sign	E476	discount,offer,sale,voucher,tag,monetization,marketing,finance,financial,exchange,transaction,payment,usd,$
+badge-info	E477	verified,unverified,help
+badge-minus	E478	verified,unverified,delete,remove,erase
+badge-percent	E479	verified,unverified,sale,discount,offer,marketing,sticker,price tag
+badge-plus	E47A	verified,unverified,add,create,new
+badge-question-mark	E47B	verified,unverified,help
+badge-x	E47C	verified,unverified,lost,delete,remove
+circle-dollar-sign	E47D	monetization,marketing,currency,money,payment
+sparkle	E47E	star,effect,filter,night,magic,shiny,glitter,twinkle,celebration
+ferris-wheel	E47F	big wheel,daisy wheel,observation,attraction,entertainment,amusement park,theme park,funfair
+roller-coaster	E480	attraction,entertainment,amusement park,theme park,funfair
+square-play	E481	music,audio,video,start,run
+monitor-check	E482	tv,computer,screen,display,desktop,external display,screen sharing,connected,success,verified,running,active,virtual machine,vm
+monitor-dot	E483	tv,computer,screen,display,desktop,external display,screen sharing,status,notification,indicator,running,active,virtual machine,vm
+monitor-pause	E484	tv,computer,screen,display,desktop,external display,screen sharing,video,movie,film,pause,suspend,hibernate,boot,virtual machine,vm
+monitor-play	E485	tv,computer,screen,display,desktop,external display,screen sharing,video,movie,film,play,running,start,boot,virtual machine,vm
+monitor-stop	E486	tv,computer,screen,display,desktop,external display,screen sharing,video,movie,film,stop,shutdown,virtual machine,vm
+monitor-x	E487	tv,computer,screen,display,desktop,external display,screen sharing,virtual machine,vm,close,error,failed,disconnected,stop,suspend,remove,delete
+square-pi	E488	constant,code,coding,programming,symbol,trigonometry,geometry,formula
+square-sigma	E489	sum,calculate,formula,math,enumeration,enumerate
+chart-scatter	E48A	statistics,analytics,diagram,graph
+square-pilcrow	E48B	paragraph,mark,paraph,blind,typography,type,text,prose,symbol
+move-down	E48C	arrow,direction,downwards,south
+move-down-left	E48D	arrow,direction
+move-down-right	E48E	arrow,direction
+move-left	E48F	arrow,direction,back,west
+move-right	E490	arrow,direction,trend flat,east
+move-up	E491	arrow,direction,upwards,north
+move-up-left	E492	arrow,direction
+move-up-right	E493	arrow,direction
+disc-3	E494	album,music,vinyl,record,cd,dvd,format,dj,spin,rotate,rpm
+spray-can	E495	paint,color,graffiti,decoration,aerosol,deodorant,shaving foam,air freshener
+club	E496	shape,suit,playing,cards
+radar	E497	scan,sonar,detect,find,locate
+refresh-cw-off	E498	rotate,reload,rerun,synchronise,synchronize,arrows,circular,cycle,cancel,no,stop,error,disconnect,ignore
+spade	E499	shape,suit,playing,cards
+spell-check	E49A	spelling,error,mistake,oversight,typo,correction,code,linter,a
+spell-check-2	E49B	spelling,error,mistake,oversight,typo,correction,code,linter,a
+ampersand	E49C	and,typography,operator,join,concatenate,code,&
+ampersands	E49D	and,operator,then,code,&&
+text-quote	E49E	blockquote,quotation,indent,reply,response
+squirrel	E49F	animal,rodent,pet,pest,nuts,retrieve,updates,storage,stash
+pocket-knife	E4A0	swiss army knife,penknife,multi-tool,multitask,blade,cutter,gadget,corkscrew
+file-stack	E4A1	versions,multiple,copy,documents,revisions,version control,history
+square-stack	E4A2	versions,clone,copy,duplicate,multiple,revisions,version control,backup,history
+key-round	E4A3	password,login,authentication,secure,unlock
+key-square	E4A4	password,login,authentication,secure,unlock,car key
+goal	E4A5	flag,bullseye
+book-up-2	E4A6	code,coding,version control,git,repository,push,force
+chart-bar-big	E4A7	statistics,analytics,diagram,graph
+chart-candlestick	E4A8	trading,trader,financial,markets,portfolio,assets,prices,value,valuation,commodities,currencies,currency,stocks,exchange,hedge fund,statistics,analytics,diagram,graph
+chart-column-big	E4A9	statistics,analytics,diagram,graph
+search-check	E4AA	find,scan,magnifier,magnifying glass,found,correct,complete,tick,lens,locate,explore,discover,enlarge,zoom
+search-code	E4AB	find,scan,magnifier,magnifying glass,grep,chevrons,<>,lens,locate,explore,discover,enlarge,zoom
+search-slash	E4AC	find,scan,magnifier,magnifying glass,stop,clear,cancel,abort,/,lens,locate,explore,discover,enlarge,zoom
+search-x	E4AD	find,scan,magnifier,magnifying glass,stop,clear,cancel,abort,lens,locate,explore,discover,enlarge,zoom
+presentation	E4AE	screen,whiteboard,marker pens,markers,blackboard,chalk,easel,school,learning,lesson,office,meeting,project,planning
+projector	E4AF	cinema,film,movie,home video,presentation,slideshow,office,meeting,project,planning
+circle-dashed	E4B0	pending,dot,progress,issue,draft,code,coding,version control
+circle-dot-dashed	E4B1	pending,dot,progress,issue,draft,code,coding,version control
+refresh-ccw-dot	E4B2	arrows,rotate,reload,synchronise,synchronize,circular,cycle,issue,code,coding,version control
+shapes	E4B3	triangle,equilateral,square,circle,classification,different,collection,toy,blocks,learning
+square-activity	E4B4	pulse,action,motion,movement,exercise,fitness,healthcare,heart rate monitor,vital signs,vitals,emergency room,er,intensive care,hospital,defibrillator,earthquake,seismic,magnitude,richter scale,aftershock,tremor,shockwave,audio,waveform,synthesizer,synthesiser,music
+square-arrow-down-left	E4B5	direction,south-west,diagonal,sign,turn,keyboard,button
+square-arrow-down-right	E4B6	direction,south-east,diagonal,sign,turn,keyboard,button
+square-arrow-up-left	E4B7	direction,north-west,diagonal,sign,keyboard,button
+square-arrow-up-right	E4B8	direction,north-east,diagonal,sign,keyboard,button,share
+cake-slice	E4B9	birthday,birthdate,celebration,party,surprise,gateaux,dessert,candles,wish,fondant,icing sugar,sweet,baking
+candy-cane	E4BA	sugar,food,sweet,christmas,xmas
+dessert	E4BB	pudding,christmas,xmas,custard,iced bun,icing,fondant,cake,ice cream,gelato,sundae,scoop,dollop,sugar,food,sweet
+donut	E4BC	doughnut,sprinkles,topping,fast food,junk food,snack,treat,sweet,sugar,dessert,hollow,ring
+lollipop	E4BD	lolly,candy,sugar,food,sweet,dessert,spiral
+popcorn	E4BE	cinema,movies,films,salted,sweet,sugar,candy,snack
+popsicle	E4BF	ice lolly,ice cream,sweet,food
+square-dashed-bottom	E4C0	rectangle,aspect ratio,1:1,shape,snippet,code,coding
+square-dashed-bottom-code	E4C1	rectangle,aspect ratio,1:1,shape,snippet,code,coding
+rainbow	E4C2	colors,colours,spectrum,light,prism,arc,clear,sunshine
+list-todo	E4C3	todo,done,check,tick,complete,tasks,items,pending
+chart-no-axes-gantt	E4C4	projects,manage,overview,roadmap,plan,intentions,timeline,deadline,date,event,range,period,productivity,work,agile,code,coding
+folder-dot	E4C5	directory,root,project,pinned,active,current,cogged,gear,mechanical,machinery,configuration,controls,preferences,settings,system,admin,edit
+folder-kanban	E4C6	projects,manage,overview,board,tickets,issues,roadmap,plan,intentions,productivity,work,agile,code,coding,directory,project,root
+folder-open-dot	E4C7	directory,root,project,active,current,pinned
+folder-root	E4C8	directory,root,project,git,repo
+folder-sync	E4C9	directory,synchronize,synchronise,refresh,reconnect,transfer,backup
+cassette-tape	E4CA	audio,music,recording,play
+videotape	E4CB	vhs,movie,film,recording,motion picture,showreel,cassette
+wallet-cards	E4CC	wallet,cards,banking,cash,debit,transport,money,finance,pocket,credit,purchase,payment,shopping,retail,consumer,cc
+wallet-minimal	E4CD	finance,pocket
+gallery-horizontal	E4CE	carousel,pictures,images,scroll,swipe,album,portfolio
+gallery-horizontal-end	E4CF	carousel,pictures,images,scroll,swipe,album,portfolio,history,versions,backup,time machine
+gallery-thumbnails	E4D0	carousel,pictures,images,album,portfolio,preview
+gallery-vertical	E4D1	carousel,pictures,images,scroll,swipe,album,portfolio
+gallery-vertical-end	E4D2	carousel,pictures,images,scroll,swipe,album,portfolio,history,versions,backup,time machine
+chart-area	E4D3	statistics,analytics,diagram,graph,area
+arrows-up-from-line	E4D4	direction,orientation,this way up,vertical,package,box,fragile,postage,shipping
+container	E4D5	storage,shipping,freight,supply chain,environment,devops,code,coding
+tally-1	E4D6	count,score,enumerate,days,one,1,first,bar,prison,cell,sentence
+tally-2	E4D7	count,score,enumerate,days,two,2,second,double,bars,prison,cell,sentence
+tally-3	E4D8	count,score,enumerate,days,three,3,third,triple,bars,prison,cell,sentence
+tally-4	E4D9	count,score,enumerate,days,4,fourth,quadruple,bars,prison,cell,sentence
+tally-5	E4DA	count,score,enumerate,days,five,5,fifth,bars,prison,cell,sentence,slash,/
+table-properties	E4DB	property list,plist,spreadsheet,grid,dictionary,object,hash
+kanban	E4DC	projects,manage,overview,board,tickets,issues,roadmap,plan,intentions,productivity,work,agile,code,coding
+circle-chevron-down	E4DD	back,menu
+circle-chevron-left	E4DE	back,previous,less than,fewer,menu,<
+circle-chevron-right	E4DF	back,more than,greater,menu,>
+circle-chevron-up	E4E0	caret,ahead,menu,^
+circle-gauge	E4E1	dashboard,dial,meter,speed,pressure,measure,level
+antenna	E4E2	signal,connection,connectivity,tv,television,broadcast,live,frequency,tune,scan,channels,aerial,receiver,transmission,transducer,terrestrial,satellite,cable
+cable	E4E3	cord,wire,connector,connection,link,signal,console,computer,equipment,electricity,energy,electronics,recharging,charger,power,supply,disconnected,unplugged,plugs,interface,input,output,audio video,av,rca,scart,tv,television,optical
+computer	E4E4	pc,chassis,codespaces
+hard-drive-download	E4E5	computer,server,memory,data,ssd,disk,hard disk,save
+hard-drive-upload	E4E6	computer,server,memory,data,ssd,disk,hard disk,save
+hdmi-port	E4E7	socket,plug,slot,controller,connector,interface,console,signal,audio,video,visual,av,data,input,output
+ratio	E4E8	screens,sizes,rotate,rotation,adjust,aspect ratio,proportions,16:9,widescreen,4:3,resolution,responsive,mobile,desktop,dimensions,monitor,orientation,portrait,landscape
+scissors-line-dashed	E4E9	cut here,along,snip,chop,stationery,crafts,instructions,diagram
+shopping-basket	E4EA	cart,e-commerce,store,purchase,products,items,ingredients
+square-bottom-dashed-scissors	E4EB	cut,snippet,chop,stationery,crafts
+square-scissors	E4EC	cut,snippet,chop,stationery,crafts,toolbar,button
+triangle-right	E4ED	volume,controls,controller,tv remote,geometry,delta,ramp,slope,incline,increase
+boom-box	E4EE	radio,speakers,audio,music,sound,broadcast,live,frequency
+bring-to-front	E4EF	bring,send,move,over,forward,front,overlap,layer,order
+pencil-line	E4F0	pencil,change,create,draw,sketch,draft,writer,writing,biro,ink,marker,felt tip,stationery,artist
+pencil-ruler	E4F1	edit,create,draw,sketch,draft,writer,writing,stationery,artist,measurements,centimeters,cm,millimeters,mm,metre,foot,feet,inches,units,size,length,width,height,dimensions,depth,breadth,extent
+send-horizontal	E4F2	email,message,mail,paper airplane,paper aeroplane,submit
+send-to-back	E4F3	bring,send,move,under,back,backwards,overlap,layer,order
+fish-symbol	E4F4	dish,restaurant,course,meal,seafood,pet,sea,marine
+paw-print	E4F5	pets,vets,veterinarian,domesticated,cat,dog,bear
+rabbit	E4F6	animal,rodent,pet,pest,bunny,hare,fast,speed,hop
+shell	E4F7	beach,sand,holiday,sea life,fossil,ammonite,biology,ocean,terminal,command line,session,bash,zsh,roll,wrap,chewing gum,bubble gum,sweet,sugar,hosepipe,carpet,string,spiral,spinner,hypnotise,hypnosis
+snail	E4F8	animal,insect,slow,speed,delicacy,spiral
+turtle	E4F9	animal,pet,tortoise,slow,speed
+blocks	E4FA	addon,plugin,integration,extension,package,build,stack,toys,kids,children,learning,squares,corner
+bus-front	E4FB	coach,vehicle,trip,road
+cable-car	E4FC	ski lift,winter holiday,alpine,resort,mountains
+car-front	E4FD	vehicle,drive,trip,journey
+car-taxi-front	E4FE	cab,vehicle,drive,trip,journey
+grid-2x2	E4FF	table,rows,columns,blocks,plot,land,geometry,measure,size,width,height,distance,surface area,square meter,acre,window,skylight
+parking-meter	E500	driving,car park,pay,sidewalk,pavement
+rail-symbol	E501	
+ship-wheel	E502	steering,rudder,boat,knots,nautical mile,maritime,sailing,yacht,cruise,ocean liner,tanker,vessel,navy,trip
+square-m	E503	metro,subway,underground,track,line
+tractor	E504	farming,farmer,ranch,harvest,equipment,vehicle
+traffic-cone	E505	roadworks,tarmac,safety,block
+train-front	E506	railway,metro,subway,underground,high-speed,bullet,fast,track,line
+train-front-tunnel	E507	railway,metro,subway,underground,speed,bullet,fast,track,line
+train-track	E508	railway,line
+square-dashed-mouse-pointer	E509	inspector,element,mouse,click,pointer,box,browser,selector,target,dom,node
+tablet-smartphone	E50A	phone,cellphone,device,mobile,screen,display,touchscreen,portable,responsive,screens,browser,testing
+database-zap	E50B	cache busting,storage,memory,bytes,servers,power,crash
+archive-x	E50C	index,backup,box,storage,records,junk
+bug-off	E50D	issue,fixed,resolved,testing,debug,code,insect,kill,exterminate,pest control
+bug-play	E50E	issue,testing,debug,reproduce,code,insect
+badge-cent	E50F	discount,offer,sale,voucher,tag,monetization,marketing,finance,financial,exchange,transaction,payment,cents,dollar,usd,$,Â¢
+badge-euro	E510	discount,offer,sale,voucher,tag,monetization,marketing,finance,financial,exchange,transaction,payment,â‚¬
+badge-indian-rupee	E511	discount,offer,sale,voucher,tag,monetization,marketing,finance,financial,exchange,transaction,payment,inr,â‚¹
+badge-japanese-yen	E512	discount,offer,sale,voucher,tag,monetization,marketing,finance,financial,exchange,transaction,payment,jpy,Â¥
+badge-pound-sterling	E513	discount,offer,sale,voucher,tag,monetization,marketing,finance,financial,exchange,transaction,payment,british,gbp,Â£
+badge-russian-ruble	E514	discount,offer,sale,voucher,tag,monetization,marketing,finance,financial,exchange,transaction,payment,rub,â‚½
+badge-swiss-franc	E515	discount,offer,sale,voucher,tag,monetization,marketing,finance,financial,exchange,transaction,payment,chf,â‚£
+shield-ellipsis	E516	cybersecurity,securing,protecting,guarding,armoring,armouring,defending,blocking,preventing,antivirus,detecting,scanning,finding,auditing,admin,verifying,crest,upgrading,loader,loading,throbber,progress,dots,more,etc,...,â€¦
+shield-half	E517	cybersecurity,secure,safety,protection,guardian,armored,armoured,defense,defence,defender,block,threat,prevention,antivirus,vigilance,vigilant,detection,scan,strength,strong,tough,invincible,invincibility,invulnerable,undamaged,audit,admin,verification,crest,logo,sigil,flag,team,faction,fraternity,university,college,academy,school,education,uniform,bravery,knight,foot soldier,infantry,trooper,pawn,battle,war,military,ranking,army,cadet,scout
+shield-minus	E518	unshield,cybersecurity,unsecure,unguard,unblock,antivirus,clean,clear,disinfect,patch,fix,stop,cancel,remove,relax,admin,crest,bravery,weakened,damaged,hit,unarm,disable,deactivate,decommission,downgraded,minimum,-
+shield-plus	E519	cybersecurity,secure,safety,protection,guardian,armored,armoured,defense,defence,defender,block,threat,prevention,antivirus,vigilance,vigilant,detection,scan,strength,strong,tough,invincible,invincibility,invulnerable,undamaged,extra,added,professional,enterprise,full,maximum,upgraded,ultra,activate,enable,audit,admin,verification,crest,medic,+
+circle-percent	E51A	verified,unverified,sale,discount,offer,marketing,sticker,price tag
+diamond-percent	E51B	verified,unverified,sale,discount,offer,marketing,sticker,price tag
+square-percent	E51C	verified,unverified,sale,discount,offer,marketing,sticker,price tag
+slash	E51D	divide,division,or,/
+speech	E51E	disability,disabled,dda,human,accessibility,people,sound
+bookmark-check	E51F	read,finished,complete,clip,marker,tag,task,todo
+bookmark-x	E520	read,clip,marker,tag,cancel,close,delete,remove,clear
+drama	E521	drama,masks,theater,theatre,entertainment,show
+theater	E522	theater,theatre,entertainment,podium,stage,musical
+cone	E523	conical,triangle,triangular,geometry,filter,funnel,hopper,spotlight,searchlight
+cuboid	E524	brick,block,box,3d,solid,volume,container,storage,shipping,carton,geometry,rectangular,hexahedron,butter,tofu,soap,cheese,package,parcel,crate
+cylinder	E525	shape,elliptical,geometry,container,storage,tin,pot
+diameter	E526	shape,circle,geometry,trigonometry,width,height,size,calculate,measure
+drafting-compass	E527	geometry,trigonometry,radius,diameter,circumference,calculate,measure,arc,curve,draw,sketch
+land-plot	E528	area,surface,square metres,allotment,parcel,property,plane,acres,measure,distance,isometric,flag,golf course,hole
+layers	E529	stack,pile,pages,sheets,paperwork,copies,copy
+layers-2	E52A	stack,pile,pages,sheets,paperwork,copies,copy,duplicate,double,shortcuts
+pentagon	E52B	shape
+pyramid	E52C	prism,triangle,triangular,hierarchy,structure,geometry,ancient,egyptian,landmark,tourism
+radius	E52D	shape,circle,geometry,trigonometry,radii,calculate,measure,size
+tangent	E52E	tangential,shape,circle,geometry,trigonometry,bezier curve
+torus	E52F	donut,doughnut,ring,hollow,3d,fast food,junk food,snack,treat,sweet,sugar,dessert
+weight	E530	mass,heavy,lead,metal,measure,geometry,scales,balance
+lock-keyhole	E531	security,password,secure,admin
+lock-keyhole-open	E532	security
+barcode	E533	scan,checkout,till,cart,transaction,purchase,buy,product,packaging,retail,consumer
+fullscreen	E534	expand,zoom,preview,focus,camera,lens,image
+scan-barcode	E535	checkout,till,cart,transaction,purchase,buy,product,packaging,retail,consumer
+scan-eye	E536	preview,zoom,expand,fullscreen,gallery,image,camera,watch,surveillance,retina,focus,lens,biometric,identification,authentication,access,login
+scan-search	E537	preview,zoom,expand,fullscreen,gallery,image,focus,lens
+scan-text	E538	recognition,read,translate,copy,lines
+caravan	E539	trailer,tow,camping,campsite,mobile home,holiday,nomadic,wilderness,outdoors
+flame-kindling	E53A	campfire,camping,wilderness,outdoors,lit,warmth,wood,twigs,sticks
+tent-tree	E53B	camping,campsite,holiday,retreat,nomadic,wilderness,outdoors
+image-down	E53C	picture,photo,download,save,export
+map-pinned	E53D	location,waypoint,marker,drop
+route	E53E	path,journey,planner,points,stops,stations
+route-off	E53F	path,journey,planner,points,stops,stations,reset,clear,cancelled,closed,blocked
+signpost	E540	navigation,direction,arrow,wayfinding,guide,location,pointer,route,indicator,marker,bidirectional,left,right,east,west
+signpost-big	E541	bidirectional,left,right,east,west
+waypoints	E542	indirection,vpn,virtual private network,proxy,connections,bounce,reroute,path,journey,planner,stops,stations,shared,spread,viral
+umbrella-off	E543	rain,weather,uncovered,uninsured,antivirus,unprotected,risky
+book-a	E544	dictionary,define,definition,thesaurus,encyclopedia,encyclopaedia,reading,booklet,magazine,leaflet,pamphlet,tome,library,writing,written,writer,author,story,script,fiction,novel,information,knowledge,education,high school,university,college,academy,student,study,learning,homework,research,language,translate,alphabetical,a-z,ordered
+book-audio	E545	audiobook,reading,listening,sound,story,fiction,novel,information,knowledge,education,student,study,learning,research
+book-check	E546	read,booklet,magazine,leaflet,pamphlet,library,written,authored,published,informed,knowledgeable,educated,schooled,homework,examined,tested,marked,passed,graduated,studied,learned,lesson,researched,documented,revealed,blank,plain language,true,truth,verified,corrected,task,todo,done,completed,finished,ticked
+book-headphones	E547	audiobook,reading,listening,sound,story,fiction,novel,information,knowledge,education,student,study,learning,research
+book-heart	E548	diary,romance,novel,journal,entry,entries,personal,private,secret,crush,like,love,emotion,feminine,girls,teens,teenager,therapy,therapeutic,therapist,planner,organizer,organiser,notes,notepad,stationery,sketchbook,writing,written,reading,favorite,favourite,high school
+book-image	E549	images,pictures,photos,album,collection,event,magazine,catalog,catalogue,brochure,browse,gallery
+book-open-text	E54A	reading,pages,booklet,magazine,leaflet,pamphlet,library,writing,written,writer,author,story,script,fiction,novel,information,knowledge,education,high school,university,college,academy,student,study,learning,homework,research,documentation,revealed
+book-text	E54B	reading,booklet,magazine,leaflet,pamphlet,tome,library,writing,written,writer,author,story,script,fiction,novel,information,knowledge,education,high school,university,college,academy,student,study,learning,homework,research,documentation
+book-type	E54C	thesaurus,synonym,reading,booklet,magazine,leaflet,pamphlet,tome,library,writing,written,writer,author,story,script,fiction,novel,information,knowledge,education,high school,university,college,academy,student,study,learning,homework,research,language,translate,typography,fonts,collection
+book-user	E54D	person,people,family,friends,acquaintances,contacts,details,addresses,phone numbers,directory,listing,networking
+library-big	E54E	books,reading,written,authors,stories,fiction,novels,information,knowledge,education,high school,university,college,academy,learning,study,research,collection,vinyl,records,albums,music,package
+square-library	E54F	books,reading,written,authors,stories,fiction,novels,information,knowledge,education,high school,university,college,academy,learning,study,research,collection,vinyl,records,albums,music,package
+circle-power	E550	on,off,device,switch,toggle,binary,boolean,reboot,restart,button,keyboard,troubleshoot
+square-power	E551	on,off,device,switch,toggle,binary,boolean,reboot,restart,button,keyboard,troubleshoot
+git-commit-vertical	E552	code,version control,waypoint,stop,station
+git-compare-arrows	E553	code,version control,diff
+git-graph	E554	code,version control,commit graph,commits,gitlens
+git-pull-request-arrow	E555	code,version control,open
+git-pull-request-create	E556	code,version control,open,plus,add,+
+git-pull-request-create-arrow	E557	code,version control,open,plus,add,+
+ribbon	E558	awareness,strip,band,tape,strap,cordon
+square-check	E559	done,todo,tick,complete,task
+audio-lines	E55A	graphic equaliser,sound,noise,listen,hearing,hertz,frequency,wavelength,vibrate,sine,synthesizer,synthesiser,levels,track,music,playback,radio,broadcast,airwaves,voice,vocals,singer,song
+audio-waveform	E55B	sound,noise,listen,hearing,hertz,frequency,wavelength,vibrate,sine,synthesizer,synthesiser,levels,track,music,playback,radio,broadcast,airwaves,voice,vocals,singer,song
+disc-album	E55C	album,music,songs,format,cd,dvd,vinyl,sleeve,cover,platinum,compilation,ep,recording,playback,spin,rotate,rpm,dj
+drum	E55D	drummer,kit,sticks,instrument,beat,bang,bass,backing track,band,play,performance,concert,march,music,audio,sound,noise,loud
+file-music	E55E	audio,sound,noise,track,digital,recording,playback,piano,keyboard,keys,notes,chord,midi,octave
+guitar	E55F	acoustic,instrument,strings,riff,rock,band,country,concert,performance,play,lead,loud,music,audio,sound,noise
+keyboard-music	E560	music,audio,sound,noise,notes,keys,chord,octave,midi,controller,instrument,electric,signal,digital,studio,production,producer,pianist,piano,play,performance,concert
+piano	E561	music,audio,sound,noise,notes,chord,keys,octave,acoustic,instrument,play,pianist,performance,concert
+message-circle-code	E562	comment,chat,conversation,dialog,feedback,speech bubble,code review,coding
+message-circle-dashed	E563	comment,chat,conversation,dialog,feedback,speech bubble,draft
+message-circle-heart	E564	comment,chat,conversation,dialog,feedback,positive,like,love,interest,valentine,dating,date,speech bubble
+message-circle-more	E565	comment,chat,conversation,dialog,feedback,speech bubble,typing,writing,responding,ellipsis,etc,et cetera,...,â€¦
+message-circle-off	E566	comment,chat,conversation,dialog,feedback,speech bubble,clear,close,delete,remove,cancel,silence,mute,moderate
+message-circle-plus	E567	comment,chat,conversation,dialog,feedback,speech bubble,add
+message-circle-question-mark	E568	comment,chat,conversation,dialog,feedback,speech bubble,help
+message-circle-reply	E569	comment,chat,conversation,dialog,feedback,speech bubble,reply,response
+message-circle-warning	E56A	comment,chat,conversation,dialog,feedback,speech bubble,report,abuse,offense,alert,danger,caution,protected,exclamation mark
+message-circle-x	E56B	comment,chat,conversation,dialog,feedback,speech bubble,clear,close,delete,remove,cancel,silence,mute,moderate
+message-square-code	E56C	comment,chat,conversation,dialog,feedback,speech bubble,code review,coding
+message-square-diff	E56D	comment,chat,conversation,dialog,feedback,speech bubble,add,patch,difference,plus,minus,plus-minus,math,code review,coding,version control,git
+message-square-dot	E56E	unread,unresolved,comment,chat,conversation,dialog,feedback,speech bubble
+message-square-heart	E56F	comment,chat,conversation,dialog,feedback,positive,like,love,interest,valentine,dating,date,speech bubble
+message-square-more	E570	comment,chat,conversation,dialog,feedback,speech bubble,typing,writing,responding,ellipsis,etc,et cetera,...,â€¦
+message-square-off	E571	comment,chat,conversation,dialog,feedback,speech bubble,clear,close,delete,remove,cancel,silence,mute,moderate
+message-square-quote	E572	comment,chat,conversation,dialog,feedback,speech bubble,blockquote,quotation,indent,reply,response
+message-square-reply	E573	comment,chat,conversation,dialog,feedback,speech bubble,reply,response
+message-square-share	E574	comment,chat,conversation,dialog,feedback,speech bubble,network,forward
+message-square-text	E575	comment,chat,conversation,dialog,feedback,speech bubble
+message-square-warning	E576	comment,chat,conversation,dialog,feedback,speech bubble,report,abuse,offense,alert,danger,caution,protected,exclamation mark
+message-square-x	E577	comment,chat,conversation,dialog,feedback,speech bubble,clear,close,delete,remove,cancel,silence,mute,moderate
+user-round-search	E578	person,account,contact,find,scan,magnifier,magnifying glass,lens
+user-search	E579	person,account,contact,find,scan,magnifier,magnifying glass,lens
+squircle	E57A	shape
+alarm-smoke	E57B	fire,alert,warning,detector,carbon monoxide,safety,equipment,amenities
+bell-electric	E57C	fire alarm,flames,smoke,firefighter,fireman,department,brigade,station,emergency,alert,safety,school bell,period break,recess,doorbell,entrance,entry,ring,reception
+cctv	E57D	camera,surveillance,recording,film,videotape,crime,watching
+fire-extinguisher	E57E	flames,smoke,foam,water,spray,hose,firefighter,fireman,department,brigade,station,emergency,suppress,compressed,tank,cylinder,safety,equipment,amenities
+pointer-off	E57F	mouse
+anvil	E580	metal,iron,alloy,materials,heavy,weight,blacksmith,forge,acme
+brick-wall	E581	bricks,mortar,cement,materials,construction,builder,labourer,quantity surveyor,blocks,stone
+fence	E582	picket,panels,woodwork,diy,materials,suburban,garden,property,territory
+inspection-panel	E583	access,cover,tile,metal,materials,screws
+cooking-pot	E584	pod,cooking,recipe,food,kitchen,chef,restaurant,dinner,lunch,breakfast,meal,eat
+a-arrow-down	E585	letter,font size,text,formatting,smaller
+a-arrow-up	E586	letter,font size,text,formatting,larger,bigger
+a-large-small	E587	letter,font size,text,formatting
+panels-right-bottom	E588	drawers,sidebar,secondary
+columns-4	E589	lines,list,queue,preview,parallel,series,split,vertical,horizontal,thirds,triple,center,middle,alignment,even,sidebars,drawers,gutters,fold,reflow,typography,pagination,pages,prison,jail,bars,sentence,police,cops,cell,crime,criminal,justice,law,enforcement,grill
+rows-3	E58A	lines,list,queue,preview,paragraphs,parallel,series,split,vertical,horizontal,half,center,middle,even,drawers
+rows-4	E58B	lines,list,queue,preview,paragraphs,parallel,series,split,vertical,horizontal,half,center,middle,even,drawers,grill
+bolt	E58C	nut,screw,settings,preferences,configuration,controls,edit,diy,fixed,build,construction,parts
+drill	E58D	power,bit,head,hole,diy,toolbox,build,construction
+heater	E58E	heating,warmth,comfort,fire,stove,electric,electronics,amenities
+vault	E58F	safe,lockbox,deposit,locker,coffer,strongbox,safety,secure,storage,valuables,bank
+washing-machine	E590	tumble dryer,amenities,electronics,cycle,clothes,rinse,spin,drum
+between-horizontal-end	E591	insert,add,left,slot,squeeze,space,vertical,grid,table,rows,cells,excel,spreadsheet,accountancy,data,enter,entry,entries,blocks,rectangles,chevron
+between-horizontal-start	E592	insert,add,right,slot,squeeze,space,vertical,grid,table,rows,cells,excel,spreadsheet,accountancy,data,enter,entry,entries,blocks,rectangles,chevron
+between-vertical-end	E593	insert,add,top,slot,squeeze,space,vertical,grid,table,columns,cells,data,enter,entry,entries,blocks,rectangles,chevron
+between-vertical-start	E594	insert,add,bottom,slot,squeeze,space,vertical,grid,table,columns,cells,data,enter,entry,entries,blocks,rectangles,chevron
+notebook	E595	notepad,notes,stationery,sketchbook,moleskine,closure,strap,band,elastic,organizer,organiser,planner,diary,journal,writing,written,writer,reading,high school,university,college,academy,student,study,homework,research
+notebook-pen	E596	pencil,notepad,notes,noted,stationery,sketchbook,organizer,organiser,planner,diary,journal,writing,write,written,reading,high school,university,college,academy,student,study,research,homework,eraser,rubber
+notebook-tabs	E597	notepad,notes,people,family,friends,acquaintances,contacts,details,addresses,phone numbers,directory,listing,networking,alphabetical,a-z,organizer,organiser,planner,diary,stationery
+notebook-text	E598	notepad,notes,pages,paper,stationery,sketchbook,organizer,organiser,planner,diary,journal,writing,write,written,reading,high school,university,college,academy,student,study,research,homework,lines,opened
+notepad-text	E599	notebook,notes,pages,paper,stationery,sketchbook,organizer,organiser,planner,diary,journal,writing,write,written,reading,high school,university,college,academy,student,study,homework,research,lines,opened
+notepad-text-dashed	E59A	notebook,notes,pages,paper,stationery,diary,journal,writing,write,written,draft,template,lines
+list-collapse	E59B	items,collapse,expand,details,disclosure,show,hide,toggle,accordion,more,less,fold,unfold
+blend	E59C	mode,overlay,multiply,screen,opacity,transparency,alpha,filters,lenses,mixed,shades,tints,hues,saturation,brightness,overlap,colors,colours,marriage,rings,couple,connection
+eclipse	E59D	lunar,solar,crescent moon,sun,earth,day,night,planet,space,mode,dark,light,toggle,switch,color,css,styles,display,accessibility,contrast,brightness,blend,shade
+paint-roller	E59E	brush,color,colour,decoration,diy
+swatch-book	E59F	colors,colours,swatches,pantone,shades,tint,hue,saturation,brightness,theme,scheme,palette,samples,textile,carpet
+file-sliders	E5A0	cogged,gear,mechanical,machinery,configuration,controls,preferences,settings,system,admin,edit,executable
+square-arrow-out-down-left	E5A1	outwards,direction,south-west,diagonal
+square-arrow-out-down-right	E5A2	outwards,direction,south-east,diagonal
+square-arrow-out-up-left	E5A3	outwards,direction,north-west,diagonal
+square-arrow-out-up-right	E5A4	outwards,direction,north-east,diagonal,share,open,external,link
+receipt-cent	E5A5	bill,voucher,slip,check,counterfoil,currency,cents,dollar,usd,$,Â¢
+receipt-euro	E5A6	bill,voucher,slip,check,counterfoil,currency,â‚¬
+receipt-indian-rupee	E5A7	bill,voucher,slip,check,counterfoil,currency,inr,â‚¹
+receipt-japanese-yen	E5A8	bill,voucher,slip,check,counterfoil,currency,jpy,Â¥
+receipt-pound-sterling	E5A9	bill,voucher,slip,check,counterfoil,british,currency,gbp,Â£
+receipt-russian-ruble	E5AA	bill,voucher,slip,check,counterfoil,currency,rub,â‚½
+receipt-swiss-franc	E5AB	bill,voucher,slip,check,counterfoil,currency,chf,â‚£
+receipt-text	E5AC	bill,voucher,slip,check,counterfoil,details,small print,terms,conditions,contract
+text-search	E5AD	find,data,copy,txt,pdf,document,scan,magnifier,magnifying glass,lens
+ticket-check	E5AE	entry,pass,voucher,event,concert,show,booked,purchased,receipt,redeemed,validated,verified,certified,checked,used
+ticket-minus	E5AF	entry,pass,voucher,event,concert,show,remove,cancel,unbook,subtract,decrease,-
+ticket-percent	E5B0	discount,reduced,offer,voucher,entry,pass,event,concert,show,book,purchase,%
+ticket-plus	E5B1	entry,pass,voucher,event,concert,show,book,purchase,add,+
+ticket-slash	E5B2	entry,pass,voucher,event,concert,show,redeemed,used,marked,checked,verified,spoiled,invalidated,void,denied,refused,banned,barred,forbidden,prohibited,cancelled,cancellation,refunded,delete,remove,clear,error
+ticket-x	E5B3	entry,pass,voucher,event,concert,show,cancelled,cancellation,refunded,used,void,invalidated,spoiled,denied,refused,banned,barred,forbidden,prohibited,delete,remove,clear,error,x
+calendar-fold	E5B4	date,month,year,event,birthday,birthdate,ics
+calendar-minus-2	E5B5	date,day,month,year,event,delete,remove
+calendar-plus-2	E5B6	date,day,month,year,event,add,subscribe,create,new
+webhook-off	E5B7	push api,interface,callback
+hand-coins	E5B8	savings,banking,money,finance,offers,mortgage,payment,received,wage,payroll,allowance,pocket money,handout,pennies
+hand-heart	E5B9	love,like,emotion
+hand-platter	E5BA	waiter,waitress,restaurant,table service,served,dinner,dining,meal,course,luxury
+ambulance	E5BB	ambulance,emergency,medical,vehicle,siren,healthcare,transportation,rescue,urgent,first aid
+circle-fading-plus	E5BC	stories,social media,sharing,content
+headset	E5BD	music,audio,sound,gaming,headphones,headset,call,center,phone,telephone,voip,video
+clipboard-minus	E5BE	copy,delete,remove,erase,document,medical,report,doctor
+clipboard-plus	E5BF	copy,paste,add,create,new,document,medical,report,doctor
+handshake	E5C0	agreement,partnership,deal,business,assistance,cooperation,friendship,union,terms
+captions-off	E5C1	closed captions,subtitles,subhead,transcription,transcribe,dialogue,accessibility
+radical	E5C2	calculate,formula,math,operator,root,square,symbol
+square-radical	E5C3	calculate,formula,math,operator,root,square,symbol
+images	E5C4	picture,photo,multiple,copy,gallery,album,collection,slideshow,showcase
+telescope	E5C5	astronomy,space,discovery,exploration,explore,vision,perspective,focus,stargazing,observe,view
+pickaxe	E5C6	mining,mine,land worker,extraction,labor,construction,progress,advancement,crafting,building,creation
+table-cells-merge	E5C7	spreadsheet,grid,row
+table-cells-split	E5C8	spreadsheet,grid,row
+table-columns-split	E5C9	spreadsheet,grid,cut,break,divide,separate,segment
+table-rows-split	E5CA	spreadsheet,grid,cut,break,divide,separate,segment
+image-up	E5CB	picture,photo,upload,import
+earth-lock	E5CC	vpn,private,privacy,network,world,browser,security,encryption,protection,connection
+globe-lock	E5CD	vpn,private,privacy,network,world,browser,security,encryption,protection,connection
+bot-message-square	E5CE	robot,ai,chat,assistant
+proportions	E5CF	screens,sizes,rotate,rotation,adjust,aspect ratio,16:9,widescreen,4:3,resolution,responsive,mobile,desktop,dimensions,monitor,orientation,portrait,landscape
+rotate-ccw-square	E5D0	left,counter-clockwise,rotate,image,90,45,degrees,Â°
+rotate-cw-square	E5D1	right,clockwise,rotate,image,90,45,degrees,Â°
+app-window-mac	E5D2	application,menu bar,pane,preferences,macos,osx,executable
+dock	E5D3	desktop,applications,launch,home,menu bar,bottom,line,macos,osx
+cannabis	E5D4	cannabis,weed,leaf
+briefcase-business	E5D5	work,bag,baggage,folder,portfolio
+briefcase-medical	E5D6	doctor,medicine,first aid
+ham	E5D7	food,pork,pig,meat,bone,hock,knuckle,gammon,cured
+hospital	E5D8	infirmary,sanatorium,healthcare,doctor,hospice,clinic,emergency room,ward,building,medical,vet
+beer-off	E5D9	alcohol,bar,beverage,brewery,drink
+worm	E5DA	invertebrate,grub,larva,snake,crawl,wiggle,slither,pest control,computer virus,malware
+mouse-off	E5DB	device,scroll,click,disabled
+pilcrow-left	E5DC	direction,paragraph,mark,paraph,blind,typography,type,text,prose,symbol
+pilcrow-right	E5DD	direction,paragraph,mark,paraph,blind,typography,type,text,prose,symbol
+keyboard-off	E5DE	unkeys,layout,spell,settings,mouse
+image-play	E5DF	picture,gif,photo
+bot-off	E5E0	robot,ai,chat,assistant
+diamond-minus	E5E1	keyframe,subtract,remove,decrease,reduce,calculator,button,keyboard,line,divider,separator,horizontal rule,hr,html,markup,markdown,---,toolbar,operator,code,coding,minimum,downgrade
+diamond-plus	E5E2	keyframe,add,new,increase,increment,positive,calculate,toolbar,crosshair,aim,target,scope,sight,reticule,maximum,upgrade,extra,+
+origami	E5E3	paper,bird
+grid-2x2-check	E5E4	table,rows,columns,blocks,plot,land,geometry,measure,data,size,width,height,distance,surface area,square meter,acre
+grid-2x2-x	E5E5	table,rows,columns,data,blocks,plot,land,geometry,measure,size,width,height,distance,surface area,square meter,acre
+loader-pinwheel	E5E6	loading,wait,busy,progress,throbber,spinner,spinning,beach ball,frozen,freeze
+mouse-pointer-ban	E5E7	wait,busy,loading,blocked,frozen,freeze
+section	E5E8	mark,typography,punctuation,legal,type,text,prose,symbol
+lectern	E5E9	pulpit,podium,stand
+pill-bottle	E5EA	medicine,medication,prescription,drug,supplement,vitamin,capsule,jar,container,healthcare,pharmaceutical,tablet
+biceps-flexed	E5EB	arm,muscle,strong,working out,athletic,toned,muscular,forelimb,curled
+tv-minimal-play	E5EC	flat screen,television,stream,display,widescreen,high-definition,hd,1080p,4k,8k,smart,digital,video,movie,live,ott,running,start,film,home cinema,entertainment,showtime,channels,catchup
+calendar-cog	E5ED	date,day,month,year,events,settings,gear,cog
+pen-off	E5EE	disabled,inactive,non-editable,locked,read-only,unmodifiable,frozen,restricted,pencil,change,create,draw,writer,writing,biro,ink,marker,felt tip,stationery,artist
+pencil-off	E5EF	disabled,inactive,non-editable,locked,read-only,unmodifiable,frozen,restricted,rubber,edit,create,draw,sketch,draft,writer,writing,stationery,artist
+house-plug	E5F0	home,living,building,residence,architecture,autarky,energy
+house-plus	E5F1	home,living,medical,new,addition,building,residence,architecture
+signature	E5F2	text,format,input,contract,autograph,handwriting,sign,cursive,ink,scribble,authorize,personal,agreement,legal,document,identity,authentic,approval,verification,unique
+save-off	E5F3	floppy disk,unsalvageable
+logs	E5F4	options,list,menu,order,queue,tasks,logs
+printer-check	E5F5	fax,office,device,success,printed
+scan-qr-code	E5F6	barcode,scan,qr code,url,information,digital,scanner
+wifi-high	E5F7	connection,signal,wireless
+wifi-low	E5F8	connection,signal,wireless
+wifi-zero	E5F9	connection,signal,wireless
+list-check	E5FA	done,check,tick,complete,list,to-do,bom
+folder-code	E5FB	directory,coding,develop,software
+user-pen	E5FC	person,account,contact,profile,edit,change
+user-round-pen	E5FD	person,account,contact,profile,edit,change
+calendar-arrow-down	E5FE	date,month,year,event,sort,order,ascending,descending,increasing,decreasing,rising,falling
+calendar-arrow-up	E5FF	date,month,year,event,sort,order,ascending,descending,increasing,decreasing,rising,falling
+clock-arrow-down	E600	time,watch,alarm,sort,order,ascending,descending,increasing,decreasing,rising,falling
+clock-arrow-up	E601	time,watch,alarm,sort,order,ascending,descending,increasing,decreasing,rising,falling
+type-outline	E602	text,font,typography,silhouette,profile,contour,stroke,line
+monitor-cog	E603	tv,computer,screen,display,desktop,external display,virtual machine,vm,executable,settings,edit,gear,configuration,preferences,system,control panel,network,computing
+philippine-peso	E604	currency,peso,money,php
+text-initial	E605	drop cap,text,format,typography,letter,font size
+dam	E606	electricity,energy,water
+chart-bar-decreasing	E607	statistics,analytics,diagram,graph,trending down
+chart-bar-increasing	E608	statistics,analytics,diagram,graph,trending up
+chart-bar-stacked	E609	statistics,analytics,diagram,graph,multivariate,categorical,comparison
+chart-column-stacked	E60A	statistics,analytics,diagram,graph,multivariate,categorical,comparison
+chart-network	E60B	statistics,analytics,diagram,graph,topology,cluster,web,nodes,connections,edges
+chart-no-axes-combined	E60C	statistics,analytics,diagram,graph,trending up
+chart-spline	E60D	statistics,analytics,diagram,graph,curve,continuous,smooth,polynomial,quadratic,function,interpolation
+square-square	E60E	float,center,rectangle
+map-pin-check	E60F	location,waypoint,marker,drop,done,tick,complete,task,added
+map-pin-check-inside	E610	location,waypoint,marker,drop,done,tick,complete,task,added
+map-pin-minus	E611	location,waypoint,marker,drop,delete,remove,erase
+map-pin-minus-inside	E612	location,waypoint,marker,drop,delete,remove,erase
+map-pin-plus	E613	location,waypoint,marker,drop,add,create,new
+map-pin-plus-inside	E614	location,waypoint,marker,drop,add,create,new
+map-pin-x	E615	location,waypoint,marker,drop,delete,remove,erase
+map-pin-x-inside	E616	location,waypoint,marker,drop,delete,remove,erase
+id-card	E617	card,badge,identity,authentication,secure
+circle-fading-arrow-up	E618	north,up,upgrade,improve,circle,button
+omega	E619	greek,symbol,mathematics,education,physics,engineering,ohms,electrical resistance,angular frequency,dynamical systems,astronomy,constellations,philosophy
+microchip	E61A	processor,cores,technology,computer,chip,integrated circuit,memory,ram,specs,gpu,gigahertz,ghz
+amphora	E61B	pottery,artifact,artefact,vase,ceramics,clay,archaeology,museum,wine,oil
+map-pin-house	E61C	location,waypoint,marker,drop,home,living,building,residence,architecture,address,poi,real estate,property,navigation,destination,geolocation,place,landmark
+bandage	E61D	plaster,band-aid,first aid,medical,health,wound,injury,care,treatment,healing,protection,emergency,aid,safety,patch
+table-of-contents	E61E	toc,outline,navigation,document structure,index,overview,sections,chapters,content,documentation,manual,knowledge base,faq
+chevrons-left-right-ellipsis	E61F	internet,network,connection,cable,lan,port,router,switch,hub,modem,web,online,networking,communication,socket,plug,slot,controller,connector,interface,console,signal,data,input,output
+ethernet-port	E620	internet,network,connection,cable,lan,port,router,switch,hub,modem,web,online,networking,communication,socket,plug,slot,controller,connector,interface,console,signal,data,input,output
+binoculars	E621	field glasses,lorgnette,pince-nez,observation,sightseeing,nature,wildlife,birdwatching,scouting,surveillance,search,discovery,monitoring,lookout,viewpoint,travel,tourism,research
+tickets	E622	trip,travel,pass,entry,voucher,event,concert,show,perforated,dashed
+tickets-plane	E623	plane,trip,airplane,flight,travel,fly,takeoff,vacation,passenger,pass,check-in,airport
+chart-gantt	E624	diagram,graph,timeline,planning
+trending-up-down	E625	arrows,estimated,indeterminate,data fluctuation,uncertain,forecast,variable,prediction,dynamic,volatile
+volume-off	E626	music,sound,mute,speaker
+octagon-minus	E627	stop,forbidden,subtract,remove,decrease,reduce,-,traffic,halt,restricted
+grid-2x2-plus	E628	table,rows,columns,blocks,plot,land,geometry,measure,data,size,width,height,distance,surface area,square meter,acre
+headphone-off	E629	music,audio,sound,mute,off
+clock-alert	E62A	time,watch,alarm,warning,wrong
+briefcase-conveyor-belt	E62B	baggage,luggage,travel,suitcase,conveyor,carousel
+message-square-lock	E62C	comment,chat,conversation,dialog,feedback,speech bubble,secure,encrypted
+file-user	E62D	person,personal information,people,listing,networking,document,contact,cover letter,resume,cv,curriculum vitae,application form
+eye-closed	E62E	view,watch,see,hide,conceal,mask,hidden,visibility,vision
+volleyball	E62F	beach,sand,net,holiday,vacation,summer,soccer,football,futbol,kick,pitch,goal,score,bounce,leather,wool,yarn,knitting,sewing,thread,embroidery,textile
+calendar-1	E630	date,month,year,event,single,singular,once,1,first
+wind-arrow-down	E631	weather,air,pressure,blow
+laptop-minimal-check	E632	computer,screen,remote,success,done,todo,tick,complete,task
+cloud-alert	E633	weather,danger,warning,alert,error,sync,network,exclamation
+equal-approximately	E634	about,calculate,math,operator
+toilet	E635	toilet,potty,bathroom,washroom
+calendar-sync	E636	repeat,refresh,reconnect,transfer,backup,date,month,year,event,subscribe,recurring,schedule,reminder,automatic,auto
+image-upscale	E637	resize,picture,sharpen,increase
+droplet-off	E638	water,weather,liquid,fluid,wet,moisture,damp,bead,globule
+list-filter-plus	E639	filter,plus,options,add
+scan-heart	E63A	health,heart rate,pulse,monitoring,healthiness,screening,dashed
+waves-ladder	E63B	swimming,water,pool,lifeguard,ocean,ðŸŒŠ,ðŸŠâ€â™‚ï¸,ðŸŠâ€â™€ï¸,ðŸŠ,ðŸ¥½
+house-wifi	E63C	home,living,building,wifi,connectivity
+triangle-dashed	E63D	equilateral,delta,shape,pyramid,hierarchy,dashed
+battery-plus	E63E	power,electricity,energy,accumulator,charge,plus,economy,health,add,new,maximum,upgrade,extra,+
+map-plus	E63F	location,navigation,travel,new,add,create
+circle-small	E640	shape,bullet,gender,genderless
+mars	E641	gender,sex,male,masculine,man,boy
+mars-stroke	E642	gender,androgyne,transgender
+non-binary	E643	gender,nonbinary,enby
+transgender	E644	gender,inclusive
+venus	E645	gender,sex,female,feminine,woman,girl
+venus-and-mars	E646	gender,sex,intersex,androgynous,hermaphrodite
+shield-user	E647	shield,user,admin,protection,protected,safety,guard
+square-round-corner	E648	border,radius,style,design,corner,layout,round,rounded
+shrimp	E649	seafood,shellfish,crustacean,prawn,scallop,whelk,arthropod,littleneck,quahog,marine,creature,fisherman,ocean,fresh,cuisine,marine-life
+clock-fading	E64A	time,watch,alarm
+saudi-riyal	E64B	currency,money,payment
+banknote-arrow-down	E64C	bill,currency,money,payment,funds,transaction,cash,finance,withdraw,expense,out,payout,refund,debit,spending,decrease
+banknote-arrow-up	E64D	bill,currency,money,payment,funds,transaction,cash,finance,deposit,earnings,income,in,credit,prepaid,growth,increase
+banknote-x	E64E	bill,currency,money,payment,funds,transaction,cash,finance,error,failed,rejected,canceled,declined,lost,delete,remove
+spline-pointer	E64F	path,tool,curve,node,click,pointer,target,vector
+rotate-ccw-key	E650	password,key,refresh,change
+heart-minus	E651	unlike,unfavorite,remove,delete,damage
+heart-plus	E652	plus,like,favorite,add,health,support
+brick-wall-fire	E653	firewall,security,bricks,mortar,cement,materials,construction,builder,labourer,quantity surveyor,blocks,stone,campfire,camping,wilderness,outdoors,lit,warmth,wood,twigs,sticks
+bubbles	E654	water,cleaning,soap,bath,hygiene,freshness,wash,foam,cleanliness,shampoo,purity,splash,lightness,airy,relaxation,spa,bubbly,fluid,floating,drop
+map-pin-pen	E655	location,waypoint,marker,drop,edit
+rectangle-goggles	E656	vr,virtual,augmented,reality,headset,goggles
+squares-exclude	E657	square,pathfinder,path,exclude,invert,xor,shape,vector
+squares-intersect	E658	square,pathfinder,path,intersect,shape,include,vector
+squares-subtract	E659	square,pathfinder,path,minus,subtract,subtraction,shape,front,vector
+squares-unite	E65A	square,pathfinder,path,unite,union,shape,merge,vector
+shredder	E65B	file,paper,tear,cut,delete,destroy,remove,erase,document,destruction,secure,security,confidential,data,trash,dispose,disposal,information,waste,permanent
+decimals-arrow-left	E65C	numerical,decimal,decrease,less,fewer,precision,rounding,digits,fraction,float,number
+decimals-arrow-right	E65D	numerical,decimal,increase,more,precision,rounding,digits,fraction,float,number
+bow-arrow	E65E	archer,archery,game,war,weapon
+truck-electric	E65F	delivery,van,shipping,haulage,lorry,electric
+user-lock	E660	person,lock,locked,account,secure
+columns-3-cog	E661	columns,settings,customize,table,grid,adjust,configuration,panel,layout
+ruler-dimension-line	E662	measurements,centimeters,cm,millimeters,mm,metre,foot,feet,inches,units,size,length,width,height,dimensions,depth,breadth,extent,stationery
+wifi-pen	E663	edit,wifi,pen,change,network
+door-closed-locked	E664	entrance,entry,exit,ingress,egress,gate,gateway,emergency exit,lock
+hamburger	E665	burger,cheeseburger,meat,beef,patty,bun,fast food,junk food,takeaway,takeout,snack,dish,restaurant,lunch,meal,savory,savoury,cookery,cooking,grilled,barbecue,barbeque,bbq,lettuce,tomato,relish,pickles,onions,ketchup,mustard,mayonnaise
+brush-cleaning	E666	cleaning,utensil,housekeeping,tool,sweeping,scrubbing,hygiene,maintenance,household,cleaner,chores,equipment,sanitation,bristles,handle,home care,sanitize,purify,wash,disinfect,sterilize,scrub,polish,decontaminate,wipe,spotless,remove,empty,erase,purge,eliminate
+clock-plus	E667	time,watch,alarm,add,create,new
+panda	E668	animal,wildlife,bear,zoo,bamboo
+soap-dispenser-droplet	E669	wash,bath,water,liquid,fluid,wet,moisture,damp,bead,globule
+gpu	E66A	processor,cores,technology,computer,chip,circuit,specs,graphics processing unit,video card,display adapter,gddr,rendering,digital image processing,crypto mining
+check-line	E66B	done,todo,tick,complete,task
+square-dashed-top-solid	E66C	square,border,width,layout,style,design,rectangular,marquee,dashed,box,rectangle,aspect ratio,1:1
+circle-pound-sterling	E66D	monetization,coin,penny,marketing,currency,money,payment,british,gbp,Â£
+cloud-check	E66E	sync,network,success,done,completed,saved,persisted
+grid-3x2	E66F	table,rows,columns,blocks,plot,land,geometry,measure,size,width,height,distance,surface area,square meter,acre,window
+id-card-lanyard	E670	id-card,id-card-lanyard,identity,employee,gate-pass,badge
+card-sim	E671	cellphone,smartphone,mobile,network,cellular,service,provider,signal,coverage,disk,data,format,storage,flash,digital,contacts,phone book,contractual,circuit board,chip
+book-alert	E672	reading,paperback,booklet,magazine,leaflet,pamphlet,tome,library,writing,written,writer,author,story,script,fiction,novel,information,knowledge,education,high school,university,college,academy,student,study,learning,homework,research,documentation,warning,alert,danger,exclamation mark
+rectangle-circle	E673	compose,keyboard,key,button
+wifi-cog	E674	connection,signal,wireless,directory,settings,control,preferences,cog,edit,gear
+barrel	E675	keg,drum,tank,wine,beer,oak,wood,firkin,hogshead,kilderkin,barrique,solera,aging,whiskey,brewery,distillery,winery,vineyard
+drone	E676	quadcopter,uav,aerial,flight,flying,technology,airborne,robotics
+spool	E677	bobbin,spindle,yarn,thread,string,sewing,needlework
+georgian-lari	E678	currency,money,payment
+squircle-dashed	E679	shape,pending,progress,issue,draft,code,coding,version control
+line-squiggle	E67A	line,snakes,annotate,curve,doodle,stroke,pen,tool,gesture,draw,wave,art,road
+bottle-wine	E67B	alcohol,drink,glass,goblet,chalice,vineyard,winery,red,white,rose,dry,sparkling,bar,party,nightclub,nightlife,sommelier,restaurant,dinner,meal
+vector-square	E67C	shape,geometry,art,width,height,size,calculate,measure,select,graphics,box
+tool-case	E67D	tools,maintenance,repair
+badge-turkish-lira	E67E	discount,offer,sale,voucher,tag,monetization,marketing,finance,financial,exchange,transaction,payment,try,â‚º
+receipt-turkish-lira	E67F	bill,voucher,slip,check,counterfoil,currency,try,â‚º
+turkish-lira	E680	currency,money,payment
+wifi-sync	E681	connection,signal,wireless,synchronize,reconnect,reset,restart
+spotlight	E682	winner,soapbox,stage,entertainment,drama,podium,actor,actress,singer,light,beam,play,theatre,show,focus,concert,performance,lens,leaderboard,follow spot,best,highlight
+hat-glasses	E683	incognito,disguise,costume,masked,anonymous,anonymity,privacy,private browsing,stealth,hidden,undercover,cloak,invisible,ghost,spy,agent,detective,identity,cap,fedora,spectacles,shades,sunglasses,eyewear
+square-pause	E684	music,audio,stop
+square-stop	E685	media,music
+map-minus	E686	location,navigation,travel,drop,delete,remove,erase
+user-star	E687	person,account,favorite,contact,like,review,rating,admin
+clipboard-clock	E688	copy,paste,history,log,clock,time,watch,alarm,hour,minute,reminder,scheduled,deadline,pending,time tracking,timesheets,appointment,logbook
+handbag	E689	bag,baggage,carry,clutch,fashion,luggage,purse,tote,travel
+closed-caption	E68A	tv,movie,video,closed captions,subtitles,subhead,transcription,transcribe,dialogue,accessibility
+hand-fist	E68B	clench,strength,power,unity,solidarity,rebellion,victory,triumph,support,fight,combat,brawl
+turntable	E68C	record player,gramophone,stereo,phonograph,vinyl,lp,disc,platter,cut,music,analog,retro,dj deck,disc jockey,scratch,spinning
+circle-star	E68D	badge,medal,honour,decoration,order,pin,laurel,trophy,medallion,insignia,bronze,silver,gold
+square-star	E68E	badge,medal,honour,decoration,order,pin,laurel,trophy,medallion,insignia,bronze,silver,gold
+kayak	E68F	kayak,boat,paddle,water,sport,recreation,adventure,outdoors,equipment,lake,ocean
+brick-wall-shield	E690	firewall,security,bricks,mortar,cement,materials,construction,builder,labourer,quantity surveyor,blocks,stone,cybersecurity,secure,safety,protection,guardian,armored,armoured,defense,defence,defender,block,threat,prevention,antivirus,vigilance,vigilant,detection,scan,find,strength,strong,tough,invincible,invincibility,invulnerable,undamaged,audit,admin,verification,crest,bravery,knight,foot soldier,infantry,trooper,pawn,battle,war,military,army,cadet,scout
+rose	E691	roses,thorns,petals,plant,stem,leaves,spring,bloom,blossom,gardening,botanical,flora,florist,bouquet,bunch,gift,date,romance,romantic,valentines day,special occasion
+panel-left-right-dashed	E692	sidebar,primary,drawer,show,reveal,padding,margin,guide,layout,vertical,bleed
+panel-top-bottom-dashed	E693	sidebar,primary,drawer,show,reveal,padding,margin,guide,layout,horizontal,bleed
+list-chevrons-down-up	E694	options,items,collapse,expand,details,disclosure,show,hide,toggle,accordion,more,less,fold,unfold,vertical
+house-heart	E695	home sweet home,abode,building,residence,healthy living,lifestyle
+list-chevrons-up-down	E696	options,items,collapse,expand,details,disclosure,show,hide,toggle,accordion,more,less,fold,unfold,vertical
+ev-charger	E697	electric,charger,station,vehicle,fast,plug,ev,power,electricity,energy,accumulator,charge
+motorbike	E698	moto,motorcycle,transport,vehicle,drive,ride,trip,race,racing,journey,delivery
+monitor-cloud	E699	tv,computer,screen,display,desktop,external display,virtual machine,virtual desktop,vm,vdi,computing,remote work,monitoring,infrastructure,software as a service,saas,workstation,environment
+birdhouse	E69A	birdhouse,bird,garden,home,house,woodwork
+gamepad-directional	E69B	direction,arrow,controller,navigation,button,move,pointer,arrowhead,console,game,gaming
+git-branch-minus	E69C	code,version control,vcs,repository,delete,remove,-
+helicopter	E69D	transport,flying,rotor,aviation,helipad,gear,flyer,technology,helicopter,aircraft,vehicle
+clock-check	E69E	time,watch,alarm
+solar-panel	E69F	solar panel,solar,panel,sun,energy,electricity,light
+chess-bishop	E6A0	mitre,miter,piece,board game,religion
+chess-king	E6A1	ruler,crown,piece,board game,stalemate
+chess-knight	E6A2	piece,horse,board game
+chess-pawn	E6A3	piece,board game
+chess-queen	E6A4	ruler,crown,piece,board game,stalemate
+chess-rook	E6A5	castle,piece,board game
+mouse-pointer-2-off	E6A6	pointer,mouse,cursor,off,disable,arrow,navigation,selection,select,click,no-click,interaction
+calendars	E6A7	date,month,year,event,dates,months,years,events
+form	E6A8	document,page,file,layout,paper,stub,formality,structure,template,inputs,design,components
+waves-arrow-down	E6A9	water,sea,level,sound,hertz,wavelength,vibrate,low,tide,ocean,rising,down,falling
+waves-arrow-up	E6AA	water,sea,level,sound,hertz,wavelength,vibrate,high,tide,ocean,rising
+book-search	E6AB	reading,library,study,education,research,knowledge,discover,browsing,lookup,finding,scanning
+scooter	E6AC	vehicle,drive,trip,journey,transport,electric,ride,urban,commute,speed
+van	E6AD	minivan,cart,wagon,truck,lorry,trailer,camper,vehicle,drive,trip,journey,van,transport,carriage,delivery,travel
+weight-tilde	E6AE	measure,scale,estimate,load,balance,size,measurement,quantity,mass
+alarm-check	E1EC	
+alarm-minus	E1ED	
+alarm-plus	E1EE	
+arrow-down-01	E413	
+arrow-down-10	E414	
+arrow-down-az	E415	
+sort-desc	E047	
+arrow-down-za	E416	
+arrow-up-01	E418	
+arrow-up-10	E419	
+arrow-up-az	E41A	
+sort-asc	E04C	
+arrow-up-za	E41C	
+axis-3-d	E2FE	
+verified	E241	
+badge-help	E47B	
+between-horizonal-end	E591	
+between-horizonal-start	E592	
+book-template	E3ED	
+curly-braces	E36A	
+subtitles	E3A4	
+area-chart	E4D3	
+bar-chart-horizontal-big	E4A7	
+bar-chart-horizontal	E2A2	
+candlestick-chart	E4A8	
+bar-chart-big	E4A9	
+bar-chart-4	E2A4	
+bar-chart-3	E2A3	
+line-chart	E2A5	
+bar-chart	E06A	
+bar-chart-2	E068	
+gantt-chart	E4C4	
+pie-chart	E06B	
+scatter-chart	E48A	
+chrome	E075	
+alert-circle	E077	
+arrow-down-circle	E078	
+arrow-left-circle	E079	
+arrow-down-left-from-circle	E3F7	
+arrow-down-right-from-circle	E3F8	
+arrow-up-left-from-circle	E3F9	
+arrow-up-right-from-circle	E3FA	
+arrow-right-circle	E07A	
+arrow-up-circle	E07B	
+check-circle	E07C	
+check-circle-2	E226	
+chevron-down-circle	E4DD	
+chevron-left-circle	E4DE	
+chevron-right-circle	E4DF	
+chevron-up-circle	E4E0	
+divide-circle	E07D	
+gauge-circle	E4E1	
+minus-circle	E07E	
+parking-circle-off	E3CA	
+parking-circle	E3C9	
+pause-circle	E07F	
+percent-circle	E51A	
+play-circle	E080	
+plus-circle	E081	
+power-circle	E550	
+help-circle	E082	
+circle-help	E082	
+circle-slashed	E213	
+stop-circle	E083	
+user-circle-2	E462	
+user-circle	E461	
+x-circle	E084	
+clipboard-signature	E308	
+clipboard-edit	E307	
+download-cloud	E089	
+upload-cloud	E091	
+code-2	E206	
+columns	E098	
+columns-settings	E661	
+table-config	E661	
+panels-left-right	E099	
+contact-2	E463	
+percent-diamond	E51B	
+globe-2	E1F3	
+more-vertical	E0B7	
+more-horizontal	E0B6	
+file-axis-3-d	E30E	
+file-badge-2	E30F	
+file-json-2	E36C	
+file-json	E36B	
+file-bar-chart	E312	
+file-bar-chart-2	E311	
+file-line-chart	E313	
+file-pie-chart	E314	
+file-check-2	E0C2	
+file-code-2	E45E	
+file-cog-2	E316	
+file-warning	E319	
+file-audio	E31A	
+file-audio-2	E31A	
+file-key-2	E31D	
+file-lock-2	E31E	
+file-minus-2	E0C7	
+file-signature	E320	
+file-edit	E31F	
+file-video	E321	
+file-plus-2	E0CA	
+file-question	E322	
+file-search-2	E324	
+file-volume-2	E325	
+file-type-2	E36D	
+file-video-2	E32B	
+file-x-2	E0CE	
+fingerprint	E2CB	
+folder-cog-2	E331	
+folder-edit	E338	
+filter-x	E3B5	
+filter	E0DC	
+git-commit	E0E3	
+grid-2-x-2-check	E5E4	
+grid-2-x-2-plus	E628	
+grid-2-x-2-x	E5E5	
+grid-2-x-2	E4FF	
+grid	E0E9	
+grid-3-x-3	E0E9	
+grab	E1E6	
+helping-hand	E3B8	
+home	E0F5	
+ice-cream-2	E3A7	
+ice-cream	E353	
+laptop-2	E1D8	
+layers-3	E529	
+outdent	E107	
+indent-decrease	E107	
+indent	E108	
+indent-increase	E108	
+loader-2	E10A	
+unlock-keyhole	E532	
+unlock	E10C	
+mail-question	E365	
+location-edit	E655	
+message-circle-question	E568	
+mic-2	E349	
+move-3-d	E2E5	
+alert-octagon	E127	
+pause-octagon	E21B	
+x-octagon	E128	
+paintbrush-2	E2E8	
+panel-bottom-inactive	E42E	
+sidebar-close	E21C	
+panel-left-inactive	E430	
+sidebar-open	E21D	
+sidebar	E12A	
+panel-right-inactive	E433	
+panel-top-inactive	E437	
+layout	E12C	
+edit-3	E130	
+edit-2	E12F	
+plug-zap-2	E45C	
+form-input	E21F	
+rotate-3-d	E2EA	
+rows	E439	
+panels-top-bottom	E58A	
+scale-3-d	E2EB	
+send-horizonal	E4F2	
+shield-question	E40E	
+shield-close	E200	
+sliders	E162	
+stars	E412	
+activity-square	E4B4	
+arrow-down-left-square	E4B5	
+arrow-down-right-square	E4B6	
+arrow-down-square	E427	
+arrow-left-square	E428	
+arrow-down-left-from-square	E5A1	
+arrow-down-right-from-square	E5A2	
+arrow-up-left-from-square	E5A3	
+arrow-up-right-from-square	E5A4	
+arrow-right-square	E429	
+arrow-up-left-square	E4B7	
+arrow-up-right-square	E4B8	
+arrow-up-square	E42A	
+asterisk-square	E168	
+scissors-square-dashed-bottom	E4EB	
+gantt-chart-square	E169	
+square-gantt-chart	E169	
+check-square	E16A	
+check-square-2	E559	
+chevron-down-square	E3CF	
+chevron-left-square	E3D0	
+chevron-right-square	E3D1	
+chevron-up-square	E3D2	
+code-square	E16B	
+kanban-square-dashed	E16C	
+mouse-pointer-square-dashed	E509	
+box-select	E1CB	
+divide-square	E16D	
+dot-square	E16E	
+equal-square	E16F	
+function-square	E22D	
+kanban-square	E170	
+library-square	E54F	
+m-square	E503	
+menu-square	E453	
+minus-square	E171	
+inspect	E202	
+parking-square-off	E3CC	
+parking-square	E3CB	
+pen-box	E172	
+edit	E172	
+pen-square	E172	
+percent-square	E51C	
+pi-square	E488	
+pilcrow-square	E48B	
+play-square	E481	
+plus-square	E173	
+power-square	E551	
+scissors-square	E4EC	
+sigma-square	E489	
+slash-square	E174	
+split-square-horizontal	E3B6	
+split-square-vertical	E3B7	
+terminal-square	E20A	
+user-square-2	E466	
+user-square	E465	
+x-square	E175	
+test-tube-2	E406	
+align-center	E182	
+align-right	E183	
+align-justify	E184	
+text	E185	
+align-left	E185	
+letter-text	E605	
+text-selection	E3DE	
+wrap-text	E248	
+train	E2A9	
+palmtree	E281	
+alert-triangle	E193	
+tv-2	E203	
+school-2	E3E5	
+user-check-2	E469	
+user-cog-2	E46A	
+user-minus-2	E46B	
+user-plus-2	E46C	
+user-x-2	E46D	
+user-2	E468	
+users-2	E46E	
+fork-knife-crossed	E2F7	
+fork-knife	E2F6	
+wallet-2	E4CD	
+wand-2	E357	
+balloon	E6AF	party,festival,congratulations,celebration,decoration,colorful,floating,fun,birthday,event,entertainment
+cannabis-off	E6E0	cannabis,weed,leaf
+circle-pile	E6E1	off,zero,record,shape,circle-pile,circle,pile,stack,layer,structure,form,group,collection,stock,inventory,materials,warehouse
+cloud-backup	E6E2	storage,memory,bytes,servers,backup,time machine,rotate,synchronize,synchronise,refresh,reconnect,transfer,data,security,upload,save,remote,safety
+cloud-sync	E6E3	synchronize,synchronise,refresh,reconnect,transfer,backup,storage,upload,download,connection,network,data
+fishing-hook	E6E4	sea,boating,angler,bait,reel,tackle,marine,outdoors,fish,fishing,hook,sports,travel
+hd	E6E5	tv,resolution,video,high definition,720p,1080p
+layers-plus	E6E6	stack,layers,add,new,increase,create,positive,copy,upgrade
+search-alert	E6E7	find,scan,magnifier,magnifying glass,stop,warning,alert,error,anomaly,lens,locate,explore,discover,enlarge,zoom
+stone	E6EB	mineral,geology,nature,solid,pebble,crystal,ore,hard,coal,stone,rock,boulder
+toolbox	E6B0	toolkit,tools,trunk,chest,box,storage,utility,utilities,container,kit,set,repair,fix,service,maintenance,mechanic,workshop,construction,hardware,equipment,gear,handyman,engineering,craft,diy
+database-search	E6B1	storage,memory,container,tin,pot,bytes,servers
+ellipse	E6B2	shape,geometry,rounded,smooth,outline,form,boundary,curve,shapes,ellipse,oval
+fishing-rod	E6B3	fishing,rod,hobby,equipment,reel
+git-merge-conflict	E6B4	code,version control,commits,diff,error,conflict
+globe-off	E6B5	globe,earth,planet,disable,mute,off,hide,avoid,world,browser,language,translate,internet,offline,disconnected,network,connection,no connection,network failure,signal off
+globe-x	E6B6	globe,internet,offline,disconnected,network,connection,world,no connection,network failure,signal off
+lens-concave	E6B7	concave,lens,optics,light,magnification,curved,focus,refraction,science,physics,eyeglass,telescope,microscope
+lens-convex	E6B8	convex,lens,optics,magnification,focus,light,refraction,physics,eyeglass,telescope,microscope,curved,science
+line-dot-right-horizontal	E6B9	code,version control,waypoint,stop,station,last,end
+message-circle-check	E6BA	comment,chat,conversation,dialog,feedback,speech bubble,moderate,check,done,todo,complete
+message-square-check	E6BB	comment,chat,conversation,dialog,feedback,speech bubble,moderate,check,done,todo,complete
+metronome	E6BC	metronome,tempo,rhythm,beat,bpm,music,audio,sound,practice,timing,timer,time,pulse,sync,cadence,control,playback,studio,tool
+mirror-rectangular	E6BD	reflection,optics,glass,surface,image,physics,science,bathroom,decor,cosmetic,shiny,periscope,vanity
+mirror-round	E6BE	reflection,optics,glass,surface,image,physics,science,bathroom,vanity,makeup,decor,cosmetic,shiny,periscope
+mouse-left	E6BF	device,scroll,click
+mouse-right	E6C0	device,scroll,click
+printer-x	E6C1	fax,office,device,cross,cancel,remove,error
+shelving-unit	E6C2	ledge,rack,storage,inventory,furniture,sill,shelves,shelf,organize,display,store,arrange,unit,cabinet,fixture,retail,warehouse
+square-arrow-right-enter	E6C3	left,in,inside,input,insert,source,import,place,->
+square-arrow-right-exit	E6C4	out,outside,output,export,->
+square-centerline-dashed-horizontal	E6C5	reflect,mirror,alignment,dashed
+square-centerline-dashed-vertical	E6C6	reflect,mirror,alignment,dashed
+towel-rack	E6C7	flannel,bathroom,toiletries,sanitation,clean,fresh,dry,laundry,laundrette,hospitality,housekeeping,room service,spa break,health club,amenities,hanging
+user-key	E6C8	passkey,password,login,authentication,authorization,roles,permissions,private,public,security,person,account,contact
+user-round-key	E6C9	passkey,password,login,authentication,authorization,roles,permissions,private,public,security,person,account,contact
+x-line-top	E6CA	line,top,arrow,navigation,up,pointer,direction,vector,symbol,cancel,close,delete,remove,times,clear,math,multiply,multiplication,mean,median,average,xÌ„
+zodiac-aquarius	E6CB	water bearer,waves,innovation,air,future,astrology,star sign,horoscope,constellation,celestial
+zodiac-aries	E6CC	ram,horns,fire,energy,initiative,astrology,star sign,horoscope,constellation,celestial
+zodiac-cancer	E6CD	crab,shell,protection,water,intuition,astrology,star sign,horoscope,constellation,celestial
+zodiac-capricorn	E6CE	goat,mountain,ambition,earth,discipline,astrology,star sign,horoscope,constellation,celestial
+zodiac-gemini	E6CF	twins,duality,communication,air,adaptability,astrology,star sign,horoscope,constellation,celestial
+zodiac-leo	E6D0	lion,crown,leadership,fire,confidence,astrology,star sign,horoscope,constellation,celestial
+zodiac-libra	E6D1	scales,balance,justice,air,harmony,astrology,star sign,horoscope,constellation,celestial
+zodiac-ophiuchus	E6D2	serpent,snake holder,healing,knowledge,astronomy,astrology,star sign,horoscope,constellation,celestial
+zodiac-pisces	E6D3	fish,duality,water,dreams,empathy,astrology,star sign,horoscope,constellation,celestial
+zodiac-sagittarius	E6D4	archer,arrow,exploration,fire,philosophy,astrology,star sign,horoscope,constellation,celestial
+zodiac-scorpio	E6D5	scorpion,stinger,intensity,water,transformation,astrology,star sign,horoscope,constellation,celestial
+zodiac-taurus	E6D6	bull,strength,stability,earth,endurance,astrology,star sign,horoscope,constellation,celestial
+zodiac-virgo	E6D7	virgin,maiden,harvest,precision,earth,analysis,astrology,star sign,horoscope,constellation,celestial
+cctv-off	E6D8	camera,surveillance,recording,film,videotape,crime,watching
+road	E6D9	road,street,highway,route,path,transport,traffic,drive,map
+line-style	E6DA	line,stroke,style,dashed,border
+shield-cog-corner	E6E8	cybersecurity,secure,safety,protection,guardian,armored,armoured,defense,defence,defender,block,threat,prevention,antivirus,vigilance,vigilant,detection,scan,find,strength,strong,tough,invincible,invincibility,invulnerable,undamaged,audit,admin,verification,crest,shield cog,bravery,knight,foot soldier,infantry,trooper,pawn,battle,war,military,army,cadet,scout
+shield-cog	E6E9	cybersecurity,secure,safety,protection,guardian,armored,armoured,defense,defence,defender,block,threat,prevention,antivirus,vigilance,vigilant,detection,scan,find,strength,strong,tough,invincible,invincibility,invulnerable,undamaged,audit,admin,verification,crest,bravery,knight,foot soldier,infantry,trooper,pawn,battle,war,military,army,cadet,scout
+sport-shoe	E6DB	footwear,sports,running,athletic,shoe,sneaker,training,exercise,fitness
+beef-off	E6DC	food,dish,restaurant,course,meal,meat,bbq,steak,vegetarian
+radio-off	E6DD	signal,broadcast,connectivity,live,frequency
+map-pin-search	E6DE	location,navigation,travel,waypoint,marker,drop
+bookmark-off	E6DF	unsaved,unfavorite,unmarked,unlabel,disabled,removed,unpin,unread,unclip,marker,untag
+square-dashed-text	E6EA	find,search,selection,dashed
+timeline	E6EC	tags,history
+heart-x	E6ED	unlike,unfavorite,remove,reject,dismiss,delete,clear
+layers-minus	E6EE	stack,pile,pages,sheets,paperwork,copies,copy,layers,remove,delete
+bell-check	E6EF	alarm,notification,sound,reminder
+astroid	E6F0	star,math,shape,curve,sharp,four-pointed,hypocycloid,ai,artificial intelligence
+folder-bookmark	E6F1	folder,bookmark,file,mark,storage,archive,directory,project,favorite,save,read later
+waves-horizontal	E283	water,sea,sound,hertz,wavelength,vibrate,ocean,swimming,frequency
+waves-vertical	E6F2	steam,warmth,temperature,burn,hot,boiling,heat,smoke,vapor,smell,aroma,sauna
+repeat-off	E6F3	loop,arrows,recurring,again
+blender	E6F4	mixer,appliances,food,liquid,juicer,vitamizer,mix,emulsify,smoothie,drink,blade,container,kitchen,milkshake,cocktail,beverage,culinary,shredder,processor,cooking,recipe,chef,restaurant
+broccoli	E6F5	leafy,crisp,fresh,culinary,vegetation,vegetable,food,healthy,vegan,vegetarian,nutrition,diet,plant,green,produce
+sticky-note-check	E6F6	post-it,comment,annotation,reaction,memo,reminder,todo,task,idea,brainstorm,document,page,paper,sheet,stationary,office,done,complete,success,check,verified
+sticky-note-minus	E6F7	post-it,comment,annotation,reaction,memo,reminder,todo,task,idea,brainstorm,document,page,paper,sheet,stationary,office,remove,delete,minus
+sticky-note-off	E6F8	post-it,comment,annotation,reaction,memo,reminder,todo,task,idea,brainstorm,document,page,paper,sheet,stationary,office,disabled,hidden,mute,inactive
+sticky-note-plus	E6F9	post-it,comment,annotation,reaction,memo,reminder,todo,task,idea,brainstorm,document,page,paper,sheet,stationary,office,add,create,new,plus
+sticky-note-x	E6FA	post-it,comment,annotation,reaction,memo,reminder,todo,task,idea,brainstorm,document,page,paper,sheet,stationary,office,close,cancel,delete,remove
+sticky-notes	E6FB	post-it,annotation,memo,reminder,todo,tasks,ideas,brainstorm,documents,notes,multiple,collection,group,stack,clone,duplicate,copy
+globe-check	E6FC	world,browser,language,translate,internet,web,check,verified,success,valid,available,online,status
+parasol	E6FD	umbrella,sunshade,beach,shade,sun,protection,cover,canopy,garden,outdoors,resort,travel,vacation,holiday,summer,apparel,accessory,sunbathing,relax,tropical
+play-off	E6FE	audio,video,music,start,run,off,disabled,blocked,forbidden
+webcam-off	E6FF	camera,security
+ad	E700	advert,affiliate,brand,campaign,commercial,marketing,monetize,paid,partner,promo,sponsor,audio description,video description,described video,visual description
+eye-dashed	E701	view,watch,see,hide,conceal,mask,hidden,invisible,visibility,vision
+list-sort-ascending	E702	list,order,arrangement,organization,sequence,ranking,categories,presentation,filter,sort,ascending,descending,increasing,decreasing,rising,falling
+list-sort-descending	E703	list,order,arrangement,organization,sequence,ranking,categories,presentation,filter,sort,ascending,descending,increasing,decreasing,rising,falling
+podium	E704	award,stage,winner,celebration,performance,medal,success,achievement,highlight,ranking,winning,place,placing,leaderboard,first,second,third,gold,silver,bronze
+save-pen	E705	floppy disk,directory,rename
+save-plus	E706	floppy disk,save,plus,add,update,create
+star-check	E707	bookmark,favorite,like,review,rating,check,star
+star-minus	E708	bookmark,favorite,like,review,rating,minus,remove,deselect,star
+star-plus	E709	bookmark,favorite,like,review,rating,plus,add,join,star
+star-x	E70A	mark,symbol,shape,vector,design,graphic,bookmark,favorite,like,review,rating,x,cancel,reject,star
+wrench-off	E70B	account,settings,spanner,diy,toolbox,build,construction,off,service,maintenance,disabled
+banknote-check	E70C	banknote,bill,currency,payment,money,finance,document,verification,tick,verified,accepted,done,complete,found,paid,task,check,success
+clock-arrow-left	E70D	time,watch,alarm,assign,range
+clock-arrow-right	E70E	time,watch,alarm,range,unassign
+pencil-sparkles	E70F	edit,ai,tools,smart,create,draw,sketch,draft,writer,writing,stationery,artist,magic,wizard,magician
+save-check	E710	save,save-check,floppy-disk,saved,check,save-success
+summary	E711	brief,abstract,synopsis,report,digest,outline,recap,condensation,summary,ai,text,overview
+tag-plus	E712	label,badge,ticket,mark,new,add,create,+
+tag-x	E713	label,badge,ticket,mark,x,delete,remove
+user-round-arrow-left	E714	person,assign,move,give,setup,self,me,myself,profile,avatar,incoming,recipient,assignee,inbound
+bone-fracture	E715	bone,fracture,injury,orthopedic,medical,anatomy,skeletal,broken,xray,trauma,health,vet,veterinary,crack,break,damage
+database-arrow-down	E716	storage,memory,bytes,server,export,download,backup,pull,downsize
+database-arrow-up	E717	storage,memory,bytes,server,import,upload,backup,push,upscale
+database-check	E718	storage,memory,bytes,server,check,success,valid,verified,confirmed,complete
+database-minus	E719	storage,memory,bytes,server,minus,remove,delete,reduce
+database-plus	E71A	storage,memory,bytes,server,plus,add,create,insert,new,expand
+database-x	E71B	storage,memory,bytes,server,x,error,failed,invalid,rejected,denied,clear,remove,disconnect
+phi	E71C	math,golden-ratio,symbol,greek,letter,typography,constant,flux,magnetic-flux
+paper-bag	E71D	storage,package,lunch,takeout,eco-friendly,kraft,retail,doggy bag
+circle-euro-sign	E71E	
+circle-euro	E71F	symbol,economy,banking,europe,â‚¬,euro,currency,money,payment,coin,finance,financial,exchange
+scan-box	E720	ar,augmented reality,3d,object detection,object recognition,tracking,spatial computing,capture,cube,bounding box,camera,frame,shape,boundary,lidar,depth,scanning,mapping,placement
+server-plus	E721	add,create,new,cloud,storage,computing
+shield-keyhole	E722	cybersecurity,secure,safety,protection,defense,defence,defender,block,threat,prevention,antivirus,vigilance,vigilant,detection,scan,find,strength,strong,tough,invincible,invincibility,invulnerable,undamaged,audit,admin,verification,crest,bravery,trooper,pawn
+layout-freeform	E723	layout,freeform,free,absolute,position,auto layout,unaligned,scattered,arrange,blocks,canvas,frame
+mic-audio-lines	E724	podcast,audio,waveform,sound waves,microphone,talk,voice,speech,stream,recording,transcription,dictation,voice assistant,noise cancellation,sound processing
+mic-signal	E1FA	podcast,audio,broadcast,signal,wireless,radio,airwaves,microphone,talk,voice,speech,stream,live,voice chat,push to talk,transmission
+mosque	E725	mosque,masjid,islam,muslim,ramadan,eid,prayer,worship,building,minaret,dome,architecture,faith,religion,holy,sacred,landmark,community,spiritual,tourism,map,heritage
+rotate-ccw-clock	E1F5	history,time,redo,undo,rewind,timeline,version,time machine,backup,ccw
+rotate-cw-fading-clock	E726	clock,waiting,schedule,hourglass,loading,pause,pending,time,watch
+scan-square	E727	scan,square,detect,recognition,select,frame,object,viewfinder,capture,shape,boundary,camera,scanner,overlay,focus,crop,marker
+square-off	E728	/,not,slash,off,disabled,inactive,cancel,none,block,forbidden,unavailable,stopped,checkbox,unchecked,toggle,negation,form,ui
+user-shield	E729	user,shield,admin,protected,guard,profile,security,privacy,permissions,role
+layer-arrow-down	E72A	move back,backward,lower,demote,step back,behind,reorder,arrange,layer,layers,stack,stacking,z-index,depth,graphics,design
+layer-arrow-up	E72B	move forward,forward,raise,lift,promote,advance,step forward,reorder,arrange,stack,stacking,z-index,depth,graphics,design
+layers-arrow-down	E72C	send to back,send backward,back,background,bottom,bottommost,lower,demote,behind,reorder,arrange,stack,stacking,z-index,depth,graphics,design
+layers-arrow-up	E72D	bring to front,bring forward,front,foreground,top,topmost,raise,lift,promote,reorder,arrange,stack,stacking,z-index,depth,graphics,design
+audio-lines-x	E72E	sound,noise,mute,silence,disabled,cancel,remove,unavailable,listen,hearing,equalizer,equaliser,hertz,frequency,wavelength,vibrate,sine,waveform,synthesizer,synthesiser,levels,track,music,playback,radio,broadcast,airwaves,voice,vocals,singer,song
+broom-sparkles	E72F	broomstick,brush,sweep,sweeping,floor,cleaning,ai,magic,sparkle,smart,automation,housekeeping,chores,tidy,spotless,pristine,dust,debris,bristles,handle,janitor,maintenance,witch,halloween
+broom	E730	broomstick,brush,sweep,sweeping,floor,cleaning,housekeeping,chores,tidy,spotless,dust,debris,bristles,handle,janitor,maintenance,witch,halloween
+face-angry	E2FC	anger,rage,fury,resentment,irritation,disgust,emoji,emotion
+face-expressionless	E2FD	nuisance,annoyed,annoyance,frustration,emoji,emotion
+face-grinning	E300	happy,happiness,good,laugh,broad smile,pleasure,good cheer,humour,funny,emoji,emotion
+face-neutral	E114	emoji,neutral,emotion,meh,blank stare,social masking,irritation,concern,deadpan
+face-slightly-frowning	E0DB	emoji,bad,sadness,emotion,concern,disappointment
+face-slightly-smiling-plus	E301	smile,happy,good,react,reaction,emoji,add,emotion
+face-slightly-smiling	E164	smile,happy,happiness,good,positive,friendly,patronizing,passive aggressive,ironic,emoji,emotion
+shield-lock	E731	antivirus,authentication,authorization,credentials,cybersecurity,data protection,defense,encryption,guard,login,password,privacy,safeguard,ssl,tls,two-factor authentication,verification,vpn
+angle	E732	angle,degree,corner,geometry,measure,math,rotate,vertex,slope,protractor,measurement,dimension,arc,drafting,cad
+eject	E733	disc,drive,dvd,blu-ray,cd,media,optical,optical drive,removable media,storage,tray,unmount,usb
+mail-badge	E734	email,message,letter,certified,registered,seal,stamp,verified,envelope,rosette,signed,official,delivery
+car-battery	E735	battery,automobile,power cell,electric,power,electricity,energy,accumulator,charge,transport,vehicle,car
+square-text	E736	text,paragraph,content,note,document,body,copy,article,square,container,block,card,placeholder,log,page,paper,sheet,list,script,code,editor
+audio-lines-off	E737	audio,sound,noise,mute,silence,off,disabled,inactive,listen,hearing,equalizer,equaliser,hertz,frequency,wavelength,vibrate,sine,waveform,synthesizer,synthesiser,levels,track,music,playback,radio,broadcast,airwaves,voice,vocals,singer,song
+list-clock	E738	history,log,clock,time,recent,updated,revision,activity,timestamp,audit,list
+midi-port	E739	musical instrument digital interface,port,connector,socket,jack,din,5-pin,audio,music,synthesizer,keyboard,controller,interface,input,output,io
+mop-sparkles	E73A	cleaning,scrubbing,sweeping,ai,magic,sparkle,smart,automation,housekeeping,hygiene,sanitation,chores,swab,tidy,floor,spotless,pristine,polish,sanitize,disinfect
+mop	E73B	cleaning,sweeping,scrubbing,housekeeping,hygiene,sanitation,chores,swab,tidy,floor,janitor,maintenance,wash,wipe,spotless,pristine,disinfect
+square-dimensions	E73C	ratio,size,width,height,resize,scale,frame,proportions,aspect,bounds,measurements,canvas
+usb-c-port	E73D	universal,serial,bus,controller,connector,interface,socket,plug,slot,data,input,output
+mail-clock	E73E	email,message,letter,unread,scheduled,delayed,send later,delivery,reminder,pending,outgoing,timer
+galaxy	E73F	astronomy,space,stars,cosmos,universe,spiral,milky way,nebula,cosmology,interstellar,celestial,constellation,stargazing,spaceflight
+robot-arm	E740	mechanical,automation,factory,manufacture,technology,cyborg,industrial,hardware,machinery
+ship-cargo	E741	boat,knots,nautical mile,maritime,sailing,cruise,ocean liner,tanker,vessel,navy,cargo,container,freighter,freight,shipping,port,harbor,dock,logistics,import,export
+trailer	E742	tow,shipping,delivery,haulage,vehicle,equipment,freight
+credit-card-check	E743	debit,payment,banking,finance,transaction,wallet,purchase,checkout,billing,account,cardholder,verified,approved,authorized,valid,success,complete,check,bank,cc
+credit-card-minus	E744	debit,payment,remove,delete,unlink,revoke,decline,canceled,banking,finance,wallet,transaction,billing,account,purchase,checkout,subtract,minus,bank,cc
+credit-card-x	E745	debit,payment,banking,finance,transaction,wallet,purchase,checkout,billing,account,cardholder,declined,rejected,failed,invalid,canceled,error,cancel,bank,cc
+message-circle-dashed-check	E746	comment,chat,conversation,dialog,feedback,speech bubble,draft,pending,provisional,verification,confirmation,success,status,check,approval,moderate,resolved,done,complete
+playing-card	E747	deck,draw,deal,shuffle,chance,random,selection,tabletop,flashcard,study,learning,prompt,icebreaker,conversation,collectible,trading,poker,casino,game,gambling,suit
+playing-cards-fan	E748	deck,fan,spread,hand,deal,dealt,draw,shuffle,tabletop,planning poker,scrum,agile,estimation,estimate,prompt,icebreaker,conversation,collectible,collection,trading,poker,casino,game,gambling,suit
+playing-cards	E749	deck,stack,shuffle,deal,draw,hand,tabletop,planning poker,scrum,agile,estimation,estimate,flashcards,study,learning,collectible,collection,trading,poker,casino,game,gambling,suit
+robot-vacuum	E74A	appliance,cleaning,household,housekeeping,tool,maintenance,sweeping,hygiene,chores,automation,smart home,device,floor,dust,debris,navigation,sensor
+credit-card-plus	E74B	debit,payment,banking,finance,transaction,wallet,purchase,checkout,billing,account,cardholder,add,new,link,save,method,plastic,bank,cc
+vector-polygon	E74C	map,vector,geometry,coordinates,shape,location,boundary,area,region,gis,geospatial,vertices,points,outline,drawing,design,math
+whistle	E74D	alert,signal,sound,blow,noise,coach,trainer,referee,gym,game,training,sports,traffic cops,police,lifeguard,safety,rescue,emergency
+mail-pen	E74E	email,message,letter,pen,edit,compose,draft,write,writing,create,reply
+bridge	E74F	overpass,cross over,traverse,viaduct,suspension,infrastructure,transportation,crossing,road,river,gate,golden,travel,landmark,route,maritime,clearance
+can	E750	food,storage,groceries,tin,metal,recyclable,container,pantry,grocery,preserved
+lighthouse	E751	lighthouse,beacon,coast,navigation,tower,sea,ocean,maritime,guide,safety,light,shine,port,marine,faro,signal,nautical,harbor,shore,light beam,wayfinding,guidance,onboarding,help,landmark
+shopping-cart-minus	E752	trolley,cart,basket,e-commerce,ecommerce,store,purchase,products,items,checkout,order,retail,remove,decrease,quantity,subtract
+shopping-cart-plus	E753	trolley,cart,basket,e-commerce,ecommerce,store,purchase,products,items,checkout,order,retail,add,increase,quantity,buy
+shrimp-off	E754	marine,creature,fisherman,ocean,fresh,cuisine,marine-life,seafood,shellfish,crustacean,prawn,scallop,whelk,arthropod,littleneck,quahog,allergy,intolerance,diet
+can-soda	E755	beverage,drink,food,soda,tin,beer,alcohol,waste
+credit-card-reader	E756	bank,purchase,payment,cc,atm,terminal,checkout,kiosk,pos,point of sale,transaction,contactless,chip,swipe,tap,banking,finance,retail
+door-stairwell	E757	staircase,stairway,stairs,steps,ladder,transition,access,structure,spiral,building,vertical,movement,floor,level,entrance,entry,exit,egress,route,indoor,emergency exit
+engine	E758	vehicle,power,energy,drive,repair,car,motor,mechanical,diagnostics,maintenance,warning,dashboard,parts
+germ-off	E759	virus,microbe,bacterium,bacteria,germ,organism,cilia,pathogen,infection,disease,contagion,contamination,microbiology,health,medicine,biology,science,microorganism,pandemic,epidemic,outbreak,amoeba,flu,security,single cell,unicellular,vaccine,immunity,quarantine
+germ	E75A	virus,microbe,bacterium,bacteria,germ,organism,cilia,pathogen,infection,disease,contagion,contamination,microbiology,health,medicine,biology,science,microorganism,pandemic,epidemic,outbreak,amoeba,flu,security,single cell,unicellular,vaccine,immunity,quarantine
+square-exclamation-point	E75B	warning,alert,danger,exclamation mark,rectangle,square,notification,attention,important,caution
+virus-off	E75C	pathogen,infection,disease,illness,contagion,outbreak,pandemic,epidemic,covid,coronavirus,germ,microbe,microorganism,biology,medical,healthcare,malware,cybersecurity,threat,antivirus,blocked,removed,clean,safe,prevention,quarantine
+virus	E75D	pathogen,infection,disease,illness,contagion,outbreak,pandemic,epidemic,covid,coronavirus,germ,microbe,microorganism,biology,medical,healthcare,malware,cybersecurity,threat
+circle-dashed-check	E75E	approved,pending,changes,revision,reapproval,published,schedule,assignment,request,review,progress,issue,draft,code,coding,version control
+dome	E75F	roof,cupola,rotunda,shelter,building,architecture,structure,church,christian,orthodox,byzantine,cathedral,basilica,chapel,monument,landmark,museum,observatory,heritage
+equal-approximately-not	E760	calculate,math,operator,not,approximately,unequal,code,â‰‡,tolerance,threshold,mismatch,comparison,assertion,variance
+gap-horizontal	E761	gap,spacing,space,between,padding,margin,horizontal,auto layout,layout,distance,frame,distribute
+gap-vertical	E762	gap,spacing,space,between,padding,margin,vertical,auto layout,layout,distance,frame,distribute
+trash-off	E763	empty,deletion,cleanup,junk,clear,garbage,delete,remove,bin,trash,waste,recycle,discard,rubbish,disabled,off,prevent,locked,unavailable,protected
+user-group	E764	group,people,team,members,community,membership,collaboration,organization,contacts,directory,staff,family,ancestry,ancestors,lineage,parents
+user-round-group	E765	group,people,team,members,community,membership,collaboration,organization,contacts,directory,staff,family,ancestry,ancestors,lineage,parents
+carton-off	E766	milk,dairy,beverage,drink,diet,lactose free,non dairy,liquid,liter,litre,pint,pints,pasteurized,skim,skimmed,container,packaging,allergy,intolerance,vegan,unavailable
+carton	E767	milk,dairy,beverage,drink,diet,lactose,liquid,liter,litre,pint,pints,pasteurized,skim,skimmed,container,packaging,grocery,juice,cream,cow
+tic-tac-toe	E768	game,board,grid,strategy,noughts and crosses
+toothbrush-sparkles	E769	dental care,oral hygiene,brushing,teeth,dentist,bathroom,toiletries,personal care,cleaning,bristles,handle,plaque,toothpaste,self care,grooming,fresh,clean
+toothbrush	E76A	dental care,oral hygiene,brushing,teeth,dentist,bathroom,toiletries,personal care,cleaning,bristles,handle,plaque,toothpaste,self care,grooming
+triangles-centerline-dashed-horizontal	E35E	reflect,mirror,alignment,dashed
+triangles-centerline-dashed-vertical	E360	reflect,mirror,alignment,dashed
+book-bookmark	E3F1	dictionary,reading,booklet,magazine,leaflet,pamphlet,tome,library,writing,written,writer,author,story,script,fiction,novel,information,knowledge,education,high school,university,college,academy,student,study,learning,homework,research,documentation,saved,later,future,reference,index,code,coding,version control,git,repository
+building-complex-plus	E76B	business,company,enterprise,skyscraper,organisation,organization,city,new,add,create,increase,office,headquarters,startup,registration,onboarding,real estate,property
+building-complex	E290	business,company,enterprise,skyscraper,organisation,organization,city
+calendar-chevrons-right	E76C	navigation,arrow,direction,symbol,pointer,indicator,previous,menu,date,day,month,year,events
+globe-code	E76D	website,internet,globe,connection,network,digital,access,global,link,world,browser,language,translate
+hourglass-cog	E76E	timer,time,sandglass,duration,settings,gear,cog,edit,configuration,countdown,timeout,expiration
+houses	E76F	homes,housing,estate,living,buildings,development,residences,residential,village,neighbourhood,accommodation,community,dwellings,architecture
+iv-bag	E770	intravenous,therapy,infusion,medicine,medication,treatment,healthcare,hydration,vitamin,supplement,blood,donation,chemotherapy,clinic,feeding tube,administration,health,regeneration
+layout-arrow-down	E771	layout,direction,flex,flexbox,flex-direction,column,auto layout,vertical,arrange,order,flow,stack
+layout-arrow-right	E772	layout,direction,flex,flexbox,flex-direction,row,auto layout,horizontal,arrange,order,flow,stack
+messages-circle	E773	comment,chat,conversation,dialog,feedback,speech bubbles,copy,multiple,discussion,interview,debate,group,group chat,threads,unread,bubble,messaging
+mouth-off	E774	speech,voice,talk,mute,silence,speechless,taste loss,flavor loss,ageusia,tasteless,gustatory,oral,dental,communication,accessibility
+mouth	E775	speech,voice,talk,speaking,taste,tasting,flavor,palate,tongue,gustatory,oral,dental,expression,communication,accessibility
+notebook-dot	E776	document,file,journal,page,paper,record,entry,notebook,notification,unread,note
+park	E777	nature,green,trees,landscape,rest,walk,leisure,environment,tree,bench,outdoors,recreation
+plant-pot	E778	plant,leaf,nature,pot,houseplant,gardening,planter,decor,indoor
+square-bookmark	E03B	photo,book
+clef-alto	E779	do,c,music,note,key,soprano,mezzo,alto,staff,pitch,baritone,major,scale
+clef-bass	E77A	fa,f,music,note,key,baritone,staff,pitch,bass,subbass,major,scale
+clef-treble	E77B	sol,g,music,note,key,treble,staff,pitch,violin,solfege,major,scale
+monitor-pc	E77C	personal computer,desktop,screen,display,workstation,tower,chassis,hardware,setup,gaming
+cupcake	E77D	cake,dessert,food,celebration,sweet,baking,cooking
+door-closed-package	E77E	delivery,parcel,doorstep,shipping,drop-off,courier
+faucet	E77F	tap,spigot,water,drinking,fresh,source,pipes,plumbing,plumber,sink,basin,kitchen,bathroom,washroom,fixture,valve,flow,drinkable,potable,amenities,utilities,hydration
+lambda	E780	greek,symbol,math,function,programming,serverless,anonymous,functional,cloud,wavelength,calculus,linear algebra
+nepali-rupee	E781	currency,money,nepal,rupee,npr
+rotate-cw-clock	E782	modify,edit,refresh,sync,renew,revision,settings,adjust,upgrade,time,timeline,version,time machine,backup,clockwise,arrow,reload,rerun,synchronize,circular,cycle,update
+square-dashed-plus	E783	selection,select,add,new,placeholder,marquee,box,dashed,plus,insert,frame,empty
+square-dashed-x-corner	E784	deselect,unselect,delete,select,selection,border,width,layout,style,design,rectangular,marquee,box,rectangle,aspect ratio,1:1
+square-dashed-x	E785	deselect,unselect,delete,select,selection,border,width,layout,style,design,rectangular,marquee,box,rectangle,aspect ratio,1:1
+tube-lotion	E786	sunscreen,sunblock,spf,uv,cream,skincare,toothpaste,ointment,bottle,toiletries,bathroom,beach,summer
+briefcase-plus	E787	work,bag,baggage,folder,new,add,create,increase,briefcase,portfolio,business,career,employment,professional,plus
+house-cog	E788	home,building,residence,settings,gear,configuration,property,automation
+line-dot-bottom-vertical	E789	code,version,control,station,waypoint,start,first
+line-dot-left-horizontal	E78A	line,dot,left,horizontal,shape,symbol,navigation,arrow,pointer,code,version control,waypoint,stop,start,first,station
+line-dot-top-vertical	E78B	arrow,pointer,direction,indicator,code,version,control,waypoint,stop,station,last,end
+square-sparkles	E78C	picture,photo,sparkles
+bangladeshi-taka	E78D	currency,money,payment,bdt,à§³,currency symbol,cash,banknote,price,remittance,ecommerce
+letters	E78E	abc,alphabet,alphabetical,text,characters,language,typography,literacy,spelling
+printer-3d	E78F	model,hardware,technology,device,factory,manufacturing,art,extruder,stl,obj,step,additive,fabrication,rapid prototype,layer,filament,nozzle,maker,machine
+layout-grid-circles	E790	app,home,start,dot matrix,dots,menu,dashboard,collection,overview,tiles,grid,matrix,launcher,apps,widgets,ui,circles,shortcuts
+armenian-dram	E791	finance,symbol,banking,economy,currency,money,payment
+door-closed-cog	E792	room,entrance,entry,settings,gear,access,automation
+kazakh-tenge	E793	currency,money,payment,kazakhstan,currency-symbol,exchange,cash
+rugby-ball	E794	rugby,football,ball,goal,sport
+text-align-justify-center	E795	paragraph,alignment,justified,center,middle,typography,editor,document
+text-align-justify-end	E796	paragraph,alignment,justified,right,end,typography,editor,document
+text-align-justify-start	E797	paragraph,alignment,justified,left,start,typography,editor,document
+wind-arrow-up	E798	weather,air,pressure,blow,gust,windy,sort,increase
+groceries	E799	food,vegetables,health,grocery,market,farmer,produce,pantry,paper bag,shop,supermarket,retail,delivery,larder,provisions,takeout
+hiking-stick	E79A	hiking,walking,stick,trekking,trail,pole,backpacking,outdoors,mountains
+scratch-blocks	E79B	code,blocks,scratch,turbowarp,mistwarp,visual programming,block-based,drag-and-drop,editor,education,learning,programming,kids,integration
+lens	E79C	optics,reflection,camera,photography,focus,effect,shader,post-process,visual,contact lens,glass,magnify,translucent,transparent,orb,bubble,zoom
+handle-bottom-right	E79D	mouse,grab,handle,move,drag,resize,corner
+mail-dot	E79E	mail,envelope,communication,post,send,address,notification,email,message,letter,unread,dot
+phone-log	E79F	telephone,communication,mobile,device,contact,history,data,information,call
+screw	E7A0	fastener,hardware,bolt,screwdriver,repair,assembly,diy,flathead
+shield-house	E7A1	cybersecurity,secure,safety,protection,guardian,armored,armoured,defense,defence,defender,block,threat,prevention,antivirus,vigilance,vigilant,detection,scan,strength,strong,tough,invincible,invincibility,invulnerable,undamaged,audit,admin,property,household,connectivity,building,residence
+user-round-star	E7A2	person,account,favorite,contact,like,review,rating,admin,avatar,profile,featured,moderator,verified,badge,award,champion,starred
+wifi-lock	E7A3	admin,connection,secure,security,signal,network,password,wireless,hotspot,encrypted,locked,private,ssid,guest,router,access,authentication,protected
+message-circle-text	E7A4	comment,chat,conversation,dialog,feedback,speech,bubble,sms,texting,messaging,dm,discussion,thread,transcript,written,writing,lines,support,chatbot
+server-nas	E7A5	storage,network,server,backup,raid,files,sharing,disk,hardware,lan,cloud
+belarusian-ruble	E7A6	currency,money,payment,byn,iso4217,fiat,prices,localization,banking,checkout,wallet,exchange-rate
+calendar-chevrons-left	E7A7	navigation,arrow,direction,symbol,pointer,indicator,next,menu,date,day,month,year,events
+circle-fading-play	E7A8	short clips,shorts,reels,stories,video,highlights,social media,content,preview,teaser,clip,short form,vertical video
+cpu-ai	E7A9	ai,artificial intelligence,machine learning,neural network,automation,intelligence,generative,assistant,chatbot,llm,deep learning,inference,training,mlops,model,predictive,on-device,edge,api,service,cognitive,processor,chip
+folder-user	E7AA	directory,profile,person,personal,contact,document,account,individual,home folder,shared,access,owner
+folder-users	E7AB	directory,profile,shared,people,document,accounts,group,team,permission,access,collaboration,organization
+graph-star	E7AC	mind map,network,hub,nodes,links,connections,relationships,dependencies,bonds,structure,topology,cluster,thoughts,ideas,concepts,molecule
+guitar-electric	E7AD	acoustic,instrument,strings,riff,rock,band,country,concert,performance,play,lead,loud,music,audio,sound,noise
+perfume-bottle	E7AE	eau de parfum,eau de toilette,essence,aftershave,cologne,aroma,fragrance,smell,scent,bouquet,gift,duty free,spray,puff,atomizer,mist,beauty,skincare,cosmetics
+users-collaboration	E7AF	group,people,collaboration,users,team,communication,cooperative,workspace,peer-to-peer,p2p,shared,delegation,handoff,coauthor,profiles
+users-round-collaboration	E7B0	group,people,collaboration,users,team,communication,cooperative,workspace,peer-to-peer,p2p,shared,delegation,handoff,coauthor,profiles
+certificate	E7B1	award,ribbon,medal,achievement,pinned,badge,recognition,laurel,commendation,diploma,official,proof,fact,verified,license,warrant,authorization,legal,ownership,credential,ssl,tls,security,trust,cybersecurity,authority,graduation,study
+eighth-note	E34A	audio,music,sound,note,quaver
+eighth-notes	E122	audio,music,sound,notes,quavers
+half-note	E34B	audio,music,sound,note,crotchet,minim,quarter note
+sixteenth-notes	E34C	audio,music,sound,notes,semiquavers
+avocado	E7B2	fruit,snack,meal,lunch,ingredient,cooking,cookery,kitchen,cuisine,eating,healthy,nutrition,diet,guacamole,mexican,green,pit,seed,half,produce,vegetarian,vegan,grocery,supermarket,toast,superfood,plant based,ripe
+bacon	E7B3	rashers,smoked,streaky,crispy,meat,fast food,junk food,snack,dish,restaurant,brunch,lunch,meal,savory,savoury,cookery,cooking,grilled,barbecue,barbeque,bbq,pig,pork,breakfast,cured,butcher,sandwich,protein,grocery,kitchen
+brain-off	E7B4	medical,mind,mental,intellect,cerebral,consciousness,genius,artificial intelligence,ai,think,deep learning,machine learning,computing
+graph-hub	E7B5	load balancer,distribute,traffic,network,nodes,parallel,branch,hierarchy,routing,dispatcher,cluster,backend,fan-out,topology,orchestration
+letter-spacing	E7B6	tracking,kerning,design,lettering,text,letters,characters,font,typography,formatting
+line-height	E7B7	leading,text,letters,characters,font,typography,spacing,paragraph,formatting,editor,readability,typesetting
+smartphone-user-round	E7B8	phone,cellphone,device,mobile,person,profile,account,avatar,contact,identity,owner,authentication
+tombstone	E7B9	grave,gravestone,headstone,cemetery,graveyard,death,memorial,funeral,halloween,rip,obituary,deceased,epitaph,mourning,bereavement,condolence,deprecated,retired,archived,decommissioned
+circle-chevrons-down	E7BA	bottom,descend,page,page down,scroll,jump,south,caret,button,skip,end,last page,latest,feed,chat,pagination,fast,media
+circle-chevrons-left	E7BB	previous,rewind,backward,first,beginning,start,west,music,caret,button,pagination,skip,skip-back,seek-back,media-controls,player,playlist,track,chapter,jump,timeline,controls
+circle-chevrons-right	E7BC	next,forward,skip,fast forward,last,end,east,music,caret,button,pagination,jump,seek,seek forward,player control,chapter,track,timeline,navigation control
+circle-chevrons-up	E7BD	top,ascend,page,page up,back to top,scroll,jump,north,caret,button,skip,pagination,first page,fast,fast scroll,rewind,jump to start,floating action button,anchor,timeline

@@ -1,0 +1,94 @@
+<Window x:Class="WheelOfAwesome.UI.IconPickerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Choose an icon" Width="720" Height="640" MinWidth="560" MinHeight="420"
+        WindowStartupLocation="CenterOwner" ShowInTaskbar="False">
+    <Window.Resources>
+        <FontFamily x:Key="IconFont">pack://application:,,,/Assets/Fonts/#lucide</FontFamily>
+    </Window.Resources>
+    <DockPanel Margin="20">
+        <Grid DockPanel.Dock="Top" Margin="0,0,0,12">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <TextBox x:Name="SearchBox" TextChanged="SearchBox_TextChanged" FontSize="14" />
+            <TextBlock x:Name="SearchPlaceholder" Text="Search 2,000+ icons: try “music”, “mail”, “code”…" IsHitTestVisible="False"
+                       Margin="12,0,0,0" VerticalAlignment="Center" Foreground="{DynamicResource TextFillColorTertiaryBrush}" />
+            <TextBlock x:Name="CountText" Grid.Column="1" VerticalAlignment="Center" Margin="12,0,0,0" Foreground="{DynamicResource TextFillColorSecondaryBrush}" />
+        </Grid>
+
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="0,0,0,12">
+            <TextBlock Text="Colour" VerticalAlignment="Center" FontWeight="SemiBold" Margin="0,0,12,0" />
+            <ItemsControl x:Name="ColorList">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate><StackPanel Orientation="Horizontal" /></ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Button Click="Color_Click" Tag="{Binding}" Width="30" Height="30" Margin="0,0,6,0" Padding="0" MinWidth="0" MinHeight="0" ToolTip="{Binding}">
+                            <Border Width="20" Height="20" CornerRadius="10" Background="{Binding Converter={StaticResource HexBrush}}" BorderBrush="#40FFFFFF" BorderThickness="1" />
+                        </Button>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </StackPanel>
+
+        <Grid DockPanel.Dock="Bottom" Margin="0,12,0,0">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <Border Width="44" Height="44" CornerRadius="10" Background="#FF1B1D24">
+                    <TextBlock x:Name="SelectedGlyph" FontFamily="{StaticResource IconFont}" FontSize="26" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                </Border>
+                <TextBlock x:Name="SelectedName" VerticalAlignment="Center" Margin="12,0,0,0" FontWeight="SemiBold" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Content="Cancel" IsCancel="True" Margin="0,0,8,0" MinWidth="90" />
+                <Button Content="Use this icon" IsDefault="True" Click="Ok_Click" MinWidth="120" Style="{DynamicResource AccentButtonStyle}" />
+            </StackPanel>
+        </Grid>
+
+        <Border Background="#FF14161B" CornerRadius="8">
+            <!-- Rows of icons in a virtualising list keeps 2,000 glyphs snappy. -->
+            <ListBox x:Name="Rows" Background="Transparent" BorderThickness="0" Padding="6"
+                     VirtualizingPanel.IsVirtualizing="True" VirtualizingPanel.VirtualizationMode="Recycling"
+                     ScrollViewer.CanContentScroll="True" ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                     SizeChanged="Rows_SizeChanged">
+                <ListBox.ItemContainerStyle>
+                    <Style TargetType="ListBoxItem">
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="ListBoxItem">
+                                    <ContentPresenter />
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </ListBox.ItemContainerStyle>
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <ItemsControl ItemsSource="{Binding}">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate><StackPanel Orientation="Horizontal" /></ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Border x:Name="Cell" Width="56" Height="56" CornerRadius="8" Background="Transparent" Margin="2"
+                                            ToolTip="{Binding Name}" MouseLeftButtonUp="Cell_MouseLeftButtonUp" Cursor="Hand">
+                                        <TextBlock Text="{Binding Glyph}" FontFamily="pack://application:,,,/Assets/Fonts/#lucide" FontSize="24"
+                                                   Foreground="{Binding DataContext.Tint, RelativeSource={RelativeSource AncestorType=Window}}"
+                                                   HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                    </Border>
+                                    <DataTemplate.Triggers>
+                                        <Trigger SourceName="Cell" Property="IsMouseOver" Value="True">
+                                            <Setter TargetName="Cell" Property="Background" Value="#33FFFFFF" />
+                                        </Trigger>
+                                    </DataTemplate.Triggers>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </Border>
+    </DockPanel>
+</Window>

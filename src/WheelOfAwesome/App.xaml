@@ -1,0 +1,16 @@
+<Application x:Class="WheelOfAwesome.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:ui="clr-namespace:WheelOfAwesome.UI"
+             ShutdownMode="OnExplicitShutdown"
+             ThemeMode="System">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ui:EnumEqualsConverter x:Key="EnumEquals" />
+            <ui:EnumToVisibilityConverter x:Key="EnumVisible" />
+            <ui:BoolToVisibilityConverter x:Key="BoolVisible" />
+            <ui:NullToVisibilityConverter x:Key="NullVisible" />
+            <ui:HexToBrushConverter x:Key="HexBrush" />
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
