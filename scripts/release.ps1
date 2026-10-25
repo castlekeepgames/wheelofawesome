@@ -40,7 +40,7 @@ Hold the **middle mouse button** anywhere to open the wheel. Click the tray icon
 
 To update, download a newer version and run it; it replaces the old one and keeps your shortcuts.
 To uninstall, use **Settings → Apps → Installed apps → WheelOfAwesome**, or **General → Uninstall** in the app.
-"@ | Set-Content -Path $notes -Encoding utf8
+"@ | ForEach-Object { [IO.File]::WriteAllText($notes, $_, (New-Object System.Text.UTF8Encoding $false)) }  # no BOM: GitHub would show it
 
     gh release create "v$version" $asset --title "WheelOfAwesome $version" --notes-file $notes
     if ($LASTEXITCODE -ne 0) { throw "gh release create failed" }
