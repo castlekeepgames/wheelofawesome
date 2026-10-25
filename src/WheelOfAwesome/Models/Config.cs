@@ -4,6 +4,7 @@ using System.Text.Json.Serialization;
 using System.Windows.Media;
 using WheelOfAwesome.Icons;
 using WheelOfAwesome.Input;
+using WheelOfAwesome.Services;
 
 namespace WheelOfAwesome.Models;
 
@@ -23,6 +24,7 @@ public sealed class AppConfig : ObservableObject
     private bool _startWithWindows = true;
     private bool _runElevated;
     private bool _welcomeShown;
+    private bool _pauseInFullscreen = true;
 
     public int Version { get; set; } = 1;
     public TriggerConfig Trigger { get; set; } = new();
@@ -33,14 +35,25 @@ public sealed class AppConfig : ObservableObject
     public bool RunElevated { get => _runElevated; set => Set(ref _runElevated, value); }
     public bool WelcomeShown { get => _welcomeShown; set => Set(ref _welcomeShown, value); }
 
+    /// <summary>Leave the trigger alone while a full-screen app (game, video, slideshow) is in front.</summary>
+    public bool PauseInFullscreen { get => _pauseInFullscreen; set => Set(ref _pauseInFullscreen, value); }
+
     public ObservableCollection<WheelItem> Items { get; set; } = new();
+
+    /// <summary>Apps where the trigger is always left alone, matched by exe file name.</summary>
+    public ObservableCollection<ExcludedApp> ExcludedApps { get; set; } = new();
 
     /// <summary>Wires collection-change notifications into the dirty tracking after load.</summary>
     public void Attach()
     {
         Items.CollectionChanged += OnCollectionChanged;
         foreach (var item in Items) item.Attach();
+        ExcludedApps.CollectionChanged += (_, _) => { AppFilter.SetExcluded(ExcludedApps); RaiseAnyChanged(); };
+        AppFilter.SetExcluded(ExcludedApps);
     }
+
+    public ExcludedApp? FindExcluded(string exePath) =>
+        ExcludedApps.FirstOrDefault(a => a.ExeName.Equals(System.IO.Path.GetFileName(exePath), StringComparison.OrdinalIgnoreCase));
 
     internal static void OnCollectionChanged(object? sender, NotifyCollectionChangedEventArgs e)
     {
@@ -100,6 +113,19 @@ public sealed class IconSpec : ObservableObject
     public string Color { get => _color; set => Set(ref _color, value); }
     /// <summary>File name inside the app's icon folder, used when Mode is Custom.</summary>
     public string? CustomFile { get => _customFile; set => Set(ref _customFile, value); }
+}
+
+public sealed class ExcludedApp : ObservableObject
+{
+    private ImageSource? _icon;
+
+    public string Name { get; set; } = "";
+    /// <summary>What's matched: the exe file name, so it survives updates that move the app's folder.</summary>
+    public string ExeName { get; set; } = "";
+    public string Path { get; set; } = "";
+
+    [JsonIgnore]
+    public ImageSource Icon => _icon ??= (System.IO.File.Exists(Path) ? Native.Shell.GetIcon(Path, 48) : null) ?? IconService.Glyph("app-window", "#9AA4B2");
 }
 
 public sealed class MacroStep : ObservableObject

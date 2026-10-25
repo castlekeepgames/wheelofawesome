@@ -37,6 +37,8 @@ public sealed class TriggerEngine
     public Func<TriggerConfig> Trigger { get; set; } = () => new TriggerConfig();
     public Func<int> HoldMs { get; set; } = () => 150;
     public bool Enabled { get; set; } = true;
+    /// <summary>Checked on each trigger press: true leaves that press entirely to the app in front (full-screen game, excluded app).</summary>
+    public Func<bool> StayOut { get; set; } = () => false;
     public bool IsOpen => _state == State.Open;
 
     public bool OnKey(int vk, bool down, Modifiers heldModifiers, int cursorX, int cursorY)
@@ -53,6 +55,7 @@ public sealed class TriggerEngine
             case State.Idle:
                 if (down && isTriggerKey && WithoutSelf(heldModifiers, vk) == trigger.Modifiers)
                 {
+                    if (StayOut()) return false;
                     Begin(trigger, cursorX, cursorY);
                     if (trigger.Modifiers.HasFlag(Modifiers.Alt) || trigger.Modifiers.HasFlag(Modifiers.Win)) _host.SendMaskKey();
                     return true;
@@ -103,6 +106,7 @@ public sealed class TriggerEngine
             case State.Idle:
                 if (isTriggerButton && down)
                 {
+                    if (StayOut()) return false;
                     Begin(trigger, x, y);
                     return true;
                 }

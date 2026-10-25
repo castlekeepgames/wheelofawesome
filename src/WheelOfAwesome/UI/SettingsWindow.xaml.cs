@@ -67,6 +67,7 @@ public partial class SettingsWindow : Window
         CountText.Text = $"{_config.Items.Count} of {AppConfig.MaxItems}";
         AddButton.IsEnabled = _config.Items.Count < AppConfig.MaxItems;
         HoldHint.Text = $"Hold the {_config.Trigger.Display.ToLowerInvariant()} anywhere to open it.";
+        NoExclusionsText.Visibility = _config.ExcludedApps.Count == 0 ? Visibility.Visible : Visibility.Collapsed;
         UpdateTriggerWarning();
     }
 
@@ -320,6 +321,38 @@ public partial class SettingsWindow : Window
             case "CapsLock": t.MouseButton = MouseButton.None; t.Modifiers = Modifiers.None; t.Key = 0x14; break;
             case "CtrlSpace": t.MouseButton = MouseButton.None; t.Modifiers = Modifiers.Ctrl; t.Key = 0x20; break;
         }
+    }
+
+    // ---------- Apps where the wheel stays out of the way ----------
+
+    private void AddExcluded(string exePath)
+    {
+        if (_config.FindExcluded(exePath) == null) _config.ExcludedApps.Add(AppFilter.Describe(exePath));
+    }
+
+    private void RemoveExcluded_Click(object sender, RoutedEventArgs e)
+    {
+        if ((sender as FrameworkElement)?.Tag is ExcludedApp app) _config.ExcludedApps.Remove(app);
+    }
+
+    private void AddRunning_Click(object sender, RoutedEventArgs e)
+    {
+        var menu = new ContextMenu { PlacementTarget = AddRunningButton, Placement = System.Windows.Controls.Primitives.PlacementMode.Bottom };
+        var apps = AppFilter.RunningApps().Where(a => _config.FindExcluded(a.Path) == null).ToList();
+        if (apps.Count == 0) menu.Items.Add(new MenuItem { Header = "No other apps are open", IsEnabled = false });
+        foreach (var app in apps)
+        {
+            var item = new MenuItem { Header = app.Name, ToolTip = app.Path, Icon = new Image { Source = app.Icon, Width = 18, Height = 18 } };
+            item.Click += (_, _) => AddExcluded(app.Path);
+            menu.Items.Add(item);
+        }
+        menu.IsOpen = true;
+    }
+
+    private void BrowseExcluded_Click(object sender, RoutedEventArgs e)
+    {
+        var dlg = new OpenFileDialog { Title = "Choose the app (.exe) where the wheel shouldn't open", Filter = "Apps|*.exe" };
+        if (dlg.ShowDialog(this) == true) AddExcluded(dlg.FileName);
     }
 
     // ---------- General ----------

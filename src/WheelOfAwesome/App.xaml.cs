@@ -17,6 +17,7 @@ public partial class App : Application
     private EventWaitHandle? _showSettingsSignal;
     private EventWaitHandle? _exitSignal;
     private TrayIcon? _tray;
+    private ForegroundTracker? _foreground;
     private SettingsWindow? _settings;
 
     public WheelController? Controller { get; private set; }
@@ -106,6 +107,11 @@ public partial class App : Application
         _tray.OpenSettings += ShowSettings;
         _tray.PauseChanged += paused => Controller.Paused = paused;
         _tray.Exit += ExitApp;
+        _foreground = new ForegroundTracker();
+        _tray.FrontApp = () => _foreground.LastAppPath is { } path
+            ? (AppFilter.Describe(path).Name, config.FindExcluded(path) != null)
+            : null;
+        _tray.ToggleFrontApp += ToggleFrontApp;
         ActionRunner.Failed += msg => Dispatcher.BeginInvoke(() => _tray?.Notify("WheelOfAwesome", msg, warning: true));
         IconService.Changed += () => { foreach (var item in ConfigService.Current.Items) item.Refresh(); };
 
@@ -165,10 +171,28 @@ public partial class App : Application
 
     public void Notify(string title, string text, bool warning = false) => _tray?.Notify(title, text, warning);
 
+    private void ToggleFrontApp()
+    {
+        if (_foreground?.LastAppPath is not { } path) return;
+        var config = ConfigService.Current;
+        if (config.FindExcluded(path) is { } existing)
+        {
+            config.ExcludedApps.Remove(existing);
+            Notify("WheelOfAwesome", $"The wheel works in {existing.Name} again.");
+        }
+        else
+        {
+            var app = AppFilter.Describe(path);
+            config.ExcludedApps.Add(app);
+            Notify("WheelOfAwesome", $"The wheel won't open in {app.Name}. Undo this from the same menu, or under Settings → Trigger & wheel.");
+        }
+    }
+
     public void ExitApp()
     {
         ConfigService.Flush();
         Controller?.Dispose();
+        _foreground?.Dispose();
         _tray?.Dispose();
         Shutdown();
     }

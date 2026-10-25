@@ -55,7 +55,7 @@ public static class WindowFocus
     }
 
     /// <summary>Real, user-facing app windows: visible, unowned, titled, not a tool window, not cloaked on another desktop.</summary>
-    private static bool IsCandidate(IntPtr hwnd)
+    public static bool IsCandidate(IntPtr hwnd)
     {
         if (!IsWindowVisible(hwnd) || GetWindow(hwnd, GW_OWNER) != IntPtr.Zero || GetWindowTextLength(hwnd) == 0) return false;
         var ex = (long)GetWindowLongPtr(hwnd, GWL_EXSTYLE);

@@ -60,6 +60,11 @@ public static class DevTools
         settings.Tabs.SelectedIndex = 1;
         Wait(400);
         RenderWindow(settings, Path.Combine(dir, "settings-trigger.png"));
+        ConfigService.Current.ExcludedApps.Add(AppFilter.Describe(@"C:\Windows\System32\notepad.exe"));
+        ConfigService.Current.ExcludedApps.Add(AppFilter.Describe(@"C:\Windows\explorer.exe"));
+        if (settings.Tabs.SelectedContent is System.Windows.Controls.ScrollViewer sv) sv.ScrollToEnd();
+        Wait(400);
+        RenderWindow(settings, Path.Combine(dir, "settings-trigger-exclusions.png"));
         settings.Tabs.SelectedIndex = 2;
         Wait(400);
         RenderWindow(settings, Path.Combine(dir, "settings-general.png"));
@@ -94,6 +99,38 @@ public static class DevTools
 
         try { EngineTests(Check); }
         catch (Exception ex) { Check("engine tests crashed", false, ex.ToString()); }
+
+        // Staying out of the way
+        Win32.RECT R(int l, int t, int r, int b) => new() { Left = l, Top = t, Right = r, Bottom = b };
+        var screen = R(0, 0, 1920, 1080);
+        const long caption = Win32.WS_CAPTION, popup = unchecked((long)0x80000000);
+        Check("full-screen: borderless window covering the monitor", AppFilter.CoversMonitor(R(0, 0, 1920, 1080), screen, popup, false), "");
+        Check("full-screen: maximised window with title bar is not", !AppFilter.CoversMonitor(R(-8, -8, 1928, 1088), screen, caption, true), "auto-hide taskbar case");
+        Check("full-screen: normal maximised window (taskbar visible) is not", !AppFilter.CoversMonitor(R(-8, -8, 1928, 1040), screen, caption, true), "");
+        Check("full-screen: smaller window is not", !AppFilter.CoversMonitor(R(100, 100, 1200, 900), screen, popup, false), "");
+        Check("full-screen: on a second monitor", AppFilter.CoversMonitor(R(1920, 0, 4480, 1440), R(1920, 0, 4480, 1440), popup, false), "");
+
+        AppFilter.SetExcluded(new[] { new ExcludedApp { ExeName = "blender.exe" } });
+        Check("excluded app matches by exe name", AppFilter.IsExcluded(@"D:\Apps\Blender Foundation\Blender 4.2\Blender.EXE") && !AppFilter.IsExcluded(@"C:\Windows\notepad.exe"), "");
+        AppFilter.SetExcluded(Array.Empty<ExcludedApp>());
+
+        var coverWindow = new Window { WindowStyle = WindowStyle.None, AllowsTransparency = true, Background = Brushes.Transparent, ShowActivated = false, ShowInTaskbar = false, Opacity = 0 };
+        var smallWindow = new Window { WindowStyle = WindowStyle.SingleBorderWindow, ShowActivated = false, ShowInTaskbar = false, Left = -3000, Top = 0, Width = 400, Height = 300 };
+        coverWindow.Show();
+        smallWindow.Show();
+        var coverHwnd = new System.Windows.Interop.WindowInteropHelper(coverWindow).Handle;
+        var mon = Win32.MonitorFromPoint(new Win32.POINT { X = 0, Y = 0 }, Win32.MONITOR_DEFAULTTONEAREST);
+        var monInfo = new Win32.MONITORINFO { cbSize = System.Runtime.InteropServices.Marshal.SizeOf<Win32.MONITORINFO>() };
+        Win32.GetMonitorInfo(mon, ref monInfo);
+        var m = monInfo.rcMonitor;
+        Win32.SetWindowPos(coverHwnd, IntPtr.Zero, m.Left, m.Top, m.Right - m.Left, m.Bottom - m.Top, Win32.SWP_NOACTIVATE | Win32.SWP_NOZORDER);
+        Wait(200);
+        Check("full-screen: real borderless window detected", AppFilter.IsFullscreen(coverHwnd), "");
+        Check("full-screen: real small window not detected", !AppFilter.IsFullscreen(new System.Windows.Interop.WindowInteropHelper(smallWindow).Handle), "");
+        coverWindow.Close();
+        smallWindow.Close();
+        var running = AppFilter.RunningApps();
+        Check("running apps list", running.Count > 0, string.Join(", ", running.Take(6).Select(a => $"{a.Name} ({a.ExeName})")));
 
         // Config
         var cfg = Defaults.Create();
@@ -208,6 +245,15 @@ public static class DevTools
         (e, h) = Make(mouse);
         e.Enabled = false;
         check("paused passes everything", !e.OnMouseButton(MouseButton.Middle, true, 0, 0) && h.Calls.Count == 0, "");
+
+        (e, h) = Make(mouse);
+        e.StayOut = () => true;
+        bool stayDown = e.OnMouseButton(MouseButton.Middle, true, 0, 0), stayUp = e.OnMouseButton(MouseButton.Middle, false, 0, 0);
+        check("staying out passes the press and release straight through", !stayDown && !stayUp && h.Calls.Count == 0, string.Join(",", h.Calls));
+
+        (e, h) = Make(combo);
+        e.StayOut = () => true;
+        check("staying out passes a keyboard trigger through", !e.OnKey(0x20, true, Modifiers.Ctrl, 0, 0) && h.Calls.Count == 0, "");
 
         (e, h) = Make(mouse);
         check("other buttons pass when idle", !e.OnMouseButton(MouseButton.Left, true, 0, 0) && !e.OnKey(0x41, true, Modifiers.None, 0, 0), "");

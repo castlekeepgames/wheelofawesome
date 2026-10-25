@@ -36,6 +36,14 @@ The exe isn't code-signed, so Windows SmartScreen shows "Windows protected your 
 - **Cancel:** release in the centre, right-click, or press Esc.
 - If the cursor is near a screen edge, the wheel shifts onto the screen and moves the cursor to its centre.
 
+## Staying out of the way (games and middle-drag apps)
+
+- **Full-screen apps:** while a full-screen app is in front (a game, a full-screen video, a slideshow), the trigger is passed straight through untouched. This is on by default, under **Trigger & wheel**, and means things like middle-click camera controls keep working.
+- **Never-open list:** windowed games and apps that use middle-drag (Blender, CAD, maps) can go on a list where the wheel never opens.
+  - **Quickest way to add one:** with that app in front, right-click the tray icon and choose **Turn off the wheel in …**. Choosing it again turns the wheel back on for that app.
+  - **From settings:** **Trigger & wheel → Add a running app…** or **Browse for an app…**.
+  - Apps are matched by their exe name, so the setting survives app updates.
+
 ## Shortcut types
 
 | Type | What it does |

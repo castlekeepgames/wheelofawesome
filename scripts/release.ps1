@@ -1,8 +1,9 @@
 <#
   Builds the shareable WheelOfAwesome: one self-contained exe (the .NET runtime is bundled, so nothing else needs
   installing) in dist\. With -Publish, also creates a GitHub Release for the version in the .csproj.
+  -WhatsNew adds a "What's new" section (Markdown) above the install steps.
 #>
-param([switch]$Publish)
+param([switch]$Publish, [string]$WhatsNew)
 $ErrorActionPreference = "Stop"
 
 $root = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path
@@ -27,8 +28,9 @@ Write-Host ("Built {0} ({1:N1} MB)" -f $asset, ((Get-Item $asset).Length / 1MB))
 
 if ($Publish) {
     $notes = Join-Path $out "release-notes.md"
+    $whatsNewSection = if ($WhatsNew) { "## What's new`n`n$WhatsNew`n`n" } else { "" }
     @"
-## Install
+$whatsNewSection## Install
 
 1. Download **WheelOfAwesome-$version-win-x64.exe** below and run it. Nothing else is needed (it works on Windows 10 and 11, 64-bit).
 2. Windows may say *"Windows protected your PC"* because the app isn't code-signed. Click **More info** → **Run anyway**.

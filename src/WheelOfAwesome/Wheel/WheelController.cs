@@ -28,6 +28,7 @@ public sealed class WheelController : ITriggerHost, IDisposable
         {
             Trigger = () => ConfigService.Current.Trigger,
             HoldMs = () => ConfigService.Current.HoldThresholdMs,
+            StayOut = () => AppFilter.ShouldStayOut(ConfigService.Current.PauseInFullscreen),
         };
         Hook = new InputHook(Engine);
     }

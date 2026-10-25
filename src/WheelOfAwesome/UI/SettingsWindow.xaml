@@ -326,6 +326,43 @@
 
                         <Border Style="{StaticResource Card}">
                             <StackPanel>
+                                <TextBlock Text="Stay out of the way" Style="{StaticResource SectionTitle}" />
+                                <CheckBox Content="Don't open while a full-screen app or game is in front" IsChecked="{Binding PauseInFullscreen}" />
+                                <TextBlock Style="{StaticResource Hint}" Margin="28,2,0,0"
+                                           Text="The trigger then works normally in full-screen games, videos and slideshows, so things like middle-click camera controls aren't interrupted." />
+
+                                <TextBlock Text="Never open in these apps" Style="{StaticResource FieldLabel}" Margin="0,16,0,6" />
+                                <TextBlock x:Name="NoExclusionsText" Style="{StaticResource Hint}" Margin="0,0,0,8"
+                                           Text="None yet. Handy for windowed games and apps that use middle-drag, like Blender. Shortcut: with that app in front, right-click the tray icon and choose “Turn off the wheel in …”." />
+                                <ItemsControl ItemsSource="{Binding ExcludedApps}">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <Grid Margin="0,0,0,8">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="Auto" />
+                                                    <ColumnDefinition Width="*" />
+                                                    <ColumnDefinition Width="Auto" />
+                                                </Grid.ColumnDefinitions>
+                                                <Image Source="{Binding Icon}" Width="24" Height="24" RenderOptions.BitmapScalingMode="HighQuality" VerticalAlignment="Center" />
+                                                <StackPanel Grid.Column="1" Margin="12,0,0,0" VerticalAlignment="Center">
+                                                    <TextBlock Text="{Binding Name}" FontWeight="SemiBold" />
+                                                    <TextBlock Text="{Binding ExeName}" FontSize="12" Foreground="{DynamicResource TextFillColorSecondaryBrush}" ToolTip="{Binding Path}" />
+                                                </StackPanel>
+                                                <Button Grid.Column="2" Style="{StaticResource IconButton}" Content="&#xE18E;" ToolTip="Let the wheel open in this app again"
+                                                        Click="RemoveExcluded_Click" Tag="{Binding}" />
+                                            </Grid>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                                <WrapPanel Margin="0,4,0,0">
+                                    <Button x:Name="AddRunningButton" Content="Add a running app…" Click="AddRunning_Click" Margin="0,0,8,8" />
+                                    <Button Content="Browse for an app…" Click="BrowseExcluded_Click" Margin="0,0,8,8" />
+                                </WrapPanel>
+                            </StackPanel>
+                        </Border>
+
+                        <Border Style="{StaticResource Card}">
+                            <StackPanel>
                                 <TextBlock Text="Look" Style="{StaticResource SectionTitle}" />
                                 <TextBlock Text="Size" Style="{StaticResource FieldLabel}" Margin="0,0,0,6" />
                                 <StackPanel Orientation="Horizontal">

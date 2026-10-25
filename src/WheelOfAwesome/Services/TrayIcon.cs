@@ -11,6 +11,10 @@ public sealed class TrayIcon : IDisposable
     public event Action? OpenSettings;
     public event Action<bool>? PauseChanged;
     public event Action? Exit;
+    public event Action? ToggleFrontApp;
+
+    /// <summary>The app the "turn off in…" item acts on, or null to hide that item.</summary>
+    public Func<(string Name, bool Excluded)?>? FrontApp { get; set; }
 
     public TrayIcon()
     {
@@ -24,6 +28,20 @@ public sealed class TrayIcon : IDisposable
             PauseChanged?.Invoke(_pause.Checked);
         };
         menu.Items.Add(_pause);
+        var frontApp = new WinForms.ToolStripMenuItem();
+        frontApp.Click += (_, _) => ToggleFrontApp?.Invoke();
+        menu.Items.Add(frontApp);
+        // Names the app that was in front before the tray was clicked, e.g. "Turn off the wheel in Blender".
+        menu.Opening += (_, _) =>
+        {
+            var front = FrontApp?.Invoke();
+            frontApp.Visible = front != null;
+            if (front is { } f)
+            {
+                frontApp.Text = $"Turn off the wheel in {f.Name.Replace("&", "&&")}";
+                frontApp.Checked = f.Excluded;
+            }
+        };
         menu.Items.Add("Open settings folder", null, (_, _) =>
             System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo(Paths.Root) { UseShellExecute = true }));
         menu.Items.Add(new WinForms.ToolStripSeparator());

@@ -18,7 +18,7 @@ installed exe. Use `-p:SkipInstall=true` to publish without installing.
 ## Releasing a shareable build
 
 `scripts\release.ps1` builds the self-contained single exe into `dist\`; `-Publish` also creates the GitHub Release
-`v<Version>` from the .csproj `<Version>` (bump it first). The exe installs itself to
+`v<Version>` from the .csproj `<Version>` (bump it first); pass `-WhatsNew "<markdown>"` to describe the changes. The exe installs itself to
 `%LOCALAPPDATA%\Programs\WheelOfAwesome` on first run (see `Services/Installer.cs`). Debug builds and `--dev` runs never
 self-install unless given `--install-dir`.
 
